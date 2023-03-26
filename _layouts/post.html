@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1 style="font-style:normal; font-size:3rem; font-weight: 500;">{{ page.title}}</h1>
+<p class="subtitle">{{ page.date | date: "%B %-d, %Y" }}</p>
+
+{{ content }}
+
+{% if page.last_update %}
+<br/><br/>
+Last updated: {{ page.last_update | date: "%B %-d, %Y" }}
+{% endif %}
