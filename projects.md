@@ -9,7 +9,7 @@ weight: 2
 ``Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these scans from three different datasets using deep neural networks. Three different backbone architectures were used namely, ResNet34, MobileNet V3 Large and EfficientNet B1. ``
 
 
-[***Fulhous Decour Classification API***](https://github.com/coderjolly/fulhous-api)<br/>
+[***Decour Classification API***](https://github.com/coderjolly/fulhous-api)<br/>
 ``This was a timed company task for classifying home decour images, where an end-to-end pipeline for deep neural network model was to be built and an API that accepts an image to access it and returns the predicted label as output. This model output was to be dockerized for this task along server deployment.``
 
 
