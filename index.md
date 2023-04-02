@@ -10,8 +10,6 @@ nav_exclude: true
 
 <style>body {text-align: justify}</style>
 
-“*My life revolves around technology like the planets revolve around the sun.*“☀️
-
 I am graduate student at **Concordia University, Montréal** pursuing **Master's in Applied Computer Science.** Throughout my career, I have demonstrated an ability to collaborate and execute with colleagues of different seniority ranging from batch-mates to upper-management in order to push my boundaries and learn about new things everyday.
 
 Prior to my master's, I have obtained over 1.5 years of experience in designing machine learning and data science solutions using python. I have worked as a **Data Engineer** at India’s top research institute, [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/) followed by **Jr. Data Scientist** at [Tatras Data.](https://tatrasdata.com/) Additionally, I have also worked as a **Data Science Intern** at the [Sabudh Foundation](https://sabudh.org/) which initiated my journey in data science *to make machines predict the future by connecting the dots from the past.*  
