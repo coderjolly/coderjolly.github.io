@@ -18,8 +18,25 @@ Prior to my master's, I have obtained over 1.5 years of experience in designing 
 
 Before moving to the realm of machine learning, I have had the opportunity to work in backend development and as a Google Summer of Code (GSOC) mentor in organization like **PublicLab and DIAL.** Currently, **I am seeking Internship/ Co-op opportunities for Summer 2023** in field of data science, data engineering, machine learning and artificial intelligence.
 
-<!-- I'm a research scientist at the University of Illinois Urbana-Champaign's [Institute for Sustainability, Energy, and Environment](https://sustainability.illinois.edu/).
+<h3 style="text-align: left;" >Awards & Achievements </h3>
 
-My recent [research]({{site.baseurl}}/research.html) is primarily in soil carbon, water quality, and childhood lead poisoning. My methodological interests include Bayesian multilevel and spatiotemporal modeling, causal inference, targeted interventions, and experimental design.
+&nbsp;&nbsp;1. **Google Summer of Code:** `Mentor for DIAL Organization` <br>
+&nbsp;&nbsp;2. **Google Summer of Code:** `Mentor for PublicLab Organization` <br>
+&nbsp;&nbsp;3. **Fossasia Open Tech Nights:** `Sponsored trip to Singapore, Fossasia` <br>
+&nbsp;&nbsp;4. **Facebook Developer Conference:** `Scholarship for F8 Conference` <br>
+&nbsp;&nbsp;5. **Facebook Developer Community Challenge:** [`Global Round Winner`](https://devpost.com/software/donorfu) <br>
+&nbsp;&nbsp;6. **Facebook Developer Community Challenge:** [`Regional Round Winner`](https://devpost.com/software/donorfu) <br>
 
+
+<h3 style="text-align: left;">Extra-Curriculars & Volunteer Participations </h3>
+
+***Art of Living Foundation*** <br>
+&#8226; Involved with “The Vyakti Vikas Kendra”, a division for "People's Development" by means of educating, cleanliness drives and to enhance personal and interpersonal skills, improve communication, and increase self-awareness.<br>
+&#8226; The program is based on the ancient Indian science of yoga and meditation, and integrates modern psychological techniques. The program includes yoga, interactive processes, and practical wisdom for daily life.
+
+***Mozilla Campus Clubs*** <br>
+&#8226; Helped in conceptualizing the idea for EventInsta. The centralized event notification system for my college campus which is being  further developed by the members as a college product. It allows the users to get notifications about the college based events and announcements. <br>
+&#8226; Organized several meetups for the Outreachy program to initiate the participation at open-source events along with an interactive session with the co-founder of one of the biggest open-source organization, **Fossasia.**
+
+<!-- My recent [research]({{site.baseurl}}/research.html) is primarily in soil carbon, water quality, and childhood lead poisoning. My methodological interests include Bayesian multilevel and spatiotemporal modeling, causal inference, targeted interventions, and experimental design.
 I was previously at the University of Chicago's [Harris School of Public Policy](http://harris.uchicago.edu) and [Center for Data Science and Public Policy](http://dsapp.uchicago.edu). Before that, I studied mathematics at Northwestern where my [dissertation]({{site.baseurl}}/assets/pdf/dissertation.pdf) was in the field of geometric analysis. -->
