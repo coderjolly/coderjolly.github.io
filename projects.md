@@ -5,7 +5,7 @@ weight: 2
 ---
 <style>body {text-align: justify}</style>
 
-[***Chest X-Ray Classification***](articles/22/chest-x-ray)<br/>
+[***Chest X-Ray Classification***](https://github.com/coderjolly/Chest-X-Ray-Classification)<br/>
 ``Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these scans from three different datasets using deep neural networks. Three different backbone architectures were used namely, ResNet34, MobileNet V3 Large and EfficientNet B1. ``
 
 
