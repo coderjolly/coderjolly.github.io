@@ -5,21 +5,20 @@ weight: 2
 ---
 <style>body {text-align: justify}</style>
 
+[***Understanding Image Advertisements for Predicting Sentiments***](https://github.com/coderjolly/processing-advertisements)<br/>
+``Image based advertisements are still one of the best ways to promote products but it is painstakingly difficult to personalize the content for the target audience and covey the sentiments. TThis study tries to compare three backbone deep learning architectures namely, ResNet 50, MobileNetv3 Large and EfficientNet B3 on an image advertisement dataset to classify the underlying sentiments being perceived by the consumers. Transfer learning is used to mitigate the small dataset problem. ``
+
 [***Chest X-Ray Classification***](https://github.com/coderjolly/Chest-X-Ray-Classification)<br/>
-``Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these scans from three different datasets using deep neural networks. Three different backbone architectures were used namely, ResNet34, MobileNet V3 Large and EfficientNet B1. ``
-
-
-[***Decour Classification API***](https://github.com/coderjolly/fulhous-api)<br/>
-``This was a timed company task for classifying home decour images, where an end-to-end pipeline for deep neural network model was to be built and an API that accepts an image to access it and returns the predicted label as output. This model output was to be dockerized for this task along server deployment.``
-
-
-[***News Recommendation System***](https://github.com/coderjolly/news-recommender)<br/>
-``This is a news recommender system that uses beautiful-soup to scrape news articles, their categories and descriptions to create a data dump. It uses word embedding techniques such tf-idf, word2vec for collaborative news recommender models and LightRF, LightFM to explore hybrid and collaborative filtering based recommender models.``
-
+``Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these types scans from three different datasets using deep neural networks by three different imagenet architectures using Pytorch and a comprehensive ablation study is performed by changing learning rates.``
 
 [***Data Ingestion Pipeline***](https://github.com/coderjolly/data-ingestion-pipeline)<br/>
 ``Gaming industry is one of the prominent industries in the market. To determine the popularity of a game, reviews are paramount. This project aims to analyse Steam reviews dataset using Elasticsearch engine deployed in a Kubernetes environment where data ingestion queues are handled by RabbitMQ, processes are handled by Celery & data is cached in Redis.``
 
+[***News Recommendation System***](https://github.com/coderjolly/news-recommender)<br/>
+``This is a news recommender system that uses beautiful-soup to scrape news articles, their categories and descriptions to create a data dump. It uses word embedding techniques such tf-idf, word2vec for collaborative news recommender models and LightRF, LightFM to explore hybrid and collaborative filtering based recommender models.``
+
+[***Decour Classification API***](https://github.com/coderjolly/fulhous-api)<br/>
+``This was a timed company task for classifying home decour images, where an end-to-end pipeline for deep neural network model was to be built and an API that accepts an image to access it and returns the predicted label as output. This model output was to be dockerized for this task along server deployment.``
 
 [***Football Player Prediction***](https://github.com/coderjolly/football-player-prediction)<br/>
 ``You must have seen "Moneyball", where Peter Brand explains Billy Beane that "Its about getting things down to one number using stats the way we read them (players), we find value in player nobody else can see." So, predicting this Market Price of a player using data provided in csv and EDA is performed to understand the data in negotiations for player transfers.``
