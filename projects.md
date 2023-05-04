@@ -10,7 +10,7 @@ weight: 2
 
 
 [***Chest X-Ray Classification***](https://github.com/coderjolly/Chest-X-Ray-Classification)<br/>
-``Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these types scans from three different datasets using deep neural networks by three different imagenet architectures using Pytorch and a comprehensive ablation study is performed by changing learning rates.``
+``Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these types scans from three different datasets using deep neural networks by three different CNN architectures using Pytorch and a comprehensive ablation study is performed by changing learning rates.``
 
 
 [***Data Ingestion Pipeline***](https://github.com/coderjolly/data-ingestion-pipeline)<br/>
