@@ -41,7 +41,7 @@ weight: 2
 ``With proper sound detection and classification, researchers can understand what birdcall signal the birds use, in order to communicate with each other or to warn others about the impending dangers in the vicinity. So, understanding the bird species via sound can able to detect theses dangers early. Mel Spectrograms of these bird audios are used as features to feed them to a CNN model in order to classify bird species.``
 
 
-**We Care (findHelp)** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/find-help)
+[**We Care (findHelp)**](articles/23/find-help) [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/find-help)
 <br/>
 
 ``A backend application based on Java Spring Boot that caters to the need of collecting data for patients with depression. Patients are able to register themselves, perform self assessment in order to get help from a counsellor or doctor. This self-assessment data will be communicated to a counsellor or doctor and then appropriate action will be taken accordingly.``
@@ -61,13 +61,6 @@ weight: 2
 <br/>
 
 ``Nowadays, image posting is considered a pivotal social media interaction for sharing posts. SocioGram is an application that allows users to upload various pictures and share it on their profile. Other users can leave a comment or a like on the pictures accordingly, built using Ruby on Rails and Bootstrap.``
-
-
-**Utilization Analysis** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/utilisation-analysis)
-<br/>
-
-``This provides a small glimpse of the SERC's resource data demonstrating how data was ingested and extracted to produce relevant results for data analysis between actual resource utilization and simulated resource utilization.``
-
 
 <!-- <table>
 <tr>

@@ -16,7 +16,7 @@ Prior to my master's, I have obtained over 1.5 years of experience in designing 
 
 Before moving to the realm of machine learning, I have had the opportunity to work in backend development and as a Google Summer of Code (GSOC) mentor in organization like **PublicLab and DIAL.** Currently, **I am seeking Internship/ Co-op opportunities for Fall 2023** in field of data science, data engineering, machine learning and artificial intelligence.
 
-<h3 style="text-align: left;" >Awards & Achievements </h3>
+<h3 style="text-align: left;">Awards & Achievements</h3>
 
 &nbsp;&nbsp;1. **Google Summer of Code:** `Mentor for DIAL Organization (2020)` <br>
 &nbsp;&nbsp;2. **Google Summer of Code:** `Mentor for PublicLab Organization (2019)` <br>
@@ -26,7 +26,7 @@ Before moving to the realm of machine learning, I have had the opportunity to wo
 &nbsp;&nbsp;6. **Facebook Developer Community Challenge:** [`Regional Round Winner (2018)`](https://devpost.com/software/donorfu) <br>
 
 
-<h3 style="text-align: left;">Extra-Curriculars & Volunteer Participations </h3>
+<h3 style="text-align: left;">Extra-Curriculars & Volunteer Participations</h3>
 
 **Art of Living Foundation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jan 2018 - April 2018** <br> 
 &#8226; Involved with “The Vyakti Vikas Kendra”, a division for "People's Development" by means of education, cleanliness drives. It also focused on to enhance interpersonal skills, improve communication, and increase self-awareness.<br>
