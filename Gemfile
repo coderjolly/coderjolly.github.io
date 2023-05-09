@@ -8,3 +8,4 @@ gem 'json'
 gem 'jgd'
 gem 'jekyll-youtube'
 gem 'jekyll-scholar', group: :jekyll_plugins
+gem 'font-awesome-less', '~> 4.7'

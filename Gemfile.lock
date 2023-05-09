@@ -11,6 +11,7 @@ GEM
       citeproc (~> 1.0, >= 1.0.9)
       csl (~> 1.6)
     colorator (1.1.0)
+    commonjs (0.2.7)
     concurrent-ruby (1.2.2)
     csl (1.6.0)
       namae (~> 1.0)
@@ -22,6 +23,8 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.15.5)
+    font-awesome-less (4.7.0)
+      less (>= 2.4.0)
     forwardable-extended (2.6.0)
     google-protobuf (3.22.2-x86_64-darwin)
     http_parser.rb (0.8.0)
@@ -65,6 +68,8 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     latex-decode (0.4.0)
+    less (2.6.0)
+      commonjs (~> 0.2.7)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -92,6 +97,7 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
+  font-awesome-less (~> 4.7)
   jekyll (= 4.3.2)
   jekyll-scholar
   jekyll-seo-tag
