@@ -4,8 +4,7 @@ gem 'jekyll', '=4.3.2'
 gem 'rouge'
 gem 'jekyll-seo-tag'
 gem "kramdown-parser-gfm"
-gem 'json'
+gem 'json', '=2.6.1'
 gem 'jgd'
 gem 'jekyll-youtube'
 gem 'jekyll-scholar', group: :jekyll_plugins
-gem 'font-awesome-less', '~> 4.7'
