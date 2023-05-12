@@ -1,13 +1,13 @@
 baseurl:
-title: Harman S Jolly
-author: Harman S Jolly
+title: Harman Jolly 
+author: Harman Jolly
 simple_search: http://google.com/search
-description: Personal webpage
-name: Harman S Jolly
+description: Harman Jolly's Personal Webpage
+name: Harman Jolly
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
-timezone: America/Chicago
+timezone: Canada/Toronto
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md', 'vendor']
 post:
