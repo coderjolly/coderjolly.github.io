@@ -17,6 +17,12 @@ weight: 2
 ``Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these types scans from three different datasets using deep neural networks by three different CNN architectures using Pytorch and a comprehensive ablation study is performed by changing learning rates. The dimensional understanding is visualized using t-SNE and the ditection of thorax deseases in x-ray scans is visualized using Grad-CAM.``
 
 
+**Explaining News Articles using LLMs** [**[<font color='blue'>Writing</font>]**](articles/23/explain-news-using-llms)
+<br/>
+
+``Language Models are the backbone of Natural Language Processing. They are used in a variety of tasks such as Machine Translation, Text Summarization, Question Answering, etc. This writing tries to understand how LLMs can be used to explain news articles by using the pre-trained LLMs exposed on APIs such as OpenAI and GPT3.5 and how they can used for the task of article summarization, keyword generation, etc.``
+
+
 **Data Ingestion Pipeline** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/data-ingestion-pipeline)
 <br/>
 
