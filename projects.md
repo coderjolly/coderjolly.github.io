@@ -41,6 +41,12 @@ weight: 2
 ``You must have seen "Moneyball", where Peter Brand explains Billy Beane that "Its about getting things down to one number using stats the way we read them (players), we find value in player nobody else can see." So, predicting this Market Price of a player, data from a csv is ingested and then fed to classical machine learning algorithms for comparing their R^2 values and an EDA is performed to understand the data in negotiating players for transfers.``
 
 
+**Customer Churn Prediction** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/customer-churn-prediction)
+<br/>
+
+``Customers play an integral role in the success of any business. So, it is important to understand the customer behaviour and predict their churn. This project aims to predict the churn of customers using a dataset from Kaggle. The data is visualised and preprocessed and then fed to classical machine learning algortihms for classification.``
+
+
 **Bird Call Audio Classification** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/bird-call)
 <br/>
 
@@ -52,10 +58,6 @@ weight: 2
 
 ``A backend application based on Java Spring Boot that caters to the need of collecting data for patients with depression. Patients are able to register themselves, perform self assessment in order to get help from a counsellor or doctor. This self-assessment data will be communicated to a counsellor or doctor and then appropriate action will be taken accordingly.``
 
-**Decour Classification API** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/fulhous-api)
-<br/>
-
-``This was a timed company task for classifying home decour images such as a bed, chair or sofa where an end-to-end pipeline was developed. This deep neural network model can be accessed by an API which accepts an image and returns the predicted label as output. This Flask API was also dockerized for the task along with server deployment.``
 
 **DonorFu** [**[<font color='blue'>Devpost</font>]**](https://devpost.com/software/donorfu)
 <br/>
