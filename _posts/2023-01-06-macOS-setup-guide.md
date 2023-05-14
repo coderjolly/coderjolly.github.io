@@ -27,7 +27,9 @@ It is a good idea to have a fresh installation of macOS on your Mac. So there ar
 
 ## Installing Homebrew
 
-{% marginfigure 'mf-id-1' 'assets/img/macOS-setup-guide/homebrew.png' ''  %}
+<figure>
+<img src="/assets/img/macOS-setup-guide/homebrew.png" width=400 height=200 style="display: block; margin: 0 auto">
+</figure>
 
 Homebrew calls itself *the missing package manager* for macOS and is an essential tool for any developer. To use Homebrew, ensure that you have installed the Command Line Tools for Xcode. These tools, which include compilers and other necessary components for building from source. You can also install them directly from the terminal using the following command.
 
@@ -71,7 +73,9 @@ brew search <application>
 
 ## iTerm2
 
-{% marginfigure 'mf-id-2' 'assets/img/macOS-setup-guide/iTerm2.png' ''  %}
+<figure>
+<img src="/assets/img/macOS-setup-guide/iTerm2.png" width=400 height=165 style="display: block; margin: 0 auto">
+</figure>
 
 <!-- Some developers cringe at the mere thought of opening a terminal window. For the uninitiated it can be daunting, stressful, and downright annoying. But devs who understand the command line would argue it’s one of the best tools at your disposal. — Jake Rocheleau -->
 
