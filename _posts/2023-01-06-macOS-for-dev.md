@@ -22,3 +22,6 @@ After a long usage of you mac over months, especially after extensive use of Doc
 It is a good idea to have a fresh installation of macOS on your Mac. So there are two ways of going about it.
 - You can do this by booting into recovery mode and reinstalling macOS. This will remove all the files and applications from your Mac and will give you a fresh start. 
 - You can also do this by formatting your Mac and then installing macOS from a bootable USB. You can find the instructions for this [here](https://support.apple.com/en-us/HT201372). 
+
+## Install Homebrew
+Homebrew calls itself *the missing package manager* for macOS and is an essential tool for any developer.
