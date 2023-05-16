@@ -86,7 +86,7 @@ You can see the features from [here](https://iterm2.com/features.html) but some 
 brew install --cask iterm2
 ```
 
-### Customizations
+### iTerm2 Customizations
 Here are some of the customizations that I have done to my iTerm2, they are optional and you can skip them if you want. <br/>
 
 &nbsp; &nbsp; &#8226; Go to iTerm preferences -> profiles -> Default -> Terminal -> Check silence bell or not, depending on how you like it. <br/>
@@ -96,11 +96,19 @@ Here are some of the customizations that I have done to my iTerm2, they are opti
 ```bash
 brew tap homebrew/cask-fonts && brew install --cask font-<font-name>
 ```
-&nbsp; &nbsp; &#8226; You can also change the transparency of your terminal to make it more appealing. <br/>
-&nbsp; &nbsp; &#8226; Tree is a recursive directory listing command that produces a depth indented listing of files, which is colorized ala dircolors if the LS_COLORS environment variable is set and output is to tty. You can install tree using Homebrew using the following command.
+&nbsp; &nbsp; &#8226; You can also change the transparency of your terminal to make it more appealing.
+<br/>
+<br/>
+
+#### Tree Command
+Tree is a recursive directory listing command that produces a depth indented listing of files, which is colorized ala dircolors if the LS_COLORS environment variable is set and output is to tty. You can install tree using Homebrew using the following command.
 ```bash
 brew install tree
 ```
+<figure>
+<img src="/assets/img/macOS-setup-guide/brew-tree.jpg" width=570 height=450 style="display: block; margin: 0 auto">
+</figure>
+
 and then use `tree` command to see the directory structure.
 ```bash
 (base) ➜  ~ cd Desktop/py-pg
@@ -120,7 +128,34 @@ and then use `tree` command to see the directory structure.
 2 directories, 9 files
 (base) ➜  py-pg
 ```
-### Oh-my-zsh Shell
+<br/>
+
+#### Auto Suggestions
+Bash completion is a bash function that allows you to auto complete commands or arguments by typing partially commands or arguments, then pressing the `[Tab]` key. This will help you when writing the bash command in terminal. You can install suggestions using Homebrew using the following command.
+```bash
+brew install bash-completion
+```
+
+Alternatively, you can search additional packages that are available under `completions` by typing the following command.
+```bash
+brew search completions
+```
+And can install the package using `brew install` commands, by:
+```bash
+brew install <package-name>
+``` 
+I have installed the following packages that suit my labour of work, which are as follows:
+```bash
+brew install bash-completion
+brew install conda-completion
+brew install docker-completion
+brew install docker-compose-completion
+brew install pip-completion
+brew install zsh-completions
+```
+
+
+### Oh-My-Z(sh)ell
 Zsh, short for the Z shell, is a Unix shell that enhances the default bash shell on macOS with extra functionalities. It is advisable to choose zsh instead of bash and consider installing a framework for a better experience in managing configuration, plugins, and themes. Install `zsh` using Homebrew using the following command.
 ```bash
 brew install zsh
@@ -135,5 +170,104 @@ You can install `Oh-My-Zsh` using the following command.
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+The installation script should set zsh to your default shell, but if it doesn't you can do it manually by:
+```bash
+chsh -s $(which zsh)
+```
 
+### Oh-My-Zsh Customizations
 
+Oh-my-zsh comes with a lot of themes and plugins. You can see the list of themes [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) which can changed from the `.zshrc` configuration file. This can be done by opening the `.zshrc` file in your favorite editor which is done by:
+```bash
+vim ~/.zshrc
+```
+and changing the `ZSH_THEME` variable to the theme you want. I personally use `agnoster` theme and it can be done by changing the `ZSH_THEME` variable to `agnoster` like this:
+```bash
+ZSH_THEME="agnoster"
+```
+<figure>
+<img src="/assets/img/macOS-setup-guide/theme-agnoster.jpg" width=1040 height=600 style="display: block; margin: 0 auto">
+</figure>
+
+### Oh-My-Zsh Plugins
+
+To enable a plugin, you would need to edit your `~/.zshrc` file and add the plugin name to the `plugins` array. For example, if you want to enable the `git` plugin, you would need to add `git` to the `plugins` array like this:
+```bash
+plugins=(git)
+```
+<figure>
+<img src="/assets/img/macOS-setup-guide/zsh-plugins.jpg" width=400 height=200 style="display: block; margin: 0 auto">
+</figure>
+
+There are a lot of plugins available for Oh-My-Zsh and you can see the list of plugins [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) and you can install them by adding them to the `plugins` array. I like use the following plugins.
+
+<br/>
+
+#### zsh-syntax-highlighting
+The Syntax Highlighting plugin adds beautiful colors to the commands you are typing. Clone the zsh-syntax-highlighting plugin’s repo and copy it to the `Oh My ZSH` plugins directory by:
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+<figure>
+<img src="/assets/img/macOS-setup-guide/zsh-syntax-highlighter.png" width=1090 height=200 style="display: block; margin: 0 auto">
+</figure>
+
+#### zsh-autosuggestions
+This plugin auto suggests any of the previous commands. Pretty handy! To select the completion, simply press → key. Clone the zsh-autosuggestions plugin’s repo and copy it to the `Oh My ZSH` plugins directory by:
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+<figure>
+<img src="/assets/img/macOS-setup-guide/zsh-suggestions.gif" width=590 height=200 style="display: block; margin: 0 auto">
+</figure>
+
+#### auto-notify
+Simple zsh plugin that automatically sends out a notification when a long running task has completed. Useful for those commands you don't predict will take long to run or just plain forgot to keep track of. Clone the auto-notify plugin’s repo and copy it to the “Oh My ZSH” plugins directory by:
+```bash
+git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
+```
+<figure>
+<img src="/assets/img/macOS-setup-guide/zsh-auto-notify.png" width=470 height=200 style="display: block; margin: 0 auto">
+</figure>
+
+#### Adding Plugins
+There are  few suggestions as well, which I personally use and you can add them to the `plugins` array like this:
+```bash
+plugins=(git colored-man-pages colorize auto-notify zsh-syntax-highlighting zsh-autosuggestions)
+``` 
+It is essential to understand that all of these customizations require the session to be restarted. You can do this by closing the terminal and opening it again or by running the following command:
+```bash
+source ~/.zshrc
+```
+
+## The Ultimate Text Editor, Vim
+Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X. Vim is rock stable and is continuously being developed to become even better. 
+- persistent, multi-level undo tree
+- extensive plugin system
+- support for hundreds of programming languages and file formats
+- powerful search and replace
+- integrates with many tools
+
+To install the latest version, use homebrew by:
+```bash
+brew install vim
+```
+
+### Vim Plugins
+A Vim is a plugin that wraps the command-line fuzzy finder program fzf, allowing you to use it directly within Vim. It's an interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
+
+#### Maximum Awesome
+[Maximum Awesome](https://github.com/square/maximum-awesome) is a collection of vim configuration and plugins, like a configuration manager for the vim environment. You can install them by cloning the repository and running the install script.
+```bash
+git clone https://github.com/square/maximum-awesome.git
+```
+and then install by running `rake` in the `maximum-awesome` directory.
+```bash
+cd maximum-awesome
+rake
+```
+
+<hr class="slender">
+### Feedback
+
+`I would love to receive feedback from anybody who reads this so that I can improve my findings and give credit where it is due followed by any corrections in the writing itself. I hope this writing helps you in some way. Thanks for reading!`
