@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "macOS Setup Giude"
+title:  "macOS Setup Guide"
 date:   2022-12-28
 title_include: true
 categories: blog
@@ -8,8 +8,6 @@ image_url: ""
 ---
 
 <style>body {text-align: justify}</style>
-
-## MacOs Setup Guide
 
 This writing covers some installations and envrironments that are important to set up even if you dont use them at all because they play a pivotal role some command-line tools. I have been using a macbook Pro for a while, since macOS Sierra up untill macOS monterey. Personally, I would not be upgrading to any further OS installation from Apple as I feel Ventura essentially doesn't let one differentiate between an iPhone and a macbook, interface wise. But again, I would like to reiterate that it is personal perference for not upgrading to the latest OS.
 
