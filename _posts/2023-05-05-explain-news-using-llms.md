@@ -3,7 +3,7 @@ layout: post
 title:  "Explaining News using LLMS"
 date:   2023-05-05
 title_include: true
-categories: project
+categories: writing
 image_url: ""
 ---
 

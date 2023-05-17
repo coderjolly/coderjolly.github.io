@@ -3,7 +3,7 @@ layout: post
 title:  "macOS Setup Guide"
 date:   2022-12-28
 title_include: true
-categories: blog
+categories: writing
 image_url: ""
 ---
 
