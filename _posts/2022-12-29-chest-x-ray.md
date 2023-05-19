@@ -33,9 +33,11 @@ In this study, 12 models, four for each of the three datasets will be trained. T
 
 <ol type="A">
 <li><b>Pre-processing Techniques</b></li>
- Before training, the images were analysed to come up with pre-processing techniques such as <b>Histogram Equalization</b> and <b>Gaussian Blur</b> with a 5x5 kernel as <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265949">Giełczyk et al.</a> showed that this improved the F1 score by 4% for chest X-ray classification. Visually, the contrast of the scan improved and allowed irregularities to stand out as shown in the figure below.
+ Before training, the images were analysed to come up with pre-processing techniques such as <b>Histogram Equalization</b> and <b>Gaussian Blur</b> with a 5x5 kernel as <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265949" target="_blank" >Giełczyk et al.</a> showed that this improved the F1 score by 4% for chest X-ray classification. Visually, the contrast of the scan improved and allowed irregularities to stand out as shown in the figure below.
 
-![histogram](/assets/img/chest-x-ray/histogram-equilization.png)
+<figure>
+<img src="/assets/img/chest-x-ray/histogram-equilization.png" width=750 height=250>
+</figure>
 
 <li><b>Data Augmentation</b></li>
 During training, the scans were augmented using RandomAdjustSharpness and RandomAutocontrast in Pytorch to increase the number of images the model gets
@@ -249,8 +251,8 @@ For the ablative study, the COVID dataset was chosen along with the EfficientNet
 
 `This writing has been written as per my and the collective understanding of our team followed by the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand.`
 
-<br/>
+<!-- <br/>
 
 #### Other Team Members
-[Rohan Chopra](https://github.com/rohanchopra), [Abhishek Handa](https://github.com/abhishekhandacse) and [Harmanpreet Kaur](https://github.com/harman8)
+[Rohan Chopra](https://github.com/rohanchopra), [Abhishek Handa](https://github.com/abhishekhandacse) and [Harmanpreet Kaur](https://github.com/harman8) -->
 

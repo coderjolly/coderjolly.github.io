@@ -12,7 +12,7 @@ nav_exclude: true
 
 I am graduate student at **Concordia University, Montréal** pursuing **Master's in Applied Computer Science.** Throughout my career, I have demonstrated an ability to collaborate and execute with colleagues of different seniority ranging from batch-mates to upper-management in order to push my boundaries. I am eager to apply my knowledge of computer science to real-world problems where I can leverage better solutions.
 
-Prior to my master's, I have obtained over 1.5 years of experience in designing machine learning and data science solutions using python. I have worked as a **Jr. Data Engineer** at the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/) followed by **Jr. Data Scientist** at [Tatras Data.](https://tatrasdata.com/) Additionally, I have also worked as a **Data Science Intern** at the [Sabudh Foundation](https://sabudh.org/) which initiated my journey towards data science for making machines predict the future by connecting the dots from the past. 
+Prior to my master's, I have obtained over 1.5 years of experience in designing machine learning and data science solutions using python. I have worked as a **Jr. Data Engineer** at the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/){:target="_blank"} followed by **Jr. Data Scientist** at [Tatras Data.](https://tatrasdata.com/){:target="_blank"} Additionally, I have also worked as a **Data Science Intern** at the [Sabudh Foundation](https://sabudh.org/){:target="_blank"} which initiated my journey towards data science for making machines predict the future by connecting the dots from the past. 
 
 Before moving to the realm of machine learning, I have had the opportunity to work in backend development and as a Google Summer of Code (GSOC) mentor in organization like **PublicLab and DIAL.** Currently, **I am seeking Internship/ Co-op opportunities for Fall 2023** in field of data science, data engineering, machine learning and artificial intelligence.
 
@@ -22,8 +22,8 @@ Before moving to the realm of machine learning, I have had the opportunity to wo
 &nbsp;&nbsp;2. **Google Summer of Code:** `Mentor for PublicLab Organization (2019)` <br>
 &nbsp;&nbsp;3. **Fossasia Open Tech Nights:** `Sponsored trip to Singapore, Fossasia (2019)` <br>
 &nbsp;&nbsp;4. **Facebook Developer Conference:** `Scholarship for F8 Conference (2019)` <br>
-&nbsp;&nbsp;5. **Facebook Developer Community Challenge:** [`Global Round Winner (2018)`](https://devpost.com/software/donorfu) <br>
-&nbsp;&nbsp;6. **Facebook Developer Community Challenge:** [`Regional Round Winner (2018)`](https://devpost.com/software/donorfu) <br>
+&nbsp;&nbsp;5. **Facebook Developer Community Challenge:** [`Global Round Winner (2018)`](https://devpost.com/software/donorfu){:target="_blank"} <br>
+&nbsp;&nbsp;6. **Facebook Developer Community Challenge:** [`Regional Round Winner (2018)`](https://devpost.com/software/donorfu){:target="_blank"} <br>
 
 
 <h3 style="text-align: left;">Extra-Curriculars & Volunteer Participations</h3>

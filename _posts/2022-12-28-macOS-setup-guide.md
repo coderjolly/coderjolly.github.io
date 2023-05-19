@@ -21,7 +21,7 @@ It is a good idea to have a fresh installation of macOS on your Mac. There are t
 
 &nbsp; &nbsp; &#8226; You can do this by booting into recovery mode and reinstalling macOS. This will remove all the files and applications from your Mac and will give you a fresh start.
 
-&nbsp; &nbsp; &#8226; You can also do this by formatting your Mac and then installing macOS from a bootable USB. You can find the instructions for this [here](https://support.apple.com/en-us/HT201372). 
+&nbsp; &nbsp; &#8226; You can also do this by formatting your Mac and then installing macOS from a bootable USB. You can find the instructions for this [here](https://support.apple.com/en-us/HT201372){:target="_blank"}. 
 
 ## Installing Homebrew
 
@@ -62,7 +62,7 @@ brew uninstall <formula>
 ```
 ### Homebrew Cask
 Homebrew Cask extends Homebrew and brings its elegance, simplicity, and speed to the installation and management of GUI macOS applications such as Visual Studio Code and Google Chrome. This is done by providing a friendly CLI workflow for the administration of macOS applications distributed as binaries such that you need not drag and drop those `.dmg` files to your Applications folder.
-To know if an application is available on Cask, one must refer to the [Official Cask Formulae](https://formulae.brew.sh/cask/) page. 
+To know if an application is available on Cask, one must refer to the [Official Cask Formulae](https://formulae.brew.sh/cask/){:target="_blank"} page. 
 
 One can also search for an application using brew. To search an application, you can run the following command.
 ```bash
@@ -82,7 +82,7 @@ brew search <application>
 
 iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted. It has some powerful features that make it the perfect choice for developers. 
 
-You can see the features from [here](https://iterm2.com/features.html) but some of the features that I like are: `Search`,   `Autocomplete`, `24-Bit Color`, `Configurability` and many more. You can use Homebrew to install iTerm2 using the following command.
+You can see the features from [here](https://iterm2.com/features.html){:target="_blank"} but some of the features that I like are: `Search`,   `Autocomplete`, `24-Bit Color`, `Configurability` and many more. You can use Homebrew to install iTerm2 using the following command.
 ```bash
 brew install --cask iterm2
 ```
@@ -91,9 +91,9 @@ brew install --cask iterm2
 Here are some of the customizations that I have done to my iTerm2, they are optional and you can skip them if you want. <br/>
 
 &nbsp; &nbsp; &#8226; Go to iTerm preferences -> profiles -> Default -> Terminal -> Check silence bell or not, depending on how you like it. <br/>
-&nbsp; &nbsp; &#8226; Download one of [iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/schemes) and then set it to your default profile by navigating to profile -> colors -> color presets -> import. <br/>
+&nbsp; &nbsp; &#8226; Download one of [iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/schemes){:target="_blank"} and then set it to your default profile by navigating to profile -> colors -> color presets -> import. <br/>
 &nbsp; &nbsp; &#8226; Change the cursor text and cursor color according to your theme to make it more visible. I personally use the inbuilt theme of `Tango Dark` with their default colors. <br/>
-&nbsp; &nbsp; &#8226; You can also change the font of your terminal to make it more readable. I personally use `Monaco` with ligatures enabled. You can download fonts using [Homebrew](https://github.com/Homebrew/homebrew-cask-fonts) using the following command:
+&nbsp; &nbsp; &#8226; You can also change the font of your terminal to make it more readable. I personally use `Monaco` with ligatures enabled. You can download fonts using [Homebrew](https://github.com/Homebrew/homebrew-cask-fonts){:target="_blank"} using the following command:
 ```bash
 brew tap homebrew/cask-fonts && brew install --cask font-<font-name>
 ```
@@ -178,7 +178,7 @@ chsh -s $(which zsh)
 
 ### Oh-My-Zsh Customizations
 
-Oh-my-zsh comes with a lot of themes and plugins. You can see the list of themes [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) which can changed from the `.zshrc` configuration file. This can be done by opening the `.zshrc` file in your favorite editor which is done by:
+Oh-my-zsh comes with a lot of themes and plugins. You can see the list of themes [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes){:target="_blank"} which can changed from the `.zshrc` configuration file. This can be done by opening the `.zshrc` file in your favorite editor which is done by:
 ```bash
 vim ~/.zshrc
 ```
@@ -200,7 +200,7 @@ plugins=(git)
 <img src="/assets/img/macOS-setup-guide/zsh-plugins.jpg" width=400 height=200 style="display: block; margin: 0 auto">
 </figure>
 
-There are a lot of plugins available for Oh-My-Zsh and you can see the list of plugins [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) and you can install them by adding them to the `plugins` array. I like use the following plugins.
+There are a lot of plugins available for Oh-My-Zsh and you can see the list of plugins [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins){:target="_blank"} and you can install them by adding them to the `plugins` array. I like use the following plugins.
 
 <br/>
 
@@ -236,7 +236,7 @@ There are  few suggestions as well, which I personally use and you can add them 
 ```bash
 plugins=(git colored-man-pages colorize auto-notify zsh-syntax-highlighting zsh-autosuggestions)
 ``` 
-It is essential to understand that all of these customizations require the session to be restarted. You can do this by closing the terminal and opening it again or by running the following command:
+It is essential to understand that all of these customizations require the session to be restarted, otherwise they wont come to effect. You can do this by closing the terminal and opening it again or by running the following command:
 ```bash
 source ~/.zshrc
 ```
@@ -258,7 +258,7 @@ brew install vim
 A Vim is a plugin that wraps the command-line fuzzy finder program fzf, allowing you to use it directly within Vim. It's an interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
 
 #### Maximum Awesome
-[Maximum Awesome](https://github.com/square/maximum-awesome) is a collection of vim configuration and plugins, like a configuration manager for the vim environment. You can install them by cloning the repository and running the install script.
+[Maximum Awesome](https://github.com/square/maximum-awesome){:target="_blank"} is a collection of vim configuration and plugins, like a configuration manager for the vim environment. You can install them by cloning the repository and running the install script.
 ```bash
 git clone https://github.com/square/maximum-awesome.git
 ```
