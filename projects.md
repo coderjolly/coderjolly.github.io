@@ -23,10 +23,10 @@ weight: 2
 ``Language Models are the backbone of Natural Language Processing. They are used in a variety of tasks such as Machine Translation, Text Summarization, Question Answering, etc. This writing tries to understand how LLMs can be used to explain news articles by using the pre-trained LLMs exposed on APIs such as OpenAI and GPT3.5 and how they can used for the task of article summarization, keyword generation, etc.``
 
 
-**Data Ingestion Pipeline** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}
+[**Steamgestion - A Data Ingestion Pipeline**](articles/22/steamgestion-data-pipeline){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}
 <br/>
 
-``Gaming industry is one of the most prominent industries in the market. To determine the popularity of a game, reviews are of paramount importance. This project aims to analyse Steam reviews dataset using a Distributed System Design which incorporates an Elasticsearch engine deployed in a Docker-Kubernetes environment where data ingestion queues are handled by RabbitMQ, processes are handled by Celery & data is cached in Redis.``
+``Gaming industry is one of the most prominent industries in the market. To determine the popularity of a game, reviews are of paramount importance. This project aims to analyse Steam reviews dataset using a Distributed System Design which is a Flask asynchronous backend which incorporates an Elasticsearch engine deployed in a Docker-Kubernetes environment where data ingestion queues are handled by RabbitMQ, processes are handled by Celery & data is cached in Redis.``
 
 
 **News Recommendation System** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/news-recommender){:target="_blank"}
