@@ -100,9 +100,13 @@ Using Kubernetes, we have setup 6 microservice pods which can be seen in the fir
 
 ![pods](/assets/img/steamgestion/pods.png)
 
-In Kubernetes, a HorizontalPodAutoscaler automatically updates a workload resource (such as a Deployment or StatefulSet), with the aim of automatically scaling the workload to match demand.
+In Kubernetes, a HorizontalPodAutoscaler automatically updates a workload resource (such as a Deployment), with the aim of automatically scaling the workload to match demand. Horizontal scaling means that, the response to increased load is to deploy more pods. If the load decreases, and the number of Pods is above the configured minimum, the HorizontalPodAutoscaler instructs the workload
+resource to scale back down. The visual representation of the pods that are already running for the workload are shown in the figure below.
 
 ![hpa](/assets/img/steamgestion/hpa.png)
+
+## Celery Workers
+Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages and tasks, while providing operations with the tools required to maintain such a system. There’s a huge variety between those tasks: some of them can run for seconds while others can take hours, depending on the data (size) being processed and the operation type (read/write). When a task is published, Celery adds a message to the RabbitMQ queue. In our case, each worker consumes from a dedicated queue for simplicity and ease to auto-scale.
 
 ## Persistent Volumes
 A PersistentVolume (PV) as shown in the figure below is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes. It is a resource in the cluster just like a node is a cluster resource.
@@ -114,7 +118,7 @@ A PersistentVolumeClaim (PVC) as shown in the figure below is a request for stor
 ![pvc](/assets/img/steamgestion/pvc.png)
 
 ## Results
-Using port forwarding to render the results on a Flask application, I am able to show the processes and ids of celery workers running concurrently and scaling at the same time. In the figure below, the process ids are seen on a scaffoled flask template.
+Using port forwarding to render the results on a Flask application, one can show the processes and ids of celery workers running concurrently and scaling at the same time. In the figure below, the process ids are seen on a scaffoled flask template.
 
 ![processresult](/assets/img/steamgestion/processresult.png)
 
@@ -122,5 +126,7 @@ For quering the Steam Reviews for exploration, relevant columns are extracted su
 
 ![queryresult](/assets/img/steamgestion/queryresult.png)
 
-## Credits
-- [Shlok Walia](https://github.com/coderhyno)
+## Acknowledgements
+[Shlok Walia](https://github.com/coderhyno)
+  
+`This writing has been written as per my understanding and the learnings I kindled during my journey in this project. I would like to express my gratitude to Shlok Walia in helping me out in this project. I hope you find it useful and easy to understand.`
