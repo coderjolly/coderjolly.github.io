@@ -205,18 +205,8 @@ epochs.average().plot()
 <img src="/assets/img/eeg-analysis/average-epochs.png" width=675 style="display: block; margin: 0 auto">
 </figure>
 
-## Conclusion
+## Conclusion & Feedback
 
 In this writing, we learned about EEG signals, how they can be loaded, analyzed, preprocessed, and more. Understanding how to process EEG signals is very helpful for tasks such as training a machine learning model to classify EEG segments.
 
-`This writing has been written as per my understanding and the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand. I would appreciate any feedback or suggestions as well.`
-
-
-
-
-
-
-
-
-
-
+`I would love to receive  any feedback or suggestions for this writing. It has been written as per my understanding and the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand.`

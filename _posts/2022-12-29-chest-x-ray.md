@@ -247,9 +247,9 @@ For the ablative study, the COVID dataset was chosen along with the EfficientNet
 
 - From the figure above it can be seen that the best performing learning rate is 0.001 on the F1 score of the test set with 0.005, 0.01 close seconds and 0.05, 0.1 performing the worst. This matches the results of the validation set. Thus, a learning rate of 0.001 performs the best on the COVID dataset with transfer learning.
 
-## Acknowledgement
+## Feedback
 
-`This writing has been written as per my and the collective understanding of our team followed by the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand. I would appreciate any feedback or suggestions as well.`
+`I would love to receive  any feedback or suggestions for this writing. It has been written as per my understanding and the collective efforts done by my team followed by the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand. `
 
 <!-- <br/>
 
