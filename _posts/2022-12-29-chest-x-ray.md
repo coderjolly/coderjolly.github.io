@@ -249,7 +249,7 @@ For the ablative study, the COVID dataset was chosen along with the EfficientNet
 
 ## Acknowledgement
 
-`This writing has been written as per my and the collective understanding of our team followed by the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand.`
+`This writing has been written as per my and the collective understanding of our team followed by the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand. I would appreciate any feedback or suggestions as well.`
 
 <!-- <br/>
 

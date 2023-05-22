@@ -269,6 +269,7 @@ rake
 ```
 
 <hr class="slender">
+
 ### Feedback
 
-`I would love to receive feedback from anybody who reads this so that I can improve my findings and give credit where it is due followed by any corrections in the writing itself. I hope this writing helps you in some way. Thanks for reading!`
+`I would love to receive feedback from anybody who reads this so that I can improve my findings and give credit where it is due followed by any corrections in the writing itself. I hope this writing helps you in some way. I would appreciate any feedback or suggestions as well. Thanks for reading!`

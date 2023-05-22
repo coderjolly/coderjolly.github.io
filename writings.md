@@ -10,7 +10,8 @@ weight: 1
 [``A sneak peak into Software Project Management``](articles/23/find-help){:target="_blank"}<br/>
 This writing is a short introduction of my journey in Software Project Managment course that shows how Software Project Managment is continous process done by Project Managers, how deliverables are measured in terms of story points, how the time estimation for tasks is done and how to manage a team with diverse skill sets.
 
-<!-- [``EEG Signal Analysis``](articles/23/eeg-exploration){:target="_blank"}<br/> -->
+[``EEG Signal Analysis``](articles/23/eeg-exploration){:target="_blank"}<br/>
+This writing is a short introduction to EEG Signal Analysis using MNE library to show how the data is preprocessed, how the data is visualized and segmented into epochs. EEG signals can be used to detect the mental state of a person that can have applications in machine learning further.
 
 [``Steamgestion``](articles/22/steamgestion-data-pipeline){:target="_blank"}<br/>
 This writing is a curation of my learnings and efforts throughout my Distributed System Design course by producing a data ingestion pipeline which replicates how large scale data values are ingested as a final project to be delivered. This is a walkthrough of the project, the architecture, the environment setups, technologies used, and finally the results obtained in the project.
