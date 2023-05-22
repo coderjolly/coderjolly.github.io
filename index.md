@@ -6,7 +6,7 @@ exclude_title: true
 nav_exclude: true
 ---
 
-<img class="headshot" src="assets/img/headshot-v1.jpg">
+<img class="headshot" src="assets/img/headshot-v2.png">
 
 <style>body {text-align: justify}</style>
 
