@@ -127,6 +127,7 @@ For quering the Steam Reviews for exploration, relevant columns are extracted su
 ![queryresult](/assets/img/steamgestion/queryresult.png)
 
 ## Acknowledgements & Feedback
-[Shlok Walia](https://github.com/coderhyno)
+
+`I would like to express my gratitude to` [Shlok Walia](https://github.com/coderhyno) `in helping me out during the course of this project. He has been a constant guide throughtout this project and his meticulous attention to detail greatly enhanced the quality and functionality of the final product.`
   
-`I would love to receive  any feedback or suggestions for this writing. It has been written as per my understanding and the learnings I kindled during my journey in this project. I would like to express my gratitude to Shlok Walia in helping me out and being a constant guide throughtout this project. I hope you find it useful and easy to understand.`
+`I would also love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand.`
