@@ -216,7 +216,7 @@ Similarly, for the figure represents `T-SNE and Confusion matrices for the test 
 - The above plots and confusion matrices also show that all models do a good job of separating classes to create distinct clusters but, the transfer learning model creates better clusters with separate smaller clusters. 
 - These smaller clusters could indicate other factors of the disease, for example the severity and amount of lung damage caused by the disease. This performance of the transfer learning model can be confirmed by looking at the confusion matrix as well.
 
----
+<hr class="slender">
 
 ## Grad-CAM Visualizations
 
@@ -232,7 +232,7 @@ Now, comparing the gradCAM visulization of the COVID dataset.
 
 The figure above shows shows that MobileNet activates the entire image incase of COVID, this could be the reason for its low performance. In case of pneumonia, the Efficient- Net models identifies affected areas on the bottom of the lungs. On the other hand, in case of COVID, the models look at a bigger region of the lungs.
 
----
+<hr class="slender">
 
 ## Ablation Study
 
