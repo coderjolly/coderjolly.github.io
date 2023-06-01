@@ -14,7 +14,7 @@ I am graduate student at **Concordia University, Montréal** pursuing **Master's
 
 Prior to my master's, I have obtained over 1.5 years of experience in designing machine learning and data science solutions using python. I have worked as a **Jr. Data Engineer** at the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/){:target="_blank"} followed by **Jr. Data Scientist** at [Tatras Data.](https://tatrasdata.com/){:target="_blank"} Additionally, I have also worked as a **Data Science Intern** at the [Sabudh Foundation](https://sabudh.org/){:target="_blank"} which initiated my journey towards data science to make machines predict the future by connecting the dots from the past. 
 
-Before moving to the realm of machine learning, I have had the opportunity to work in backend development and as a Google Summer of Code (GSOC) mentor in organization like **PublicLab and DIAL.** Currently, **I am seeking Internship/ Co-op opportunities for Fall 2023** in field of data science, data engineering, machine learning and artificial intelligence.
+Before moving to the realm of machine learning, I have worked on backend development and have had the opportunity to participate in Google Summer of Code (GSOC) as a mentor in organizations like **PublicLab and DIAL.** Currently, I am seeking **Internship/ Co-op opportunities for Fall 2023** in field of data science, data engineering and machine learning.
 
 <h3 style="text-align: left;">Awards & Achievements</h3>
 
