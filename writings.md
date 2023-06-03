@@ -7,6 +7,9 @@ weight: 1
 
 ## Writings
 
+[``Credit Card Risk Modelling``](articles/23/credit-risk-modelling){:target="_blank"}<br/>
+With the increasing volume and complexity of fraudulent activities, traditional rule-based systems have proven to be inadequate in effectively detecting and preventing credit card fraud. However, machine learning algorithms offer a promising solution. This writing will delve into the data pre-prcessing techniques, some machine learning approaches that can be employed in credit card fraud detection for anomaly detection and classification.
+
 [``EEG Signal Analysis``](articles/23/eeg-exploration){:target="_blank"}<br/>
 EEG signals can be used to detect the mental state of a person which can have applications in machine learning. So, to introduce ourselves to EEG, this writing provides a short introduction to EEG Signal Analysis using MNE library and describes the setup, the data preprocessing, data visualization and segmentation into epochs. 
 
