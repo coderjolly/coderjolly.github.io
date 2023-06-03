@@ -9,7 +9,13 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
-Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these scans from  three different datasets using deep neural networks. Three different backbone architectures, ResNet34, MobileNet V3 Large and EfficientNet B1 were used along with a set of models trained using transfer learning. It is observed that MobileNet takes the least amount of time to train while ResNet converges the fastest. Also, EfficientNet performs the best most of the times on Chest X-ray scans. An F1 score of 0.8 for the pneumonia dataset was obtained, 0.98 for the COVID-19 dataset and 0.46 for the multilabel chest X-ray 8 dataset. Finally, models are visualized using t-SNE and gradCAM to understand the features learned by the models and correlate them with the actual effect of the diseases on the lungs.
+Traditionally, the interpretation of chest X-rays has been performed by radiologists who manually analyze the images and make diagnostic decisions. However, this process can be time-consuming and subjective, leading to variations in accuracy and efficiency. Deep learning models offer a promising solution by automating the analysis process, providing consistent and objective assessments.
+
+<figure>
+<img src="/assets/img/chest-x-ray/chest-xray-meme.jpeg" width=550 style="display: block; margin: 0 auto">
+</figure>
+
+Chest X-rays scans are among the most accessible ways to diagnose lung diseases still. This study tries to compare the detection of lung diseases using these scans from  three different datasets using deep neural networks. Three different backbone architectures, ResNet34, MobileNet V3 Large and EfficientNet B1 were used along with a set of models trained using transfer learning. Finally, models are visualized using t-SNE and gradCAM to understand the features learned by the models and correlate them with the actual effect of the diseases on the lungs.
 
 ## Dataset Used
 We have choosen 3 types of chest X-Ray datasets (Tab. 1) that have varying disease types to ensure that our models are robust. The
@@ -216,7 +222,7 @@ Similarly, for the figure represents `T-SNE and Confusion matrices for the test 
 - The above plots and confusion matrices also show that all models do a good job of separating classes to create distinct clusters but, the transfer learning model creates better clusters with separate smaller clusters. 
 - These smaller clusters could indicate other factors of the disease, for example the severity and amount of lung damage caused by the disease. This performance of the transfer learning model can be confirmed by looking at the confusion matrix as well.
 
----
+<hr class="slender">
 
 ## Grad-CAM Visualizations
 
@@ -232,7 +238,7 @@ Now, comparing the gradCAM visulization of the COVID dataset.
 
 The figure above shows shows that MobileNet activates the entire image incase of COVID, this could be the reason for its low performance. In case of pneumonia, the Efficient- Net models identifies affected areas on the bottom of the lungs. On the other hand, in case of COVID, the models look at a bigger region of the lungs.
 
----
+<hr class="slender">
 
 ## Ablation Study
 
@@ -247,9 +253,12 @@ For the ablative study, the COVID dataset was chosen along with the EfficientNet
 
 - From the figure above it can be seen that the best performing learning rate is 0.001 on the F1 score of the test set with 0.005, 0.01 close seconds and 0.05, 0.1 performing the worst. This matches the results of the validation set. Thus, a learning rate of 0.001 performs the best on the COVID dataset with transfer learning.
 
-## Acknowledgement
+<!-- ## Conclusion
+It was observed that MobileNet takes the least amount of time to train while ResNet converges the fastest. Also, EfficientNet performs the best most of the times on Chest X-ray scans. An F1 score of 0.8 for the pneumonia dataset was obtained, 0.98 for the COVID-19 dataset and 0.46 for the multilabel chest X-ray 8 dataset. -->
 
-`This writing has been written as per my and the collective understanding of our team followed by the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand.`
+## Feedback
+
+`I would love to receive  any feedback or suggestions for this writing. It has been written as per my understanding and the collective efforts done by my team followed by the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand. `
 
 <!-- <br/>
 

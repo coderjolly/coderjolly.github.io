@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Steamgestion"
+title:  "Steamgestion - A Data Ingestion Pipeline"
 date:   2022-12-22
 title_include: true
 categories: writing
@@ -9,10 +9,14 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
-## Steamgestion - A Data Ingestion Pipeline
-
 Gaming industry is currently one of the most prominent industries in the market. The development and popularity of games has
-been increasing rapidly in the past decade. Of all the factors that determine the popularity of a game, reviews are paramount importance. As the online gaming community expands with the passing day, there is more data to be collected from the user’s database.This project aims to analyse [Steam reviews](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021) dataset and build a data ingestion pipeline using Kubernetes and Docker. The data is ingested from the Steam Reviews dataset which is then cached in Redis and then stored in Elasticsearch. The data is then queried from Elasticsearch and then rendered on a Flask application.
+been increasing rapidly in the past decade. Of all the factors that determine the popularity of a game, reviews are paramount importance. As the online gaming community expands with the passing day, there is more data to be collected from the user’s database. 
+
+<figure>
+<img src="/assets/img/steamgestion/kubernetes-meme.jpeg" width=450 style="display: block; margin: 0 auto">
+</figure>
+
+This project aims to analyse [Steam reviews](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021) dataset and build a data ingestion pipeline using Kubernetes and Docker. The data is ingested from the Steam Reviews dataset which is then cached in Redis and stored in Elasticsearch. The data is then queried from Elasticsearch and rendered using a Flask application.
 
 ## Architecture
 The system uses an asynchronous Flask backend which has been deployed as a service interacting using ScyllaDB/sQLite for storing
@@ -66,6 +70,12 @@ There are a few python based dependies which can be installed using: `pip3 insta
     └── requirements.txt
 ```
 
+### Aliasing 
+
+<figure>
+<img src="/assets/img/steamgestion/kubectl-meme.png" width=550 style="display: block; margin: 0 auto">
+</figure>
+
 Aliasing of `microk8s kubectl` to `kcdev` is also done for using kubernetes as a short form for convenience which can be done by adding an alias in the bashrc/zshrc profile which can be done by:
 ```zsh
 - echo "alias kcdev='microk8s kubectl'" >> ~/.zshrc
@@ -78,6 +88,12 @@ And then add the following line to the file:
 ```zsh
 - alias kcdev='microk8s kubectl'
 ```
+
+### Yaml Files
+
+These YAML files describe the desired state of the resources, such as pods, deployments, services, and more. Kubernetes uses these files to deploy resources to the cluster and manage them accordingly.
+
+![yaml-meme](/assets/img/steamgestion/yaml-meme.jpeg)
 
 Next, we will use a set of commands to deploy and serve the `backend`, `elasticsearch`, `rabbitmq` and `redis` environments using `yaml` configuration files to start the kubernetes environment. The commands are as follows: 
 ```zsh
@@ -100,9 +116,13 @@ Using Kubernetes, we have setup 6 microservice pods which can be seen in the fir
 
 ![pods](/assets/img/steamgestion/pods.png)
 
-In Kubernetes, a HorizontalPodAutoscaler automatically updates a workload resource (such as a Deployment or StatefulSet), with the aim of automatically scaling the workload to match demand.
+In Kubernetes, a HorizontalPodAutoscaler automatically updates a workload resource (such as a Deployment), with the aim of automatically scaling the workload to match demand. Horizontal scaling means that, the response to increased load is to deploy more pods. If the load decreases, and the number of Pods is above the configured minimum, the HorizontalPodAutoscaler instructs the workload
+resource to scale back down. The visual representation of the pods that are already running for the workload are shown in the figure below.
 
 ![hpa](/assets/img/steamgestion/hpa.png)
+
+## Celery Workers
+Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages and tasks, while providing operations with the tools required to maintain such a system. There’s a huge variety between those tasks: some of them can run for seconds while others can take hours, depending on the data (size) being processed and the operation type (read/write). When a task is published, Celery adds a message to the RabbitMQ queue. In our case, each worker consumes from a dedicated queue for simplicity and ease to auto-scale.
 
 ## Persistent Volumes
 A PersistentVolume (PV) as shown in the figure below is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes. It is a resource in the cluster just like a node is a cluster resource.
@@ -114,7 +134,7 @@ A PersistentVolumeClaim (PVC) as shown in the figure below is a request for stor
 ![pvc](/assets/img/steamgestion/pvc.png)
 
 ## Results
-Using port forwarding to render the results on a Flask application, I am able to show the processes and ids of celery workers running concurrently and scaling at the same time. In the figure below, the process ids are seen on a scaffoled flask template.
+Using port forwarding to render the results on a Flask application, one can show the processes and ids of celery workers running concurrently and scaling at the same time. In the figure below, the process ids are seen on a scaffoled flask template.
 
 ![processresult](/assets/img/steamgestion/processresult.png)
 
@@ -122,5 +142,8 @@ For quering the Steam Reviews for exploration, relevant columns are extracted su
 
 ![queryresult](/assets/img/steamgestion/queryresult.png)
 
-## Credits
-- [Shlok Walia](https://github.com/coderhyno)
+## Acknowledgements & Feedback
+
+`I would like to express my gratitude to` [Shlok Walia](https://github.com/coderhyno) `in helping me out during the course of this project. He has been a constant guide throughtout this project and his meticulous attention to detail greatly enhanced the quality and functionality of the final product.`
+  
+`I would also love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand.`

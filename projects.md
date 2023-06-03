@@ -11,16 +11,16 @@ weight: 2
 ``Image based advertisements are still one of the best ways to promote products but it is painstakingly difficult to personalize the content for the target audience and covey the context. This study tries to compare three backbone deep learning architectures namely, ResNet 50, MobileNetv3 Large and EfficientNet B3 on an image advertisement dataset to classify the underlying contexts or sentiments understood by the consumers. Transfer learning is applied to mitigate the small dataset problem.``
 
 
-**Lung Disease Classification using Chest X-ray** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/Chest-X-Ray-Classification){:target="_blank"}
+[**Lung Disease Classification using Chest X-ray**](articles/22/chest-x-ray){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/Chest-X-Ray-Classification){:target="_blank"}
 <br/>
 
 ``Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these types scans from three different datasets using deep neural networks by three different CNN architectures using Pytorch and a comprehensive ablation study is performed by changing learning rates. The dimensional understanding is visualized using t-SNE and the ditection of thorax deseases in x-ray scans is visualized using Grad-CAM.``
 
 
-**Explaining News Articles using LLMs** [**[<font color='blue'>Writing</font>]**](articles/23/explain-news-using-llms){:target="_blank"}
+<!-- **Explaining News Articles using LLMs** [**[<font color='blue'>Writing</font>]**](articles/23/explain-news-using-llms){:target="_blank"}
 <br/>
 
-``Language Models are the backbone of Natural Language Processing. They are used in a variety of tasks such as Machine Translation, Text Summarization, Question Answering, etc. This writing tries to understand how LLMs can be used to explain news articles by using the pre-trained LLMs exposed on APIs such as OpenAI and GPT3.5 and how they can used for the task of article summarization, keyword generation, etc.``
+``Language Models are the backbone of Natural Language Processing. They are used in a variety of tasks such as Machine Translation, Text Summarization, Question Answering, etc. This writing tries to understand how LLMs can be used to explain news articles by using the pre-trained LLMs exposed on APIs such as OpenAI and GPT3.5 and how they can used for the task of article summarization, keyword generation, etc.`` -->
 
 
 [**Steamgestion - A Data Ingestion Pipeline**](articles/22/steamgestion-data-pipeline){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}
