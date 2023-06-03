@@ -9,7 +9,13 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
-Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using these scans from  three different datasets using deep neural networks. Three different backbone architectures, ResNet34, MobileNet V3 Large and EfficientNet B1 were used along with a set of models trained using transfer learning. It is observed that MobileNet takes the least amount of time to train while ResNet converges the fastest. Also, EfficientNet performs the best most of the times on Chest X-ray scans. An F1 score of 0.8 for the pneumonia dataset was obtained, 0.98 for the COVID-19 dataset and 0.46 for the multilabel chest X-ray 8 dataset. Finally, models are visualized using t-SNE and gradCAM to understand the features learned by the models and correlate them with the actual effect of the diseases on the lungs.
+Traditionally, the interpretation of chest X-rays has been performed by radiologists who manually analyze the images and make diagnostic decisions. However, this process can be time-consuming and subjective, leading to variations in accuracy and efficiency. Deep learning models offer a promising solution by automating the analysis process, providing consistent and objective assessments.
+
+<figure>
+<img src="/assets/img/chest-x-ray/chest-xray-meme.jpeg" width=550 style="display: block; margin: 0 auto">
+</figure>
+
+Chest X-rays scans are among the most accessible ways to diagnose lung diseases still. This study tries to compare the detection of lung diseases using these scans from  three different datasets using deep neural networks. Three different backbone architectures, ResNet34, MobileNet V3 Large and EfficientNet B1 were used along with a set of models trained using transfer learning. Finally, models are visualized using t-SNE and gradCAM to understand the features learned by the models and correlate them with the actual effect of the diseases on the lungs.
 
 ## Dataset Used
 We have choosen 3 types of chest X-Ray datasets (Tab. 1) that have varying disease types to ensure that our models are robust. The
@@ -246,6 +252,9 @@ For the ablative study, the COVID dataset was chosen along with the EfficientNet
 ![ablation-study-graph](/assets/img/chest-x-ray/ablation-study-graph.png)
 
 - From the figure above it can be seen that the best performing learning rate is 0.001 on the F1 score of the test set with 0.005, 0.01 close seconds and 0.05, 0.1 performing the worst. This matches the results of the validation set. Thus, a learning rate of 0.001 performs the best on the COVID dataset with transfer learning.
+
+<!-- ## Conclusion
+It was observed that MobileNet takes the least amount of time to train while ResNet converges the fastest. Also, EfficientNet performs the best most of the times on Chest X-ray scans. An F1 score of 0.8 for the pneumonia dataset was obtained, 0.98 for the COVID-19 dataset and 0.46 for the multilabel chest X-ray 8 dataset. -->
 
 ## Feedback
 

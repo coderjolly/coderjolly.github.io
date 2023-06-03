@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Steamgestion"
+title:  "Steamgestion - A Data Ingestion Pipeline"
 date:   2022-12-22
 title_include: true
 categories: writing
@@ -9,10 +9,14 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
-## Steamgestion - A Data Ingestion Pipeline
-
 Gaming industry is currently one of the most prominent industries in the market. The development and popularity of games has
-been increasing rapidly in the past decade. Of all the factors that determine the popularity of a game, reviews are paramount importance. As the online gaming community expands with the passing day, there is more data to be collected from the user’s database.This project aims to analyse [Steam reviews](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021) dataset and build a data ingestion pipeline using Kubernetes and Docker. The data is ingested from the Steam Reviews dataset which is then cached in Redis and then stored in Elasticsearch. The data is then queried from Elasticsearch and then rendered on a Flask application.
+been increasing rapidly in the past decade. Of all the factors that determine the popularity of a game, reviews are paramount importance. As the online gaming community expands with the passing day, there is more data to be collected from the user’s database. 
+
+<figure>
+<img src="/assets/img/steamgestion/kubernetes-meme.jpeg" width=450 style="display: block; margin: 0 auto">
+</figure>
+
+This project aims to analyse [Steam reviews](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021) dataset and build a data ingestion pipeline using Kubernetes and Docker. The data is ingested from the Steam Reviews dataset which is then cached in Redis and stored in Elasticsearch. The data is then queried from Elasticsearch and rendered using a Flask application.
 
 ## Architecture
 The system uses an asynchronous Flask backend which has been deployed as a service interacting using ScyllaDB/sQLite for storing
@@ -66,6 +70,12 @@ There are a few python based dependies which can be installed using: `pip3 insta
     └── requirements.txt
 ```
 
+### Aliasing 
+
+<figure>
+<img src="/assets/img/steamgestion/kubectl-meme.png" width=550 style="display: block; margin: 0 auto">
+</figure>
+
 Aliasing of `microk8s kubectl` to `kcdev` is also done for using kubernetes as a short form for convenience which can be done by adding an alias in the bashrc/zshrc profile which can be done by:
 ```zsh
 - echo "alias kcdev='microk8s kubectl'" >> ~/.zshrc
@@ -78,6 +88,12 @@ And then add the following line to the file:
 ```zsh
 - alias kcdev='microk8s kubectl'
 ```
+
+### Yaml Files
+
+These YAML files describe the desired state of the resources, such as pods, deployments, services, and more. Kubernetes uses these files to deploy resources to the cluster and manage them accordingly.
+
+![yaml-meme](/assets/img/steamgestion/yaml-meme.jpeg)
 
 Next, we will use a set of commands to deploy and serve the `backend`, `elasticsearch`, `rabbitmq` and `redis` environments using `yaml` configuration files to start the kubernetes environment. The commands are as follows: 
 ```zsh

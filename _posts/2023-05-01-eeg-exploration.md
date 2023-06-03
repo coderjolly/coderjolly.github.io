@@ -13,6 +13,10 @@ image_url: ""
 
 Electroencephalography (EEG) is a technique for continuously recording brain activity in the form of brainwaves. EEG is commonly used because it provides a noninvasive, easy, and inexpensive method to measure neural activity at a high resolution. EEG analysis is used a lot in evaluating brain disorders, especially epilepsy or other seizure disorders. It is also used in brain-computer interfaces (BCIs). EEG is also used in sleep research, anesthesia research, and cognitive science research.
 
+<figure>
+<img src="/assets/img/eeg-analysis/what-is-eeg.png" width=550 style="display: block; margin: 0 auto">
+</figure>
+
 EEG devices are composed of different electrodes that are placed on the scalp. These electrodes are represented as channels using a montage. There are different types of montages. A typical EEG system can have 1 to 256 channels. These channels are named based on their locations on the scalp. The most common montages are 10-20 and 10-10. The 10-20 montage has 21 electrodes, while the 10-10 montage has 19 electrodes. The 10-20 montage is the most common montage used in EEG systems.
 
 EEG signals can be seen as a time series, since EEG recordings measure brain activity over a specific time period.
