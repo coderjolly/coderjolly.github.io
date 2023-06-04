@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Credit Card Risk Modelling"
+title:  "Credit Risk Modelling"
 date:   2023-05-15
 title_include: true
 categories: writing
@@ -76,20 +76,13 @@ The data is highly imbalanced as the defaulters are a small percentage of the to
 <img src="/assets/img/credit-card-risk-modelling/imbalanced-scenario.png" width=700 style="display: block; margin: 0 auto">
 </figure>
 
-Also, the data can be balanced using the following ensemble techniques:
-<ul>
-<li> <b>Easy Ensemble:</b> EasyEnsemble is an ensemble learning technique that creates multiple balanced sets by randomly selecting a subset of data from the minority class and combining it with the majority class to create a balanced set.</li>
-
-<li> <b>Balance Cascade:</b> BalanceCascade is an ensemble learning technique that creates multiple balanced sets by randomly selecting a subset of data from the minority class and combining it with the majority class to create a balanced set. The algorithm then uses the balanced set to train a classifier and uses the classifier to predict the class labels of the entire dataset. The algorithm then removes the correctly classified majority class instances from the dataset and repeats the process until the dataset is balanced.</li>
-</ul>
-
 Perhaps, changing the performance metric can also help in understanding the data. The performance metric can be changed from ``accuracy`` leading to ``accuracy paradox`` where the accuracy measures tell the story that you have excellent accuracy (such as 90%), but the accuracy is only reflecting the underlying class distribution to ``F1-score or ROC-AUC curves/score.``
 
 <figure>
 <img src="/assets/img/credit-card-risk-modelling/ROC.jpg" width=700 style="display: block; margin: 0 auto">
 </figure>
 
-And, lastly, the model can understand imbalance by cost-senstive learning. The cost-sensitive learning is a machine learning paradigm for classification problems where the cost of misclassification is not the same for all the classes. The cost-sensitive learning can be implemented by using cost-sensitive learning algorithms such as
+And, lastly, the model can understand imbalanced dataset by cost-senstive learning. It is a machine learning paradigm for classification problems where the cost of misclassification is not the same for all the classes. The cost-sensitive learning can be implemented by using cost-sensitive learning algorithms such as:
 <ul>
 <li> <b>Penalized-SVM:</b> Penalized-SVM is a cost-sensitive learning technique that penalizes the misclassification of the minority class by adding a cost term to the SVM objective function.</li>
 <li> <b>Penalized-LR:</b> Penalized-LR is a cost-sensitive learning technique that penalizes the misclassification of the minority class by adding a cost term to the LR objective function.</li>
@@ -111,7 +104,7 @@ Firstly, the models must be for binary credit default classification that are di
 
 #### Experimentation (2)
 
-For the second experiment, one can train models after performing under-sampling. In under-sampling the size of the majority class is reduced to match that of the minority class. In this experiment ``Near-miss 2`` under sampling algorithm can be used for balancing the dataset. The algorithm works by selecting those samples of the majority class that have the smallest distance to the ``‘k’ farthest samples of minority class.``
+For the second experiment, one can train models after performing under-sampling. In under-sampling the size of the majority class is reduced to match that of the minority class. In this experiment ``Near-miss 2 under sampling algorithm`` can be used for balancing the dataset. The algorithm works by selecting those samples of the majority class that have the smallest distance to the ‘k’ farthest samples of minority class.
 
 <br/>
 
@@ -133,13 +126,13 @@ To detect model overfitting, the models' training and testing performance are ev
 
 ### Conclusion
 
-From the above experiments once can see that balancing the dataset using either an under or over sampling strategy and then training the model on the balanced data considerably improves the classification model's performance. The models’ performance is substantially greater when trained on balanced data using oversampling as opposed to undersampling.
+After performing the above experiments, one will see that balancing the dataset using either an under or over sampling strategy and then training the model on the balanced data considerably improves the classification model's performance. The models’ performance will be substantially greater when trained on balanced data using oversampling as opposed to undersampling.
 
 ## Acknowledgements & Feedback
 
-`I would like to express my gratitude to` [Sid Chadha](https://github.com/SidChadda) `in helping me understand the risk analysation for these type of problems. He has consistently challenged and encouraged me to push my boundaries, fostering a mindset of continuous learning and improvement.`
+`I would like to express my gratitude to` [Sid Chadha](https://github.com/SidChadda) `in helping me understand the risk analysation for these type of problems. He has consistently challenged, encouraged me to push my boundaries and has fostered a mindset of continuous learning and improvement.`
 
-`I would also love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand.`
+`I would also love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey. I hope you find it useful and easy to understand.`
 
 
 

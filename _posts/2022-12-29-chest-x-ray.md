@@ -143,12 +143,12 @@ The above figure represents `Train & Val, F1 & Loss plots for the 9 models`. Ini
       </tr>
     </table>
 
-## Results Analysis
+### Results Analysis
 
 &#8226; It is clear that going from a smaller architecture to a bigger architecture, makes the model start to overfit earlier. The MobileNet model was the most unstable among the three and also took more epochs to reach the minima. The **EfficientNet** algorithm performs best for the COVID and Chest X-ray 8 dataset and all three architectures performed similar for the pneumonia dataset. This shows that the compound scaling of EfficientNet gives good results for chest X-ray data. <br/>
 &#8226; The X-ray 8 dataset performed the worst among the three datasets which could be due to the high number of classes, class imbalance and the multilabel nature of the problem. Surprisingly, the pneumonia dataset performed worse than the COVID + pneumonia dataset which indicates that COVID cases are easier to distinguish from pneumonia cases. <br/>
 &#8226; It can be seen that the MobileNet architecture was the fastest to train per epoch. It consistantly took less time per epoch but, if number of epochs required to converge is considered, it does not train the fastest all the time. It is also evident that ResNet converged the fastest at half the number of epochs compared with other models. <br/>
-&#8226; EfficientNet models perform the best in terms of the overall F1 score on the test set with the exception of the Pneumonia dataset where surprisingly MobileNet performed the best.
+&#8226; EfficientNet models perform the best in terms of the overall F1 score on the test set with the exception of the Pneumonia dataset where surprisingly MobileNet performed the best. An F1 score of 0.8 for the pneumonia dataset was obtained, 0.98 for the COVID-19 dataset and 0.46 for the multilabel chest X-ray 8 dataset.
 
 <hr class="slender">
 
@@ -191,7 +191,7 @@ As **EfficientNet** gave the best for COVID and chest X-ray 8 dataset, it was ch
 
 The above figure represents `Train & Val, F1 & Loss plots for the 3 transfer learning models`. It can be seen that the transfer learning model had a much better start than the randomly initialized model. It also converged much quicker than the model trained from scratch. For the Pneumonia dataset, the model trained from scratch was highly unstable at the start and could not catch up to the transfer learning model even after 100 epochs in terms of the F1 score. The results are shown in the table below.
 
-## Observations
+### Transfer Learning Observations
 
 The transfer learning models converged quicker than the other models with the exception of the Pneumonia dataset. Another observation is that the EfficientNet model takes the longest to train per epoch even though the number of trainable parameters is nowhere close to ResNet.
 
@@ -200,17 +200,11 @@ CUDA used and training is getting CPU bound due to the data augmentation before 
 
 <hr class="slender">
 
-### T-SNE and Confusion Matrices
+## T-SNE and Confusion Matrices
 
 The figures below represent `T-SNE and Confusion matrices for the test set of the Pneumonia dataset`.
 
-![t-sne-resnet-pneumonia](/assets/img/chest-x-ray/t-SNE-Resnet-pneumonia.png)
-
-![t-sne-mobilenet-pneumonia](/assets/img/chest-x-ray/t-SNE-MobileNet-pneumonia.png)
-
-![t-sne-efficientnet-pneumonia](/assets/img/chest-x-ray/t-SNE-EfficientNet-pneumonia.png)
-
-![t-sne-TL-pneumonia](/assets/img/chest-x-ray/t-SNE-TL-pneumonia.png)
+![t-sne-all-pneumonia](/assets/img/chest-x-ray/t-sne-all-pneumonia.png)
 
 These t-SNE plots and confusion matrices show that the models are able to differentiate well between the normal and pneumonia classes but struggle with the viral pneumonia vs bacterial pneumonia classification. MobileNet performs better but the EfficientNet transfer learning model creates better separation of classes. 
 Thus, even though MobileNet performs better in this case, the EfficientNet transfer learning model would generalize well on new unseen data. This is correlated in the confusion matrix where the transfer learning and MobileNet models perform the best.
@@ -219,24 +213,23 @@ Similarly, for the figure represents `T-SNE and Confusion matrices for the test 
 
 ![t-sne-all-covid](/assets/img/chest-x-ray/t-sne-all-covid.png)
 
-- The above plots and confusion matrices also show that all models do a good job of separating classes to create distinct clusters but, the transfer learning model creates better clusters with separate smaller clusters. 
-- These smaller clusters could indicate other factors of the disease, for example the severity and amount of lung damage caused by the disease. This performance of the transfer learning model can be confirmed by looking at the confusion matrix as well.
+### T-SNE and Confusion Matrices Observations
+
+The above plots and confusion matrices also show that all models do a good job of separating classes to create distinct clusters but, the transfer learning model creates better clusters with separate smaller clusters.
+
+These smaller clusters could indicate other factors of the disease, for example the severity and amount of lung damage caused by the disease. This performance of the transfer learning model can be confirmed by looking at the confusion matrix as well.
 
 <hr class="slender">
 
 ## Grad-CAM Visualizations
 
+The figure below shows the gradCAM visualization of the last layer of the convolutional network. Here, it can be seen that ResNet is learning completely different features as compared to the other models, which could be a reason of its poor performance. In case of bacterial pneumonia, the network identifies affected area on the right side of the scan and on the other hand, incase of viral pneumonia, models look at both sides of the lungs.
+
 ![grad-cam-pneumonia](/assets/img/chest-x-ray/grad-cam-pneumonia.png)
 
-- The figure above shows the gradCAM visualization of the last layer of the convolutional network. Here, it can be seen that ResNet is learning completely different features as compared to the other models, which could be a reason of its poor performance. 
-- In case of bacterial pneumonia, the network identifies affected area on the right side of the scan. On the other hand, incase of viral pneumonia, models look at both sides of the lungs.
-
-
-Now, comparing the gradCAM visulization of the COVID dataset.
+Now, comparing it to the gradCAM visulization of the COVID dataset. The figure below shows shows that MobileNet activates the entire image incase of COVID, this could be the reason for its low performance. In case of pneumonia, the Efficient- Net models identifies affected areas on the bottom of the lungs. On the other hand, in case of COVID, the models look at a bigger region of the lungs.
 
 ![grad-cam-COVID](/assets/img/chest-x-ray/grad-cam-COVID.png)
-
-The figure above shows shows that MobileNet activates the entire image incase of COVID, this could be the reason for its low performance. In case of pneumonia, the Efficient- Net models identifies affected areas on the bottom of the lungs. On the other hand, in case of COVID, the models look at a bigger region of the lungs.
 
 <hr class="slender">
 
@@ -246,12 +239,12 @@ For the ablative study, the COVID dataset was chosen along with the EfficientNet
 
 ![ablation-study](/assets/img/chest-x-ray/ablation-study.png)
 
-- From the training and validation F1 score and loss plots given in the figure above. it is seen that a very high learning rate of 0.1 is highly unstable and prevents the model from reaching close to global minima. Similarly, learning rate of 0.05 also prevented the model from converging on the validation set even after 100 epochs. 
-- The other three learning rates all converged on the validation set but, the learning rate of 0.001 was the most stable and reached the highest F1 score earliest. On the other hand, learning rate of 0.01 performed marginally better on the loss plot.
+- &#8226; From the training and validation F1 score and loss plots given in the figure above. it is seen that a very high learning rate of 0.1 is highly unstable and prevents the model from reaching close to global minima. Similarly, learning rate of 0.05 also prevented the model from converging on the validation set even after 100 epochs. 
+- &#8226; The other three learning rates all converged on the validation set but, the learning rate of 0.001 was the most stable and reached the highest F1 score earliest. On the other hand, learning rate of 0.01 performed marginally better on the loss plot.
 
 ![ablation-study-graph](/assets/img/chest-x-ray/ablation-study-graph.png)
 
-- From the figure above it can be seen that the best performing learning rate is 0.001 on the F1 score of the test set with 0.005, 0.01 close seconds and 0.05, 0.1 performing the worst. This matches the results of the validation set. Thus, a learning rate of 0.001 performs the best on the COVID dataset with transfer learning.
+- &#8226; From the figure above it can be seen that the best performing learning rate is 0.001 on the F1 score of the test set with 0.005, 0.01 close seconds and 0.05, 0.1 performing the worst. This matches the results of the validation set. Thus, a learning rate of 0.001 performs the best on the COVID dataset with transfer learning.
 
 <!-- ## Conclusion
 It was observed that MobileNet takes the least amount of time to train while ResNet converges the fastest. Also, EfficientNet performs the best most of the times on Chest X-ray scans. An F1 score of 0.8 for the pneumonia dataset was obtained, 0.98 for the COVID-19 dataset and 0.46 for the multilabel chest X-ray 8 dataset. -->
