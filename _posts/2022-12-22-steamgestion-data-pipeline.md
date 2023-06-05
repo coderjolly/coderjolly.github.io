@@ -10,35 +10,36 @@ image_url: ""
 <style>body {text-align: justify}</style>
 
 Gaming industry is currently one of the most prominent industries in the market. The development and popularity of games has
-been increasing rapidly in the past decade. Of all the factors that determine the popularity of a game, reviews are paramount importance. As the online gaming community expands with the passing day, there is more data to be collected from the user’s database. 
+been increasing rapidly in the past decade. Of all the factors that determine the popularity of a game, reviews are of paramount importance. 
+
+As the online gaming community expands with each passing day, there is more and more data to be processed from the user’s database and therefore, the need for large-scale data ingestion techniques are increasing.
 
 <figure>
 <img src="/assets/img/steamgestion/kubernetes-meme.jpeg" width=450 style="display: block; margin: 0 auto">
 </figure>
 
-This project aims to analyse [Steam reviews](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021) dataset and build a data ingestion pipeline using Kubernetes and Docker. The data is ingested from the Steam Reviews dataset which is then cached in Redis and stored in Elasticsearch. The data is then queried from Elasticsearch and rendered using a Flask application.
+This project aims to analyse [Steam reviews](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021) dataset and build a data ingestion pipeline using ``Kubernetes and Docker.`` The data is ingested from the Steam Reviews dataset which is then cached in ``Redis`` and stored in ``Elasticsearch.`` The data is then queried from ``Elasticsearch`` and rendered using a ``Flask application.``
 
 ## Architecture
-The system uses an asynchronous Flask backend which has been deployed as a service interacting using ScyllaDB/sQLite for storing
-processes followed by an event driven message queue controlled by RabbitMQ. This message queue is also deployed as a service
-with an interconnection with celery workers capable of horizontal pod scaling continuously integrating with Elasticsearch and Redis
-for data ingestion and data caching. The architecture of the project is shown in the figure below which is a representation of the data pipeline.
+The system uses an asynchronous Flask backend which has been deployed as a service interacting with ``sQLite`` for storing
+processes followed by an event driven message queue controlled by ``RabbitMQ.`` This message queue is also deployed as a service
+with an interconnection with ``Celery`` workers capable of horizontal pod scaling continuously integrating with ``Elasticsearch`` and ``Redis`` for data ingestion and data caching. The architecture of the project is shown in the figure below which is a representation of the data pipeline.
 
 ![architecture](/assets/img/steamgestion/architecture.png)
 
-The directory structure of the project is shown in the figure below which is a representation of the data pipeline and can be found at the Github repository [here](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}.
+The directory structure of the project is also shown in the figure below which is the exact version as seen on Github repository [here](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}.
 
 ![directory-structure](/assets/img/steamgestion/directory-structure.jpg)
 
 ## Installation
-Whenever dealing with Kubernetes, one can use `micr8s` or `minikube` for kubernetes installation on the base system. MicroK8s is the easiest and fastest way to get Kubernetes up and running. High availability in a Kubernetes cluster, is one of the premiere qualities one should look for when dealing with clusters so as to withstand a failure on any component and continue serving workloads without interruption, therefore the following three factors are necessary for a Highly Available Kubernetes cluster and micro8s serves them all. Simply following the canonical documentation, one can get started with kubernetes installation by using these commands:
+Whenever dealing with Kubernetes, one can use `micr8s` or `minikube` for kubernetes installation on the base system. MicroK8s is the easiest and fastest way to get Kubernetes up and running. High availability in a Kubernetes cluster, is one of the premiere qualities one should look for when dealing with clusters so as to withstand a failure on any component and continue serving workloads without interruption. Simply following the canonical documentation, one can get started with kubernetes installation by using these commands:
 ```bash
 - sudo snap install microk8s –classic
 - microk8s status –wait-ready
 - microk8s enable dashboard dns registry istio
 ```
 
-There are a few python based dependies which can be installed using: `pip3 install -r requirements.txt` under the `async_backend`, `celery_app` and `ingestion_engine` directories. These directories have their respective `requirements.txt` files as shown in the `tree` structure below:
+There are a few python based dependencies which can be installed using: `pip3 install -r requirements.txt` under the `async_backend`, `celery_app` and `ingestion_engine` directories. These directories have their respective `requirements.txt` files as shown in the `tree` structure below:
 ```zsh
 ➜  data-ingestion-pipeline git:(main) ✗ tree
 ├── async_backend
@@ -91,11 +92,11 @@ And then add the following line to the file:
 
 ### Yaml Files
 
-These YAML files describe the desired state of the resources, such as pods, deployments, services, and more. Kubernetes uses these files to deploy resources to the cluster and manage them accordingly.
+The YAML files describe the desired state of the resources, such as pods, deployments, services, and more. Kubernetes uses these files to deploy resources to the cluster and manage them accordingly.
 
 ![yaml-meme](/assets/img/steamgestion/yaml-meme.jpeg)
 
-Next, we will use a set of commands to deploy and serve the `backend`, `elasticsearch`, `rabbitmq` and `redis` environments using `yaml` configuration files to start the kubernetes environment. The commands are as follows: 
+We will use a set of commands to deploy and serve the `backend`, `elasticsearch`, `rabbitmq` and `redis` environments using `yaml` configuration files to start the kubernetes environment. The commands are as follows: 
 ```zsh
 - elasticsearch-setup-passwords auto
 - kcdev apply -f async_backend/deployment_config/service.yaml
@@ -112,14 +113,13 @@ Next, we will use a set of commands to deploy and serve the `backend`, `elastics
 ```
 
 ## Kubernetes Pods
-Using Kubernetes, we have setup 6 microservice pods which can be seen in the firgure below. These microservices run in an even driven architecture which are given persistent volumes for claiming the resources.
-
-![pods](/assets/img/steamgestion/pods.png)
-
-In Kubernetes, a HorizontalPodAutoscaler automatically updates a workload resource (such as a Deployment), with the aim of automatically scaling the workload to match demand. Horizontal scaling means that, the response to increased load is to deploy more pods. If the load decreases, and the number of Pods is above the configured minimum, the HorizontalPodAutoscaler instructs the workload
-resource to scale back down. The visual representation of the pods that are already running for the workload are shown in the figure below.
+Using Kubernetes, we have setup 6 microservice pods which can be seen in the firgure below. These microservices run in an even driven architecture which are given persistent volumes for claiming the resources. In Kubernetes, a HorizontalPodAutoscaler automatically updates a workload resource (such as a Deployment), with the aim of automatically scaling the workload to match demand. Horizontal scaling means that, the response to increased load is to deploy more pods. If the load decreases, and the number of Pods is above the configured minimum, the HorizontalPodAutoscaler instructs the workload resource to scale back down.
 
 ![hpa](/assets/img/steamgestion/hpa.png)
+
+ The visual representation of the pods that are already running for the workload are shown in the figure below.
+
+![pods](/assets/img/steamgestion/pods.png)
 
 ## Celery Workers
 Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages and tasks, while providing operations with the tools required to maintain such a system. There’s a huge variety between those tasks: some of them can run for seconds while others can take hours, depending on the data (size) being processed and the operation type (read/write). When a task is published, Celery adds a message to the RabbitMQ queue. In our case, each worker consumes from a dedicated queue for simplicity and ease to auto-scale.
