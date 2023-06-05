@@ -37,7 +37,7 @@ Missing values can be handled in various ways but the methods depends on the typ
 
 <br/>
 
-#### Encording Categorical Features
+#### Encoding Categorical Features
 
 One-hot encoding technique is used to encode categorical features into simple binary vectors of `1s and 0s,` called ‘dummies’. The categorical features are then `replaced by their ‘dummies’` in the dataset. This is done to avoid the model from misinterpreting the categorical features as numerical values. 
 
