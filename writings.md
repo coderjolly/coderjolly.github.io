@@ -8,7 +8,7 @@ weight: 1
 ## Writings
 
 [``Credit Risk Modelling``](articles/23/credit-risk-modelling){:target="_blank"}<br/>
-With the increasing volume and complexity of fraudulent activities, traditional rule-based systems have proven to be inadequate in effectively detecting and preventing credit card fraud. However, machine learning algorithms offer a promising solution. This writing will delve into the data pre-prcessing techniques, some machine learning approaches that can be employed in credit card fraud detection for anomaly detection and classification.
+With the increasing volume and complexity of fraudulent activities, traditional rule-based systems have proven to be inadequate in effectively detecting and preventing credit card fraud. However, machine learning algorithms offer a promising solution. This writing will delve into the data pre-prcessing techniques, some machine learning approaches that can be employed in credit risk modelling for risk classifications.
 
 
 [``Sneak peak into Software Project Management``](articles/23/find-help){:target="_blank"}<br/>
