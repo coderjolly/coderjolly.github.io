@@ -16,6 +16,16 @@ Prior to my master's, I have obtained over 1.5 years of experience in designing 
 
 Before moving to the realm of machine learning, I have worked on backend development and have had the opportunity to participate in **Google Summer of Code (GSOC)** as a mentor in organizations like **PublicLab and DIAL.** Currently, I am seeking **Internship/ Co-op opportunities for Fall 2023** in field of data science, data engineering and machine learning.
 
+
+<!-- ### Projects [**[<font color='blue'>Link</font>]**]({{site.baseurl}}/projects){:target="_blank"}
+
+&nbsp;&nbsp;1. **Processing Image Advertisements for Contextual Analysis** <br/>
+&nbsp;&nbsp;2. **Steamgestion - A Data Ingestion Pipeline** <br/>
+&nbsp;&nbsp;3. **Credit Risk Modelling** <br/>
+&nbsp;&nbsp;4. **Lung Disease Classification using Chest X-rays** <br/>
+&nbsp;&nbsp;5. **News Recommendation System** <br/> -->
+
+
 <h3 style="text-align: left;">Awards & Achievements</h3>
 
 &nbsp;&nbsp;1. **Google Summer of Code:** `Mentor for DIAL Organization (2020)` <br/>
