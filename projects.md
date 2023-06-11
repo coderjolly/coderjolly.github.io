@@ -5,7 +5,7 @@ weight: 2
 ---
 <style>body {text-align: justify}</style>
 
-**Processing Image Advertisements for Contextual Analysis** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/processing-advertisements){:target="_blank"}
+**Processing Image Advertisements for Contextual Analysis** [**[<font color='blue'>Writing</font>]**](articles/23/processing-ads){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/processing-advertisements){:target="_blank"}
 <br/>
 
 <div style="display: flex; align-items: center;">

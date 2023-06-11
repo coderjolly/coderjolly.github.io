@@ -15,6 +15,9 @@ With the increasing volume and complexity of fraudulent activities, traditional 
 This writing is an end-to-end visual of my journey in Software Project Managment course that shows how Software Project Managment is continous process done by Project Managers, how deliverables are measured in terms of story points, how the time estimation for tasks is done and how to manage a team with diverse skill sets.
 
 
+[``Processing Image Advertisements for Contextual Analysis``](articles/23/processing-ads){:target="_blank"}<br/>
+Targetting the right audience is the key to success for any business. Therefore, using the right advertisements is crucial. Knowing the context of the advertisement is important to target the right audience where deep-learning comes into picture. This writing is a walkthrough of my project in Image Processing course where deep learning was used to process image advertisements for contextual analysis.
+
 [``EEG Signal Analysis``](articles/23/eeg-exploration){:target="_blank"}<br/>
 EEG signals can be used to detect the mental state of a person which can have applications in machine learning. So, to introduce ourselves to EEG, this writing provides a short introduction to EEG Signal Analysis using MNE library and describes the setup, the data preprocessing, data visualization and segmentation into epochs. 
 
