@@ -62,7 +62,7 @@ Histogram equalization, a popular technique for improving the contrast of images
 
 ![histogram-equilization](/assets/img/image-advertisements/histogram-equilization.png)
 
-<b>D. Data Augmentation Techniques</b> 
+<b>C. Data Augmentation Techniques</b> 
 
 Data augmentation plays a crucial role in the training of deep learning models as they aren’t able to converge the network to an optimal solution if the size of training data is small because of the huge number of parameters needed to be tuned by the learning algorithm. It requires enormous amounts of data merely because of the fact that the deep learning algorithms start off with a poor initial state where weights are completely random and then optimization occurs using some gradient based optimization algorithm. 
 
@@ -80,7 +80,7 @@ There are various ways to augment data using the PyTorch library such as RandomH
 <img src="/assets/img/image-advertisements/color-jitter.png" width=650 style="display: block; margin: 0 auto">
 </figure>
 
-<b>C. Architectures</b>
+<b>D. Architectures</b>
 
 Different backbone architectures were chosen to ensure that different types of Convolution blocks were tested for the advertisement data. <b>Resnet-50</b>, <b>MobileNet V3 Large</b> and <b>EfficientNet B3</b> were chosen finally with the selection criterias including number of parameters and GFLOPS, total training and evaluation time, and the top 5 classification
 accuracy on the ImageNet 1K benchmark dataset.
