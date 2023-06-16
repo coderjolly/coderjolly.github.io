@@ -186,3 +186,11 @@ Visually looking at the gradcam visualizations and the predictions it is clear t
 The low performance of the models in this study can be attributed to the low quality of the labels along with a lack of available training data. Even though the convolutional layers of the EfficientNet model were not fine-tuned, it was observed that the model could find relavant features in the image depending on the label. 
 
 This shows that transfer learning is a powerful tool to train models and reduce turn-around times. Transfer learning enables the use of deep learning models even when the amount of available data is very less.
+
+## Acknowledgements & Feedback
+
+`I am grateful to have worked alongside` [Rohan Chopra](https://github.com/rohanchopra) `who has helped me undersrtand the essence of data pipelines generation, segregating tasks into workable components and to essentially transform just jupyter notebooks into good projects.` 
+
+`His profound understanding of machine learning concepts, algorithms, and techniques has greatly enhanced my understanding and ability to tackle complex problems. He has consistently provided insightful feedback, constructive criticism, and practical suggestions, which have significantly improved the quality of our work together.`
+
+``I would also love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey. I hope you find it useful and easy to understand.``
