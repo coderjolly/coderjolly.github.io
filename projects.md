@@ -57,6 +57,19 @@ weight: 2
         </div>
 </div>
 
+**Depression Data Collection Portal** [**[<font color='blue'>Writing</font>]**](articles/23/find-help){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/find-help){:target="_blank"}
+<br/>
+
+<div style="display: flex; align-items: center;">
+        <div style="flex: 1;">
+            <p><code class="language-plaintext highlighter-rouge">A backend application based on Java Spring Boot that caters to the need of collecting data for patients with depression. Patients are able to register themselves, perform self assessment in order to get help from a counsellor or doctor. This self-assessment data will be communicated to a counsellor or doctor and then appropriate action will be taken accordingly.
+            </code></p>
+        </div>
+        <div style="margin-left: -10px;">
+            <img src="/assets/img/find-help/home-page.png" alt="Image" style="width: 400px; height: 250px;">
+        </div>
+</div>
+
 
 **News Recommendation System** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/news-recommender){:target="_blank"}
 <br/>
@@ -81,13 +94,6 @@ weight: 2
 <br/>
 
 ``With proper sound detection and classification, researchers can understand what birdcall signal the birds use, in order to communicate with each other or to warn others about the impending dangers in the vicinity. So, understanding the bird species via sound can able to detect theses dangers early. Mel Spectrograms of these bird audios are used as features to feed them to a CNN model in order to classify bird species.``
-
-
-**Depression Data Collection Portal** [**[<font color='blue'>Writing</font>]**](articles/23/find-help){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/find-help){:target="_blank"}
-<br/>
-
-``A backend application based on Java Spring Boot that caters to the need of collecting data for patients with depression. Patients are able to register themselves, perform self assessment in order to get help from a counsellor or doctor. This self-assessment data will be communicated to a counsellor or doctor and then appropriate action will be taken accordingly.``
-
 
 **DonorFu** [**[<font color='blue'>Devpost</font>]**](https://devpost.com/software/donorfu){:target="_blank"}
 <br/>
