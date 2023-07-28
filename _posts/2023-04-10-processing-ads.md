@@ -189,8 +189,8 @@ This shows that transfer learning is a powerful tool to train models and reduce 
 
 ## Acknowledgements & Feedback
 
-`I am grateful to have worked alongside` [Rohan Chopra](https://github.com/rohanchopra) `who has helped me undersrtand the essence of data pipelines generation, segregating tasks into workable components and to essentially transform just jupyter notebooks into good projects.` 
+`I am grateful to have worked alongside` [Rohan Chopra](https://github.com/rohanchopra) `who has helped me understand the essence of data pipeline generation, segregating tasks into workable components and to transform just jupyter notebooks into workable projects.` 
 
-`His profound understanding of machine learning concepts, algorithms, and techniques has greatly enhanced my understanding and ability to tackle complex problems. He has consistently provided insightful feedback, constructive criticism, and practical suggestions, which have significantly improved the quality of our work together.`
+`His profound understanding of machine learning concepts, algorithms, and techniques have greatly enhanced my interpretations and ability to tackle complex problems. He has consistently provided insightful feedback, constructive criticism, and practical suggestions, which have significantly improved the quality of our work together.`
 
 ``I would also love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey. I hope you find it useful and easy to understand.``
