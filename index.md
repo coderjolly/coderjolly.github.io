@@ -6,7 +6,7 @@ exclude_title: true
 nav_exclude: true
 ---
 
-<!-- <img class="headshot" src="assets/img/headshot-v2.png"> -->
+<img class="headshot" src="assets/img/headshot-v2.png">
 
 <style>body {text-align: justify}</style>
 
@@ -17,6 +17,7 @@ I am graduate student at **Concordia University, Montréal** pursuing **Master's
 Before moving to the realm of data science, I have contributed in web based backend development and have had the opportunity to participate in Google Summer of Code (GSOC) as a mentor in organizations like PublicLab and DIAL. Currently, I am seeking **Internships/ Co-op opportunities for Fall 2023** in field of data science, and machine learning.
 
 <h3 style="text-align: left;">Experience</h3>
+
 
 Prior to my master’s, I have obtained over 1.5 years of experience in designing machine learning and data science solutions. My premiere association with [Sabudh Foundation](https://sabudh.org/){:target="_blank"} as a **Data Science Intern** initiated my journey towards data science. Following that, I have worked with the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/){:target="_blank"} as a **Jr. Data Engineer** and  [Tatras Data](https://tatrasdata.com/){:target="_blank"} as **Jr. Data Scientist.**
 
