@@ -10,14 +10,15 @@ nav_exclude: true
 
 <style>body {text-align: justify}</style>
 
-I am graduate student at **Concordia University, Montréal** pursuing **Master's in Applied Computer Science.** Throughout my career, I have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels, from classmates to upper-management in order to push my boundaries. I am eager to apply my knowledge of computer science to real-world problems and to make machines predict the future by connecting the dots from the past.  
+<!-- SUMMARY --> 
 
-<!-- Prior to my master's, I have obtained over 1.5 years of experience in designing machine learning and data science solutions using python.  -->
+I am graduate student at **Concordia University, Montréal** pursuing **Master's in Applied Computer Science.** Throughout my career, I have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels, ranging from my classmates to upper-management in order to push my boundaries. I am eager to apply my knowledge in solving real-world problems and to make machines predict the future by connecting the dots from the past.  
 
-Before moving to the realm of data science, I have contributed in web based backend development and have had the opportunity to participate in Google Summer of Code (GSOC) as a mentor in organizations like PublicLab and DIAL. Currently, I am seeking **Internships/ Co-op opportunities for Fall 2023** in field of data science, and machine learning.
+Before moving to the realm of data science, I have contributed in backend web development and have had the opportunity to participate in Google Summer of Code (GSOC) as a mentor in organizations like PublicLab and DIAL. Currently, I am seeking **Internships/ Co-op opportunities for Winter 2024** in field of data science and machine learning.
+
+<!-- EXPERIENCE --> 
 
 <h3 style="text-align: left;">Experience</h3>
-
 
 Prior to my master’s, I have obtained over 1.5 years of experience in designing machine learning and data science solutions. My premiere association with [Sabudh Foundation](https://sabudh.org/){:target="_blank"} as a **Data Science Intern** initiated my journey towards data science. Following that, I have worked with the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/){:target="_blank"} as a **Jr. Data Engineer** and  [Tatras Data](https://tatrasdata.com/){:target="_blank"} as **Jr. Data Scientist.**
 
@@ -28,8 +29,10 @@ Prior to my master’s, I have obtained over 1.5 years of experience in designin
 &nbsp;&nbsp; `Junior Data Engineer  - Supercomputer Education and Research Centre` 
 
 
-&#8226; [**Sabudh Foundation**](https://sabudh.org/){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **January 2021 - July 2021**<br/>
+&#8226; [**Sabudh Foundation**](https://sabudh.org/){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **January 2021 - July 2021**<br/>
 &nbsp;&nbsp; `Data Science Intern`  -->
+
+<!-- PROJECTS -->
 
 <!-- ### Projects [**[<font color='blue'>Link</font>]**]({{site.baseurl}}/projects){:target="_blank"}
 
@@ -39,6 +42,7 @@ Prior to my master’s, I have obtained over 1.5 years of experience in designin
 &nbsp;&nbsp;4. **Lung Disease Classification using Chest X-rays** <br/>
 &nbsp;&nbsp;5. **News Recommendation System** <br/> -->
 
+<!-- AWARDS & ACHIEVEMENTS -->
 
 <h3 style="text-align: left;">Awards & Achievements</h3>
 
@@ -49,6 +53,7 @@ Prior to my master’s, I have obtained over 1.5 years of experience in designin
 &nbsp;&nbsp;5. **Facebook Developer Community Challenge:** [`Global Round Winner (2018)`](https://devpost.com/software/donorfu){:target="_blank"} <br/>
 &nbsp;&nbsp;6. **Facebook Developer Community Challenge:** [`Regional Round Winner (2018)`](https://devpost.com/software/donorfu){:target="_blank"} <br/>
 
+<!-- EXTRA-CURRICULARS -->
 
 <h3 style="text-align: left;">Extra-Curriculars & Volunteer Participations</h3>
 
