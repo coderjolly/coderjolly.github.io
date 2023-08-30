@@ -16,7 +16,7 @@ I am graduate student at **Concordia University, Montréal** pursuing **Master's
 
 Before moving to the realm of data science, I have contributed in backend web development and have had the opportunity to participate in Google Summer of Code (GSOC) as a mentor in organizations like PublicLab and DIAL. Currently, I am seeking **internship opportunities for Winter-2024** and **full-time opportunities starting April-2024**  in field of data science and machine learning.
 
-<!-- EXPERIENCE --> 
+<!-- ----------------EXPERIENCE----------------------  -->
 
 <h3 style="text-align: left;">Experience</h3>
 
@@ -34,7 +34,7 @@ Presently, I am working as a **Data Scientist Intern** at [Intact Financial](htt
 &#8226; [**Sabudh Foundation**](https://sabudh.org/){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **January 2021 - July 2021**<br/>
 &nbsp;&nbsp; `Data Science Intern`  -->
 
-<!-- PROJECTS -->
+<!-- ------------- PROJECTS ------------------ -->
 
 <!-- ### Projects [**[<font color='blue'>Link</font>]**]({{site.baseurl}}/projects){:target="_blank"}
 
@@ -43,6 +43,15 @@ Presently, I am working as a **Data Scientist Intern** at [Intact Financial](htt
 &nbsp;&nbsp;3. **Credit Risk Modelling** <br/>
 &nbsp;&nbsp;4. **Lung Disease Classification using Chest X-rays** <br/>
 &nbsp;&nbsp;5. **News Recommendation System** <br/> -->
+
+<!-- -------------- SKILLS --------------------- -->
+
+<!-- My Skills:
+✅𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠:⠀⠀⠀ ⠀⠀⠀⠀Python, Java
+✅𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠:⠀⠀⠀ ⠀Numpy, Pandas, Scikit-Learn, Pytorch, Keras
+✅𝐃𝐚𝐭𝐚 𝐕𝐢𝐬𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧:⠀⠀⠀ ⠀Matplotlib, Seaborn, Power BI
+✅𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞𝐬:⠀⠀⠀ ⠀⠀⠀⠀ ⠀⠀SQL, MySQL, PostgresQL
+✅𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 & 𝐓𝐨𝐨𝐥𝐬:⠀⠀⠀Anaconda, Mamba, REST APIs, Docker, AWS -->
 
 <!-- AWARDS & ACHIEVEMENTS -->
 
