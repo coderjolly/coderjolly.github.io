@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "EEG Signal Analysis"
-date:   2023-05-01
+date:   2023-02-02
 title_include: true
 categories: writing
 image_url: ""
@@ -11,15 +11,13 @@ image_url: ""
 
 # Introduction to Electroencephalography (EEG)
 
-Electroencephalography (EEG) is a technique for continuously recording brain activity in the form of brainwaves. EEG is commonly used because it provides a noninvasive, easy, and inexpensive method to measure neural activity at a high resolution. EEG analysis is used a lot in evaluating brain disorders, especially epilepsy or other seizure disorders. It is also used in brain-computer interfaces (BCIs). EEG is also used in sleep research, anesthesia research, and cognitive science research.
+Electroencephalography (EEG) is a technique for continuously recording brain activity in the form of brainwaves. EEG is commonly used because it provides a noninvasive and an easy method to measure neural activity at a high resolution. EEG analysis is used a lot in evaluating brain disorders, especially epilepsy or other seizure disorders. It is also used in brain-computer interfaces (BCIs) as well as in sleep research, anesthesia research, and cognitive science research.
 
 <figure>
 <img src="/assets/img/eeg-analysis/what-is-eeg.png" width=550 style="display: block; margin: 0 auto">
 </figure>
 
 EEG devices are composed of different electrodes that are placed on the scalp. These electrodes are represented as channels using a montage. There are different types of montages. A typical EEG system can have 1 to 256 channels. These channels are named based on their locations on the scalp. The most common montages are 10-20 and 10-10. The 10-20 montage has 21 electrodes, while the 10-10 montage has 19 electrodes. The 10-20 montage is the most common montage used in EEG systems.
-
-EEG signals can be seen as a time series, since EEG recordings measure brain activity over a specific time period.
 
 ## Setup
 
@@ -45,7 +43,7 @@ sample_data_raw_file = os.path.join(sample_data_folder, 'MEG', 'sample', 'sample
 <img src="/assets/img/eeg-analysis/sample-data.png" width=850 style="display: block; margin: 0 auto">
 </figure>
 
-Since, we are specifically focusing on EEG channels, we can exclude all non-EEG channels by using the pick_types method.The sample data file contains MEG and EEG recordings. We can read the EEG recordings using the following code:
+Since, we are specifically focusing on EEG channels, we can exclude all non-EEG channels by using the ``pick_types`` method. The sample data file contains MEG and EEG recordings. We can read the EEG recordings using the following code:
 
 ```python
 raw = mne.io.read_raw_fif(sample_data_raw_file)
@@ -56,6 +54,10 @@ raw = raw.pick_types(meg=False, eeg=True, eog=False, exclude='bads')
 </figure>
 
 This creates a `Raw` object and then we can inspect this `Raw` object by printing the info attribute (a dictionary-like object) like:
+
+```python
+print(raw.info)
+```
 <figure>
 <img src="/assets/img/eeg-analysis/print-data.png" width=850 style="display: block; margin: 0 auto">
 </figure>
@@ -83,7 +85,7 @@ raw.plot()
 </figure>
 
 We can also plot the `Power Spectral Density (PSD)` for each channel. PSD shows the power as a function of frequency and is measured in power per unit frequency. It shows at which frequencies variations are strong as well as at which frequencies variations are weak.
-This can be dont by:
+This can be done by:
 ```python
 raw.plot_psd()
 ```
@@ -93,7 +95,9 @@ raw.plot_psd()
 
 ## Resampling
 
-EEG recordings have a high temporal resolution, so they are often recorded at high sampling rates (eg. 1000 Hz or higher). Although this makes the recordings very precise, it also consumes more memory. In cases where highly precise timing is not needed, downsampling the EEG signal can help save a lot of computation time. Raw objects have a resample method that can be used to convert from one sample rate to another by:
+EEG recordings have a high temporal resolution, so they are often recorded at high sampling rates (eg. 1000 Hz or higher). Although this makes the recordings very precise, it also consumes more memory. 
+
+In cases where highly precise timing is not needed, downsampling the EEG signal can help save a lot of computation time. Raw objects have a resample method that can be used to convert from one sample rate to another by:
 ```python
 raw.resample(600) # resample to 600 Hz
 ```
@@ -119,7 +123,7 @@ raw.filter(1., None)
 
 
 #### Low-pass filtering
-Low-pass filtering is essentially the opposite of high-pass filtering. Instead of attenuating parts of the signal below a certain frequency, it attenuates parts of the signal above a certain frequency. It's called low-pass because it lets frequencies lower than a certain cutoff pass.
+Low-pass filtering is essentially the opposite of high-pass filtering. Instead of attenuating parts of the signal below a certain frequency, it attenuates parts of the signal above a certain frequency. It is called low-pass because it lets frequencies lower than a certain cutoff pass.
 
 The code below attenuates the parts of the signal above 50 Hz and leaves the rest unchanged. Since `lfreq` is None, there is no lower pass-band edge, so the signal is low-passed.
 ```python
@@ -132,7 +136,7 @@ raw.filter(None, 50.)
 #### Notch Filter (Band Stop Filter)
 The notch filter is a combination of both low-pass and high-pass filters. It can attenuate signals within a specific range of frequencies. The range of frequencies that a band-stop filter attenuates is called the stopband. 
 
-Raw objects have a notch_filter method that takes in a specific frequency or a list of frequencies to attenuate the signal at.
+Raw objects have a ``notch_filter`` method that takes in a specific frequency or a list of frequencies to attenuate the signal at which can be seen in the code below:
 ```python
 raw.notch_filter(50) # attenuate 50 Hz
 ```
@@ -151,7 +155,7 @@ raw.notch_filter(np.arange(60, 241, 60)) # attenuating 60, 120, 180, and 240 Hz
 </figure>
 
 ## Epoching
-Epochs are equal-length segments of data extracted from continuous EEG data. Usually, epochs are extracted around stimulus events or responses, but sometimes sequential or overlapping epochs are used. MNE has an Epochs object used to represent epoched data. Epochs objects are used in other steps of EEG analysis, including feature extraction, which is used in machine learning.
+Epochs are equal-length segments of data extracted from continuous EEG data. Usually, epochs are extracted around stimulus events or responses, but sometimes sequential or overlapping epochs are used. MNE has an ``Epochs`` object used to represent epoched data. Epochs objects are used in other steps of EEG analysis, including feature extraction, which is used in machine learning.
 
 To create epoched data, MNE-Python requires a Raw object as well as an array of events.
 
@@ -181,7 +185,7 @@ events = mne.make_fixed_length_events(raw, start=0, stop=10, duration=1.)
 ```
 
 ### Creating Epoched Data from Events
-After loading/creating events, creating an Epochs object is fairly simple. `preload=True` loads all epochs from disk when creating the Epochs object. It can be done by the following code:
+After loading/creating events, creating an Epochs object is fairly simple. `preload = True` loads all epochs from disk when creating the Epochs object. It can be done by the following code:
 ```python
 epochs = mne.Epochs(raw, events, preload=True).pick_types(eeg=True)
 ```
@@ -190,9 +194,7 @@ epochs = mne.Epochs(raw, events, preload=True).pick_types(eeg=True)
 </figure>
 
 ### Selecting Epochs
-As the Epochs object is now with event labels, one can select epochs using square brackets.
-
-For example, one can plot the epochs where the event label was '1' (these event labels have an actual meaning, but they are not shown here for simplicity):
+As the Epochs object is now with event labels, one can select epochs using square brackets. For example, one can plot the epochs where the event label was '1' (these event labels have an actual meaning, but they are not shown here for simplicity):
 ```python
 epochs['1'].plot()
 ```
@@ -213,4 +215,4 @@ epochs.average().plot()
 
 In this writing, we learned about EEG signals, how they can be loaded, analyzed, preprocessed, and more. Understanding how to process EEG signals is very helpful for tasks such as training a machine learning model to classify EEG segments.
 
-`I would love to receive  any feedback or suggestions for this writing. It has been written as per my understanding and the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand.`
+`I would love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey. I hope you find it useful and easy to understand.`

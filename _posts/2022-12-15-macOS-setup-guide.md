@@ -9,9 +9,9 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
-This writing covers some installations and envrironments that are important to set up even if you dont use them at all because they play a pivotal role some command-line tools. I have been using a macbook Pro for a while, since macOS Sierra up untill macOS monterey. Personally, I would not be upgrading to any further OS installation from Apple as I feel Ventura essentially doesn't let one differentiate between an iPhone and a macbook, interface wise. But again, I would like to reiterate that it is personal perference for not upgrading to the latest OS.
+This writing covers some installations and envrironments that are important to set up even if you don't use them at all because they play a pivotal role some command-line tools. I have been using a macbook Pro for a while, since macOS Sierra up untill macOS monterey. Personally, I would not be upgrading to any further OS installations from Apple as I feel Ventura essentially doesn't let one differentiate between an iPhone and a macbook, interface wise. But again, I would like to reiterate that it is personal perference for not upgrading to the latest OS.
 
-After a long usage of your mac over months, especially after extensive use of Docker and working with containers, you will find that your mac is running out of space. This is because Docker stores all the images and containers in a hidden folder in your home directory, which is not visible in Finder and quite frankly it is not a good idea to delete them manually. Therefore, every 4 to 5 months, I would recommend you to format your mac and reinstall macOS. This will give you a fresh start and will also free up some space on your mac. 
+After a long usage of your mac over months, especially after extensive use of Docker and working with containers, you will find that your mac is running out of space. This is because Docker stores all the images and containers in a hidden folder in your home directory, which is not visible in Finder and quite frankly it is not a good idea to delete them manually. Therefore, every 5 to 6 months, I would recommend you to format your mac and reinstall macOS. This will give you a fresh start and will also free up major space on your mac. 
 
 <figure>
 <img src="/assets/img/macOS-setup-guide/first-time.jpg" width=500 style="display: block; margin: 0 auto">
@@ -29,25 +29,25 @@ It is a good idea to have a fresh installation of macOS on your Mac. There are t
 <img src="/assets/img/macOS-setup-guide/homebrew.png" width=400 height=200 style="display: block; margin: 0 auto">
 </figure>
 
-Homebrew calls itself *the missing package manager* for macOS and is an essential tool for any developer. To use Homebrew, ensure that you have installed the Command Line Tools for Xcode. These tools, which include compilers and other necessary components for building from source. You can also install them directly from the terminal using the following command.
+Homebrew calls itself *the missing package manager* for macOS and is an essential tool for any developer. To use Homebrew, ensure that you have installed the Command Line Tools for ``Xcode.`` These tools, which include compilers and other necessary components for building from source. You can also install them directly from the terminal using the following command:
 
 ```bash
 xcode-select --install
 ```
-And then install Homebrew using the following command.
+And then install Homebrew using the following command:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-After installing Homebrew, you can run the following command to check if everything is working fine.
+After installing Homebrew, you can run the following command to check if everything is working fine:
 ```bash
 brew doctor
 ```
 
-You can use Homebrew to install a variety of software, including command-line tools like Git and languages like Node.js. To see what you can install with Homebrew, you can run the following command.
+You can use Homebrew to install a variety of software, including command-line tools like Git and languages like Node.js. To see what you can install with Homebrew, you can run the following command:
 ```bash
 brew install <formula>
 ```
-And to update Homebrew itself, you can run the following command.
+And to update Homebrew itself, you can run the following command:
 ```bash
 brew update
 brew upgrade <formula>
@@ -56,7 +56,7 @@ To get rid of older versions of formulas installed on your system, in case you w
 ```bash
 brew cleanup
 ```
-To uninstall a formula, you can run the following command.
+To uninstall a formula, you can run the following command:
 ```bash
 brew uninstall <formula>
 ```
@@ -64,7 +64,7 @@ brew uninstall <formula>
 Homebrew Cask extends Homebrew and brings its elegance, simplicity, and speed to the installation and management of GUI macOS applications such as Visual Studio Code and Google Chrome. This is done by providing a friendly CLI workflow for the administration of macOS applications distributed as binaries such that you need not drag and drop those `.dmg` files to your Applications folder.
 To know if an application is available on Cask, one must refer to the [Official Cask Formulae](https://formulae.brew.sh/cask/){:target="_blank"} page. 
 
-One can also search for an application using brew. To search an application, you can run the following command.
+One can also search for an application using brew. To search an application, you can run the following command:
 ```bash
 brew search <application>
 ```
@@ -82,7 +82,7 @@ brew search <application>
 
 iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted. It has some powerful features that make it the perfect choice for developers. 
 
-You can see the features from [here](https://iterm2.com/features.html){:target="_blank"} but some of the features that I like are: `Search`,   `Autocomplete`, `24-Bit Color`, `Configurability` and many more. You can use Homebrew to install iTerm2 using the following command.
+You can see the features from [here](https://iterm2.com/features.html){:target="_blank"} but some of the features that I like are: `Search`,   `Autocomplete`, `24-Bit Color`, `Configurability` and many more. You can use Homebrew to install iTerm2 using the following command:
 ```bash
 brew install --cask iterm2
 ```
@@ -102,7 +102,7 @@ brew tap homebrew/cask-fonts && brew install --cask font-<font-name>
 <br/>
 
 #### Tree Command
-Tree is a recursive directory listing command that produces a depth indented listing of files, which is colorized ala dircolors if the LS_COLORS environment variable is set and output is to tty. You can install tree using Homebrew using the following command.
+Tree is a recursive directory listing command that produces a depth indented listing of files, which is colorized ala dircolors if the LS_COLORS environment variable is set and output is to tty. You can install tree using Homebrew using the following command:
 ```bash
 brew install tree
 ```
@@ -110,7 +110,7 @@ brew install tree
 <img src="/assets/img/macOS-setup-guide/brew-tree.jpg" width=570 height=450 style="display: block; margin: 0 auto">
 </figure>
 
-and then use `tree` command to see the directory structure.
+and then use `tree` command to see the directory structure of your current directory. For example, I have a directory named `py-pg` on my desktop and I want to see the directory structure of that directory, so I will run the following command:
 ```bash
 (base) ➜  ~ cd Desktop/py-pg
 (base) ➜  py-pg tree
@@ -132,12 +132,12 @@ and then use `tree` command to see the directory structure.
 <br/>
 
 #### Auto Suggestions
-Bash completion is a bash function that allows you to auto complete commands or arguments by typing partially commands or arguments, then pressing the `[Tab]` key. This will help you when writing the bash command in terminal. You can install suggestions using Homebrew using the following command.
+Bash completion is a bash function that allows you to auto complete commands or arguments by typing partially commands or arguments, then pressing the `[Tab]` key. This will help you when writing the bash command in terminal. You can install suggestions using Homebrew using the following command:
 ```bash
 brew install bash-completion
 ```
 
-Alternatively, you can search additional packages that are available under `completions` by typing the following command.
+Alternatively, you can search additional packages that are available under `completions` by typing the following command:
 ```bash
 brew search completions
 ```
@@ -157,7 +157,7 @@ brew install zsh-completions
 
 
 ### Oh-My-Z(sh)ell
-Zsh, short for the Z shell, is a Unix shell that enhances the default bash shell on macOS with extra functionalities. It is advisable to choose zsh instead of bash and consider installing a framework for a better experience in managing configuration, plugins, and themes. Install `zsh` using Homebrew using the following command.
+Zsh, short for the Z shell, is a Unix shell that enhances the default bash shell on macOS with extra functionalities. It is advisable to choose zsh instead of bash and consider installing a framework for a better experience in managing configuration, plugins, and themes. Install `zsh` using Homebrew using the following command:
 ```bash
 brew install zsh
 ```
@@ -167,7 +167,7 @@ Now, we should install `Oh-My-Zsh` which is an open-source framework for managin
 <img src="/assets/img/macOS-setup-guide/omz.png" width=500 height=300 style="display: block; margin: 0 auto">
 </figure>
 
-You can install `Oh-My-Zsh` using the following command.
+You can install `Oh-My-Zsh` using the following command:
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
