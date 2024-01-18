@@ -8,39 +8,41 @@ weight: 2
 **Processing Image Advertisements for Contextual Analysis** [**[<font color='blue'>Writing</font>]**](articles/23/processing-ads){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/processing-advertisements){:target="_blank"}
 <br/>
 
-<div style="display: flex; align-items: center;">
-        <div style="flex: 1;">
-            <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
             Image based advertisements are still one of the best ways to promote products but it is difficult to personalize the content for the audience and covey the context. This study tries to compare three backbone deep learning architectures namely, ResNet 50, MobileNetv3 Large and EfficientNet B3 on an image advertisement dataset to classify the underlying contexts or sentiments understood by the consumers. Transfer learning is applied to mitigate the small dataset problem.</p>
         </div>
-        <div style="margin-left: -10px;">
-            <img src="/assets/img/image-advertisements/pre-processing.png" alt="Image" style="width: 300px; height: 200px;">
+        <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+            <img src="/assets/img/image-advertisements/pre-processing.png" alt="Image" style="width: 100%; max-width: 300px; height: auto;">
         </div>
 </div>
 
 **Steamgestion - A Data Ingestion Pipeline** [**[<font color='blue'>Writing</font>]**](articles/22/steamgestion-data-pipeline){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}
 <br/>
 
-<div style="display: flex; align-items: center;">
-        <div style="flex: 1;">
-            <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
-            Gaming industry is one of the most prominent industries in the market. To determine the popularity of a game, reviews are of paramount importance. This project aims to analyse Steam reviews dataset using a Distributed System Design which is a Flask asynchronous backend which incorporates an Elasticsearch engine deployed in a Docker-Kubernetes environment where data ingestion queues are handled by RabbitMQ, processes are handled by Celery & data is cached in Redis.</p>
-        </div>
-        <div style="margin-left: -10px;">
-            <img src="/assets/img/steamgestion/architecture.png" alt="Image" style="width: 300px; height: 200px;">
-        </div>
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+        Gaming industry is one of the most prominent industries in the market. To determine the popularity of a game, reviews are of paramount importance. This project aims to analyse Steam reviews dataset using a Distributed System Design which is a Flask asynchronous backend which incorporates an Elasticsearch engine deployed in a Docker-Kubernetes environment where data ingestion queues are handled by RabbitMQ, processes are handled by Celery & data is cached in Redis.</p>
+    </div>
+    <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+        <img src="/assets/img/steamgestion/architecture.png" alt="Image" style="width: 100%; max-width: 300px; height: auto;">
+    </div>
 </div>
 
 
 **Credit Risk Modelling** [**[<font color='blue'>Writing</font>]**](articles/23/credit-risk-modelling){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/credit-risk-modelling){:target="_blank"}
 <br/>
 
-<div style="display: flex; align-items: center;">
-        <div style="flex: 1;">
-            <p><code class="language-plaintext highlighter-rouge">Credit risk is the risk of loss that may occur from the failure of any party to abide by the terms and conditions of any financial contract, principally, the failure to make required payments on loans. This project aims to predict the credit risk of a customer. The data is cleaned, preprocessed, visualised and then used to various machine learning algorithms by oversampling and undersampling the dataset.</code></p>
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+        <!-- <code class="language-plaintext highlighter-rouge"> -->
+        Credit risk is the risk of loss that may occur from the failure of any party to abide by the terms and conditions of any financial contract, principally, the failure to make required payments on loans. This project aims to predict the credit risk of a customer. The data is cleaned, preprocessed, visualised and then used to various machine learning algorithms by oversampling and undersampling the dataset.</code></p>
         </div>
-        <div style="margin-left: -10px;">
-            <img src="/assets/img/credit-card-risk-modelling/imbalanced-scenario.png" alt="Image" style="width: 500px; height: 200px;">
+        <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+            <img src="/assets/img/credit-card-risk-modelling/imbalanced-scenario.png" alt="Image" style="width: 100%; max-width: 350px; height: 100%;">
         </div>
 </div>
 
@@ -48,25 +50,27 @@ weight: 2
 **Lung Disease Classification using Chest X-rays** [**[<font color='blue'>Writing</font>]**](articles/22/chest-x-ray){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/Chest-X-Ray-Classification){:target="_blank"}
 <br/>
 
-<div style="display: flex; align-items: center;">
-        <div style="flex: 1;">
-            <p><code class="language-plaintext highlighter-rouge">Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using xray scans from three different datasets using three different neural network architectures using Pytorch and perform an ablation study by changing learning rates. The dimensional understanding is visualized using t-SNE and the ditection of thorax deseases in x-ray scans is visualized using Grad-CAM.</code></p>
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+        Chest X-rays scans are among the most accessible ways to diagnose lung diseases. This study tries to compare the detection of lung diseases using xray scans from three different datasets using three different neural network architectures using Pytorch and perform an ablation study by changing learning rates. The dimensional understanding is visualized using t-SNE and the ditection of thorax deseases in x-ray scans is visualized using Grad-CAM.</code></p>
         </div>
-        <div style="margin-left: -10px;">
-            <img src="/assets/img/chest-x-ray/histogram-equilization.png" alt="Image" style="width: 400px; height: 200px;">
+        <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+            <img src="/assets/img/chest-x-ray/histogram-equilization.png" alt="Image" style="width: 100%; max-width: 350px; height: auto;">
         </div>
 </div>
 
 **Depression Data Collection Portal** [**[<font color='blue'>Writing</font>]**](articles/23/find-help){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/find-help){:target="_blank"}
 <br/>
 
-<div style="display: flex; align-items: center;">
-        <div style="flex: 1;">
-            <p><code class="language-plaintext highlighter-rouge">A backend application based on Java Spring Boot that caters to the need of collecting data for patients with depression. Patients are able to register themselves, perform self assessment in order to get help from a counsellor or doctor. This self-assessment data will be communicated to a counsellor or doctor and then appropriate action will be taken accordingly.
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+        A backend application based on Java Spring Boot that caters to the need of collecting data for patients with depression. Patients are able to register themselves, perform self assessment in order to get help from a counsellor or doctor. This self-assessment data will be communicated to a counsellor or doctor and then appropriate action will be taken accordingly.
             </code></p>
         </div>
-        <div style="margin-left: -10px;">
-            <img src="/assets/img/find-help/home-page.png" alt="Image" style="width: 400px; height: 250px;">
+        <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+            <img src="/assets/img/find-help/home-page.png" alt="Image" style="width: 100%; max-width: 350px; height: auto;">
         </div>
 </div>
 
