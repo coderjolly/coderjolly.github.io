@@ -12,12 +12,17 @@ nav_exclude: true
 
 <!-- SUMMARY --> 
 
-I am graduate student at **Concordia University, Montréal** pursuing **Master's in Applied Computer Science.** Throughout my career, I have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels, ranging from my classmates to upper-management in order to push my boundaries. I am eager to apply my knowledge to solve real-world problems and to make machines predict the future by connecting the dots from the past.
+I am post-graduate student at **Concordia University, Montréal** pursuing **Master's in Applied Computer Science.** Throughout my career, I have obtained over 3 years of experience in designing machine learning and data science solutions and have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels.
 
-Before moving to the realm of data science, I have contributed in backend development and have had the opportunity to participate in Google Summer of Code (GSOC) as a mentor in organizations like PublicLab and DIAL. Currently, I am seeking **opportunities for Summer-2024** and **full-time opportunities**  in field of data science and machine learning. Prior to my master’s, I have obtained over 1.5 years of experience in designing machine learning and data science solutions.
+<!-- ranging from my classmates to upper-management in order to push my boundaries.  -->
 
-&#8226; My premiere association with [Sabudh Foundation](https://sabudh.org/){:target="_blank"} as a **Data Science Intern** initiated my journey towards data science. Following that, I have worked with the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/){:target="_blank"} as a **Jr. Data Engineer** and  [Tatras Data](https://tatrasdata.com/){:target="_blank"} as **Jr. Data Scientist.** <br/>
-&#8226; I have also worked at Canada's largest home and business insurance company as a **Data Scientist 1** at [Intact Financial Corporation](https://intactlab.ca/).
+I have had the privilege of contributing as a **Data Scientist 1** at [Intact Financial Corporation](https://intactlab.ca/), Canada's leading home and business insurance company. During my tenure, I played a pivotal role in the development of `CallQualitySearch`—evaluating the quality of calls. My responsibilities included assessing precision and recall values for rule triggers, where I skillfully visualized these metrics to enhance performance insights. I also proficiently utilized SQL to extract complex data, enabling a comprehensive understanding of the correlation between the ROC model for inbound and outbound calls. 
+
+<!-- This experience not only honed my data science skills but also showcased my ability to derive meaningful conclusions from complex datasets. I am eager to apply my knowledge to solve real-world problems and to make machines predict the future by connecting the dots from the past. -->
+
+Before moving to the realm of data science, I have contributed in backend development and have had the opportunity to participate in `Google Summer of Code (GSOC)` as a mentor in organizations like `PublicLab and DIAL.` My premiere association with [Sabudh Foundation](https://sabudh.org/){:target="_blank"} as a **Data Science Intern** initiated my journey in data science. Following that, I have worked with the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/){:target="_blank"} as a **Jr. Data Engineer** and  [Tatras Data](https://tatrasdata.com/){:target="_blank"} as **Jr. Data Scientist.** 
+
+Currently, I am seeking **full-time opportunities** or **opportunities for Summer-2024** in field of data science and machine learning.
 
 <!-- ----------------EXPERIENCE----------------------  -->
 
