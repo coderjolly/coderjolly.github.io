@@ -83,11 +83,6 @@ weight: 2
 ``You must have seen "Moneyball", where Peter Brand explains Billy Beane that "Its about getting things down to one number using stats the way we read them (players), we find value in player nobody else can see." So, to predict this Market Price of players, data from a csv is ingested and then applied to machine learning algorithms.``
 <!-- for comparing their R^2 values and an EDA is performed to understand the data in negotiating players for transfers -->
 
-**Explaining News Articles using LLMs** [**[<font color='blue'>Writing</font>]**](articles/24/explaining-news-using-llms){:target="_blank"}
-<br/>
-
-``Language Models are the backbone of Natural Language Processing. They are used in a variety of tasks such as Machine Translation, Text Summarization, Question Answering, etc. This writing tries to understand how LLMs can be used to explain news articles by using the pre-trained LLMs exposed on APIs such as OpenAI and GPT3.5 and how they can used for the task of article summarization, keyword generation, etc.``
-
 
 <!-- **Customer Churn Prediction** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/customer-churn-prediction){:target="_blank"}
 <br/>
