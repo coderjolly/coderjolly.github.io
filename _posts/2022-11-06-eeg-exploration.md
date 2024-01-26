@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "EEG Signal Analysis"
-date:   2023-02-02
+date:   2022-11-06
 title_include: true
 categories: writing
 image_url: ""
