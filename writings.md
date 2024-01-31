@@ -7,7 +7,7 @@ weight: 1
 
 ## Writings
 
-[``Explaining Articles using LLMs``](articles/24/explaining-articles-using-llms){:target="_blank"}<br/>
+[``Explaining Articles using LLMs``](articles/24/explaining-news-using-llms){:target="_blank"}<br/>
 Natural Language Processing is the backbone of Language Models. They are used in a variety of tasks such as Machine Translation, Text Summarization, Question Answering, etc. This writing tries to understand how LLMs can be used to explain news articles by using the pre-trained LLMs exposed on APIs such as OpenAI and GPT3.5 and how they can used for the task of article summarization, keyword generation, etc.
 
 [``Credit Risk Modelling``](articles/23/credit-risk-modelling){:target="_blank"}<br/>

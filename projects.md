@@ -6,7 +6,7 @@ weight: 2
 <style>body {text-align: justify}</style>
 
 
-**Explaining Articles using LLMs** [**[<font color='blue'>Writing</font>]**](articles/24/explaining-articles-using-llms){:target="_blank"}{:target="_blank"}
+**Explaining Articles using LLMs** [**[<font color='blue'>Writing</font>]**](articles/24/explaining-news-using-llms){:target="_blank"}{:target="_blank"}
 <br/>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
