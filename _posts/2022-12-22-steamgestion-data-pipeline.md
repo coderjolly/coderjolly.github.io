@@ -27,6 +27,8 @@ with an interconnection with ``Celery`` workers capable of horizontal pod scalin
 
 ![architecture](/assets/img/steamgestion/architecture.png)
 
+## Directory Structure
+
 The directory structure of the project is also shown in the figure below which is the exact version as seen on Github repository [here](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}.
 
 ![directory-structure](/assets/img/steamgestion/directory-structure.jpg)

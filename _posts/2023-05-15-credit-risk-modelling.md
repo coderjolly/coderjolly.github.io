@@ -19,7 +19,7 @@ Even though the results of these models are binary, that whether a person is ris
 
 ## Modelling Workflow
 
-As the defaulters are a small percentage of the total population, the data becomes is highly imbalanced in these situations. This writing investigates the use of data under-sampling and oversampling techniques for resolving this class imbalance, the development of different classification machine learning models, and methodologies for comparing and evaluating these models. The code for this flow can be seen in the Github [`repo`](https://github.com/coderjolly/credit-risk-modelling){:target="_blank"}.
+As the defaulters are a small percentage of the total population, the data becomes is highly imbalanced in these situations. This writing investigates the use of data under-sampling and oversampling techniques for resolving this class imbalance, the development of different classification machine learning models, and methodologies for comparing and evaluating these models. The code for this flow can be seen in the Github [`repo`](https://github.com/coderjolly/credit-risk-modelling){:target="_blank"}. The repository is kept private because of plagiarism reasons.
 
 <figure>
 <img src="/assets/img/credit-card-risk-modelling/ML-workflow.png" width=700 style="display: block; margin: 0 auto">

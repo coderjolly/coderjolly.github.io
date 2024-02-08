@@ -20,17 +20,43 @@ The system uses a Flask backend which has been deployed as a backend service int
 
 ![architecture](/assets/img/llms/pipeline-architecture.png)
 
-The directory structure of the project is shown in the figure below which is the exact version as seen on Github.
-
-<figure>
-<img src="/assets/img/llms/directory-structure.png" width=450 height=650>
-</figure>
-
-
 Firstly, we use OpenAI to summarise the provided text because of its training model optimised by human feedback. Summarisation has the ability to not only shorten the length, but also improve the semantic details that fail to be noticed in lines of text. Secondly, we use Meaningcloud Text clustering API to cluster the summarised sentences based on their semantics and assign a descriptive label to each cluster. Instead of the basic document grouping mode, we choose the topic modelling mode implemented with the K-means algorithm. This approach helps to discover hidden themes in sentences by providing more descriptive labels than classical clustering algorithms. With the descriptive labels of each cluster, we again used OpenAI to extract the keywords from the summarised transcriptions. Instead of RAKE, Spacy, and TextRank, we chose OpenAI as it suits the context of the work. For example, only OpenAI supports extraction of both keyword and keyphrases. The industry explorations reveal that the keywords extracted by OpenAI were more meaningful and closer to reflect the gist of text provided. For layers with optional image toggles, we fetched the images based on each keyword/keyphrase using Google Image Search.
 
+## Directory Structure
+<br/>
+<div style="float: left; margin-right: 10px;">
+  <img src="/assets/img/llms/directory-structure.png" width="350" height="591" alt="Directory Structure">
+</div>
 
-<h1 style="text-align:left;" >Under Construction. Uh oh!</h1>
+The directory structure of the project is shown in the figure beside which can also be seen on Github [`here`](https://github.com/coderjolly/llm-for-articles). The repository is kept private because of plagiarism reasons. 
+
+While the segregation of folders and their respective functions is understood, the `apis` directory incorporates all the APIs using Flask Blueprints that have been registed in `main.py`. 
+
+The `celerey_` directory is resposible for controlling and initializing celery and the `exceptions` directory is used to handle a <u>CustomErrors</u>.
+
+Integration of OpenAI APIs for processing pipeline tasks like <u>Summarization, Keyword Extraction & Clustering</u> and <u>Theme Assignment</u> are kept under `utils.py` as utility functions or helper functions for integrating the above mentioned modules.
+
+Config variables like <u>max_tokens</u> for the API keys of `GPt 3.5 Turbo` and `Embedding Models` are located under `cfg.py` followed by the <u>google-search_key</u> and <u>engine_key</u> for finding image-addresses.
+
+## Installation
+
+Whenever dealing with python based applications, it is a very good practice to make a virtual environment and then deal with the process of installing libraries and dependencies as the installation then affects one particular environment. One can use any virtual environment to inilise this project by either using `venv` or `conda`.
+
+Next, we need to make sure that our dependies are in order, so we will use the following command to run the requirements for this project. The command is as follows:
+
+```python
+pip install -r requirements.txt
+```
+
+After the successfull installation of the libraries and dependencies, we will proceed forward to run the application by running the server from `main.py`. The command is as follows:
+
+```python
+python3.8 main.py
+```
+Following this, a prompt will be generated asking to route the attention to `locahost:5000` which is the default server address for this application rendering a front-end to interact with the user.
+
+
+<h1 style="text-align:left;" >Under Construction, Uh oh!</h1>
 <section class="lost-container">
   <!-- <h1 style="text-align:left;" >Uh oh!</h1> -->
   <div style="text-align:left;" class="link">
