@@ -53,15 +53,40 @@ After the successfull installation of the libraries and dependencies, we will pr
 ```python
 python3.8 main.py
 ```
-Following this, a prompt will be generated asking to route the attention to `locahost:5000` which is the default server address for this application rendering a front-end to interact with the user.
+Following this, a prompt will be generated displaying that the server is running at the following address.
+```zsh
+Running on all addresses (0.0.0.0)
+Running on http://127.0.0.1:3000
+Running on http://192.168.1.146:3000
+ ```
+![flask-server](/assets/img/llms/flask-server.png)
 
+While this flask server is running, we need to make sure that that the `redis-server` is running in another terminal tab. If redis is not installed in your system, one can use:
 
-<h1 style="text-align:left;" >Under Construction, Uh oh!</h1>
-<section class="lost-container">
-  <!-- <h1 style="text-align:left;" >Uh oh!</h1> -->
-  <div style="text-align:left;" class="link">
-    <img class="selfie" alt="{{ site.title }}" src="{{ site.url }}/assets/img/error.gif" />
-      <br /> <br /> <br />
-    <a href="/">Take me home!</a>
-  </div>
-</section>
+```zsh
+sudo apt install redis-server OR brew install redis --> For installing redis
+redis-server --> For running redis in the terminal
+```
+![redis-server](/assets/img/llms/redis-server.png)
+
+And lastly, we need to make sure that the celery is also running in another terminal tab, one can use the following command to trigger it:
+
+```zsh
+celery -A celery_.app worker -Q run_pipe_queue -n pipe_task_worker@%h --loglevel=INFO
+```
+![celery-server](/assets/img/llms/celery-server.png)
+
+This will essentially triggers `pipe.py` which handles the complete pipeline under `pipe()` function which is interleaved with `utils.py` utility or helper functions for the process of summarization and keyword clustering. 
+
+The API endpoint of `http://127.0.0.1/pipe` is exposed which can be hit using a `POST` request on Postman to mimick it's actual usage in order to receive the outputs under `ideas.json` in the `files` directory. The output for any news transcript/article would be as follows in the below screenshot, where:
+```
+- raw - Represents the orginal news article or text that needs to summarised.
+- summary - As the name suggests is the summary of the raw text.
+- keywords - Various keywords selected from the raw text.
+- images - Images for the selective keywords from the raw text.
+- timestamp - Timestamp for the API completion hit
+```
+
+![ideas-json](/assets/img/llms/ideas-json.png)
+
+<!-- ### Postman Usage -->
