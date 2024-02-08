@@ -15,7 +15,7 @@ weight: 2
             Natural Language Processing is the backbone of Language models. They are used in a variety of tasks such as Machine Translation, Text Summarization, Question Answering, etc. This writing tries to understand how LLMs can be used to explain news articles by using the pre-trained LLMs exposed on APIs such as OpenAI and GPT3.5 and how they can used for the task of article summarization, keyword generation, etc.</p>
         </div>
         <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-            <img src="/assets/img/llms/pipeline-architecture.png" alt="Image" style="width: 100%; max-width: 475px; height: 275px;">
+            <img src="/assets/img/llms/pipeline-architecture.png" alt="Image" style="width: 100%; max-width: 575px; height: 275px;">
         </div>
 </div>
 
@@ -28,7 +28,7 @@ weight: 2
             Image based advertisements are still one of the best ways to promote products but it is difficult to personalize the content for the audience and covey the context. This study tries to compare three backbone deep learning architectures namely, ResNet 50, MobileNetv3 Large and EfficientNet B3 on an image advertisement dataset to classify the underlying contexts or sentiments understood by the consumers. Transfer learning is applied to mitigate the small dataset problem.</p>
         </div>
         <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-            <img src="/assets/img/image-advertisements/pre-processing.png" alt="Image" style="width: 100%; max-width: 350px; height: 250px;">
+            <img src="/assets/img/image-advertisements/pre-processing.png" alt="Image" style="width: 100%; max-width: 450px; height: 275px;">
         </div>
 </div>
 
@@ -41,7 +41,7 @@ weight: 2
         Gaming industry is one of the most prominent industries in the market. To determine the popularity of a game, reviews are of paramount importance. This project aims to analyse Steam reviews dataset using a Distributed System Design which is a Flask asynchronous backend which incorporates an Elasticsearch engine deployed in a Docker-Kubernetes environment where data ingestion queues are handled by RabbitMQ, processes are handled by Celery & data is cached in Redis.</p>
     </div>
     <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-        <img src="/assets/img/steamgestion/architecture.png" alt="Image" style="width: 100%; max-width: 350px; height: 250px;">
+        <img src="/assets/img/steamgestion/architecture.png" alt="Image" style="width: 100%; max-width: 450px; height: 350px;">
     </div>
 </div>
 
