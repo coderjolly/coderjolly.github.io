@@ -8,20 +8,32 @@ weight: 2
 
 **Explaining Articles using LLMs** [**[<font color='blue'>Writing</font>]**](articles/24/explaining-news-using-llms){:target="_blank"}{:target="_blank"}
 <br/>
-
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1; margin-right: 10px;">
         <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
             Natural Language Processing is the backbone of Language models. They are used in a variety of tasks such as Machine Translation, Text Summarization, Question Answering, etc. This writing tries to understand how LLMs can be used to explain news articles by using the pre-trained LLMs exposed on APIs such as OpenAI and GPT3.5 and how they can used for the task of article summarization, keyword generation, etc.</p>
         </div>
         <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-            <img src="/assets/img/llms/pipeline-architecture.png" alt="Image" style="width: 100%; max-width: 575px; height: 275px;">
+            <img src="/assets/img/llms/pipeline-architecture.png" alt="Image" style="width: 100%; max-width: 600px; height: 275px;">
         </div>
 </div>
 
+
+**Steamgestion - A Data Ingestion Pipeline** [**[<font color='blue'>Writing</font>]**](articles/22/steamgestion-data-pipeline){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}
+<br/>
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+        Gaming industry is one of the most prominent industries in the market. To determine the popularity of a game, reviews are of paramount importance. This project aims to analyse Steam reviews dataset using a Distributed System Design which is a Flask asynchronous backend which incorporates an Elasticsearch engine deployed in a Docker-Kubernetes environment where data ingestion queues are handled by RabbitMQ, processes are handled by Celery & data is cached in Redis.</p>
+    </div>
+    <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+        <img src="/assets/img/steamgestion/architecture.png" alt="Image" style="width: 100%; max-width: 450px; height: 375``px;">
+    </div>
+</div>
+
+
 **Processing Image Advertisements for Contextual Analysis** [**[<font color='blue'>Writing</font>]**](articles/23/processing-ads){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/processing-advertisements){:target="_blank"}
 <br/>
-
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1; margin-right: 10px;">
         <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
@@ -32,23 +44,9 @@ weight: 2
         </div>
 </div>
 
-**Steamgestion - A Data Ingestion Pipeline** [**[<font color='blue'>Writing</font>]**](articles/22/steamgestion-data-pipeline){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}
-<br/>
-
-<div style="display: flex; flex-wrap: wrap; align-items: center;">
-    <div style="flex: 1; margin-right: 10px;">
-        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
-        Gaming industry is one of the most prominent industries in the market. To determine the popularity of a game, reviews are of paramount importance. This project aims to analyse Steam reviews dataset using a Distributed System Design which is a Flask asynchronous backend which incorporates an Elasticsearch engine deployed in a Docker-Kubernetes environment where data ingestion queues are handled by RabbitMQ, processes are handled by Celery & data is cached in Redis.</p>
-    </div>
-    <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-        <img src="/assets/img/steamgestion/architecture.png" alt="Image" style="width: 100%; max-width: 450px; height: 350px;">
-    </div>
-</div>
-
 
 **Credit Risk Modelling** [**[<font color='blue'>Writing</font>]**](articles/23/credit-risk-modelling){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/credit-risk-modelling){:target="_blank"}
 <br/>
-
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1; margin-right: 10px;">
         <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
@@ -63,7 +61,6 @@ weight: 2
 
 **Lung Disease Classification using Chest X-rays** [**[<font color='blue'>Writing</font>]**](articles/22/chest-x-ray){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/Chest-X-Ray-Classification){:target="_blank"}
 <br/>
-
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1; margin-right: 10px;">
         <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
@@ -76,7 +73,6 @@ weight: 2
 
 **Depression Data Collection Portal** [**[<font color='blue'>Writing</font>]**](articles/23/find-help){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/find-help){:target="_blank"}
 <br/>
-
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1; margin-right: 10px;">
         <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
@@ -91,7 +87,6 @@ weight: 2
 
 **News Recommendation System** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/news-recommender){:target="_blank"}
 <br/>
-
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1; margin-right: 10px;">
         <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
