@@ -251,7 +251,11 @@ It was observed that MobileNet takes the least amount of time to train while Res
 
 ## Feedback
 
-`I would love to receive  any feedback or suggestions for this writing. It has been written as per my understanding and the collective efforts done by my team followed by the learnings I kindled during my journey in this project. I hope you find it useful and easy to understand. `
+`I am grateful to have worked alongside` [Rohan Chopra](https://github.com/rohanchopra) `who has helped me understand the essence of data pipeline generation, segregating tasks into workable components and to transform just jupyter notebooks into workable projects.` 
+
+`His profound understanding of machine learning concepts, algorithms, and techniques have greatly enhanced my interpretations and ability to tackle complex problems. He has consistently provided insightful feedback, constructive criticism, and practical suggestions, which have significantly improved the quality of our work together.`
+
+``I would also love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey. I hope you find it useful and easy to understand.``
 
 <!-- <br/>
 
