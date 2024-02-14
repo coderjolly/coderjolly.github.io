@@ -33,7 +33,9 @@ A publicly available dataset developed by the combined efforts of Hussain et al.
 
 Before training, the images were analysed to come up with a pre-processing pipeline to denoise the images and improve their quality as most of the images were highly compressed.
 
-<b>A. Bilateral Filter</b> - For improving the quality of the images, a smoothing filter for images had to be employed. So, a bilateral filter was used to reduce noise while preserving edges in a non-linear manner. It is quintessential to know that all other filters smudge the edges, while Bilateral Filtering retains them.
+<b>A. Bilateral Filter</b>
+
+For improving the quality of the images, a smoothing filter for images had to be employed. So, a bilateral filter was used to reduce noise while preserving edges in a non-linear manner. It is quintessential to know that all other filters smudge the edges, while Bilateral Filtering retains them.
 
 <figure>
 <img src="/assets/img/image-advertisements/ads-bilateral.png" width=1050 style="display: block; margin: 0 auto">
@@ -49,7 +51,9 @@ As shown in the figure above, after applying different values of d, sigma(s) and
 - The original image had color banding or posterization, an ugly artifact that can be seen in digital images around objects. This has been notably reduced and the final image is better than previous one. 
 - Another remarkable change that was witnessed was the compression artifacts, a distortion of media in images which is caused by lossy compression of media w
 
-<b>B. Pre-processing Techniques</b> - Pytorch provides various functional transformations that can be applied using the torchvision.transform module. As these transformations require a parameter such as a factor by which an image can be transformed, therefore they cannot be applied to all images owing to the fact that all images are different. For example. For example, a Hue transform accepts an image along with a parameter, hue factor that ranges from [-0.5 to 0.5]. The extremes, 0.5 and -0.5 give complete reversal of the hue channel in HSV space in positive and negative direction respectively whereas 0 means
+<b>B. Pre-processing Techniques</b>
+
+Pytorch provides various functional transformations that can be applied using the torchvision.transform module. As these transformations require a parameter such as a factor by which an image can be transformed, therefore they cannot be applied to all images owing to the fact that all images are different. For example. For example, a Hue transform accepts an image along with a parameter, hue factor that ranges from [-0.5 to 0.5]. The extremes, 0.5 and -0.5 give complete reversal of the hue channel in HSV space in positive and negative direction respectively whereas 0 means
 no shift. The same level of factor cannot be expected from other techniques such as sharpness or contrast etc. Hence, this parameter cannot be kept constant for all images as it will have a variable effect or appeal on different images.
 
 Five random images have been selected and functional image processing techniques like hue transforms, gamma transforms, solarize transformations, sharpness, etc have been applied to reach a conclusion that all images bearing uniqueness in their characteristics respond differently to functional transformations applied.
