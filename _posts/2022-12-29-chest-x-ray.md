@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Lung Disease Classification"
-date:   2022-12-30
+title: "Lung Disease Classification"
+date: 2022-12-30
 title_include: true
 categories: writing
 image_url: ""
@@ -15,11 +15,13 @@ Traditionally, the interpretation of chest X-rays has been performed by radiolog
 <img src="/assets/img/chest-x-ray/chest-xray-meme.jpeg" width=550 style="display: block; margin: 0 auto">
 </figure>
 
-Chest X-rays scans are among the most accessible ways to diagnose lung diseases still. This study tries to compare the detection of lung diseases using these scans from  three different datasets using deep neural networks. Three different backbone architectures, ResNet34, MobileNet V3 Large and EfficientNet B1 were used along with a set of models trained using transfer learning. Finally, models are visualized using t-SNE and gradCAM to understand the features learned by the models and correlate them with the actual effect of the diseases on the lungs.
+Chest X-rays scans are among the most accessible ways to diagnose lung diseases still. This study tries to compare the detection of lung diseases using these scans from three different datasets using deep neural networks. Three different backbone architectures, ResNet34, MobileNet V3 Large and EfficientNet B1 were used along with a set of models trained using transfer learning. Finally, models are visualized using t-SNE and gradCAM to understand the features learned by the models and correlate them with the actual effect of the diseases on the lungs.
 
 ## Dataset Used
+
 We have choosen 3 types of chest X-Ray datasets (Tab. 1) that have varying disease types to ensure that our models are robust. The
 main concern while selecting the datasets was the number of images per class as most datasets were highly skewed. We rejected datasets where the images were compressed and noisy as this can lead to mis-diagnosis. This will help reduce the time spent in the pre-processing stage. The dataset links are as follows:
+
 - Dataset 1 - <a href="https://www.kaggle.com/datasets/tolgadincer/labeled-chest-xray-images">Kaggle Link</a>
 - Dataset 2 - <a href="https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database">Kaggle Link</a>
 - Dataset 3 - <a href="https://www.kaggle.com/datasets/nih-chest-xrays/data">Kaggle Link</a>
@@ -27,18 +29,20 @@ main concern while selecting the datasets was the number of images per class as 
 A sample of the dataset can be downloaded from the following [link](https://drive.google.com/file/d1OpvSkIDzOlJUSCLJ-wfXSVsBbfhntun4/view?usp=sharing)
 
 | Dataset                 | No. of Images                | Classes | Image Size  |
-|-------------------------|------------------------------|---------|-------------|
+| ----------------------- | ---------------------------- | ------- | ----------- |
 | Dataset 1 (COVID)       | `10k:3.6k:1.3k`              | `3`     | `299x299`   |
 | Dataset 2 (PNEUMONIA)   | `3k:1.5k:1.5`                | `3`     | `224x224`   |
-| Dataset 3 (Chest Xray8) | `25k:12k:6k:5k:3k:2.7k:2.6k` | `7`     | `1024x1024` | 
+| Dataset 3 (Chest Xray8) | `25k:12k:6k:5k:3k:2.7k:2.6k` | `7`     | `1024x1024` |
 
 ![sample-dataset](/assets/img/chest-x-ray/sample-dataset.png)
 
 ## Methodology
-In this study, 12 models, four for each of the three datasets will be trained. 
+
+In this study, 12 models, four for each of the three datasets will be trained.
+
 - The first three models will be trained from scratch and the fourth model will be trained using transfer learning. The hyperparameters will be fixed across models to produce comparable results.
--  Next, hyperparameters will be tuned to find the best model. 
--  Finally, the models will be visualized using t-SNE and Grad-CAM to explain model results. 
+- Next, hyperparameters will be tuned to find the best model.
+- Finally, the models will be visualized using t-SNE and Grad-CAM to explain model results.
 
 <b>A. Pre-processing Techniques</b>
 
@@ -56,22 +60,36 @@ During training, the scans were augmented using RandomAdjustSharpness and Random
 
 Different backbone architectures were chosen to ensure that different types of convolution blocks were tested and finally <b>Resnet-34</b>, <b>MobileNet V3 Large</b> and <b>EfficientNet B1</b> were chosen finally because of there Imagenet Accuracy and number of training parameters.
 
-<div class="table-wrapper">
-<table>
-        <tr>
-            <th> Architecture </th> <th> Params (Mil.)</th> <th> Layers </th> <th> FLOPS (Bil.) </th> <th> Imagenet Acc. </th>
-        </tr>
-        <tr>
-            <th> MobileNet V3 Large </th> <td class="r"> 5.5 </td> <td> 18  </td> <td> 8.7 </td> <td class="r"> 92.6 </td>
-        </tr>
-        <tr>
-            <th> EfficientNet B1 </th> <td> 7.8 </td> <td> 25  </td> <td> 25.8 </td> <td> 94.9 </td>
-        </tr>
-        <tr>
-            <th> Resnet-34 </th> <td> 21.8 </td> <td> 34  </td> <td> 153.9 </td> <td> 91.4 </td>
-        </tr>
-</table>
-</div>
+  <table>
+    <tr>
+      <th>Architecture</th>
+      <th>Params (Mil.)</th>
+      <th>Layers</th>
+      <th>FLOPS (Bil.)</th>
+      <th>Imagenet Acc.</th>
+    </tr>
+    <tr>
+      <th>MobileNet V3 Large</th>
+      <td style="text-align: center;">5.5</td>
+      <td style="text-align: center;">18</td>
+      <td style="text-align: center;">8.7</td>
+      <td style="text-align: center;">92.6</td>
+    </tr>
+    <tr>
+      <th>EfficientNet B1</th>
+      <td style="text-align: center;">7.8</td>
+      <td style="text-align: center;">25</td>
+      <td style="text-align: center;">25.8</td>
+      <td style="text-align: center;">94.9</td>
+    </tr>
+    <tr>
+      <th>Resnet-34</th>
+      <td style="text-align: center;">21.8</td>
+      <td style="text-align: center;">34</td>
+      <td style="text-align: center;">153.9</td>
+      <td style="text-align: center;">91.4</td>
+    </tr>
+  </table>
 
 <br/>
 
@@ -79,74 +97,73 @@ Different backbone architectures were chosen to ensure that different types of c
 
 ## Experimental Setup
 
-First undersampling was performed on the datasets. Then, the scans were preprocessed using histogram equalization and Gaussian blur before resizing them and storing them in separate directories to make it easier for PyTorch dataloaders. 
+First undersampling was performed on the datasets. Then, the scans were preprocessed using histogram equalization and Gaussian blur before resizing them and storing them in separate directories to make it easier for PyTorch dataloaders.
 
 Two datasets in this study presented the multiclass classification problem while the third, chest X-ray 8 dataset presented the multiclass, multilabel classification problem. Thus, the training methodology was separated for these two problems. For the multilabel problem, a softmax layer had to be added before the loss function to get 0 or 1 prediction for all the classes of the data. For this, the BCEWITHLOGITSLOSS function of PyTorch was used as it combines the Sigmoid layer and the BCELoss function in one single class. This makes theses operations more numerically stable than their separate counterparts.
 
-The backbone architectures were obtained directly from the torchvision library and the final classification layer was modified for the selected datasets. For the models which had to be trained from scratch, the weights were randomly initialized and the entire model was trained for a total of 100 epochs each. 
+The backbone architectures were obtained directly from the torchvision library and the final classification layer was modified for the selected datasets. For the models which had to be trained from scratch, the weights were randomly initialized and the entire model was trained for a total of 100 epochs each.
 
 ![f1&loss_plots](/assets/img/chest-x-ray/f1&loss_9_plots.png)
 
 The above figure represents `Train & Val, F1 & Loss plots for the 9 models`. Initial training runs of the multilabel data produced a zero F1 score due to its highly imbalanced nature. To mitigate this, class wise weights were calculated and used with the loss function. This improved the F1 score considerably. Finally, the best models from each run by validation loss were used to get the test set metrics that are displayed in the tabel below.
 
-<div class="table-wrapper">
-    <table>
-        <tr>
-            <th>Model</th>
-            <th colspan="3" class="cmid">Resnet</th>
-            <th colspan="3" class="cmid">Mobilenet</th>
-            <th colspan="3" class="cmid">EfficientNet</th>
-        </tr>
-        <tr>
-            <th>Dataset</th>
-            <th>F1 Score</th>
-            <th>Time</th>
-            <th>Epoch</th>
-            <th>F1 Score</th>
-            <th>Time</th>
-            <th>Epoch</th>
-            <th>F1 Score</th>
-            <th>Time</th>
-            <th>Epoch</th>
-        </tr>
-       <tr>
-         <th> Pneumonia </th>
-         <td> 0.784 </td>
-         <td> 82 </td>
-         <td> <b> 22 </b> </td>
-         <td> <b> 0.804 </b> </td>
-         <td> <b> 75 </b> </td>
-         <td> 42 </td>
-         <td> 0.768 </td>
-         <td> 110 </td>
-         <td> 44 </td>
-      </tr>
-      <tr>
-         <th> COVID </th>
-         <td> 0.959 </td>
-         <td> 50 </td>
-         <td> <b> 21 </b> </td>
-         <td> <b> 0.967 </b> </td>
-         <td> <b> 37 </b> </td>
-         <td> 44 </td>
-         <td> <b> 0.979 </b> </td>
-         <td> 56 </td>
-         <td> 46 </td>
-      </tr>
-      <tr>
-         <th> X-Ray 8 </th>
-         <td> 0.411 </td>
-         <td> 11,502 </td>
-         <td> <b> 19 </b> </td>
-         <td> <b> 0.406 </b> </td>
-         <td> <b> 7,275 </b> </td>
-         <td> 42 </td>
-         <td> <b> 0.445 </b> </td>
-         <td> 13,820 </td>
-         <td> 31 </td>
-      </tr>
-    </table>
-</div>
+<table>
+  <tr>
+    <th>Model</th>
+    <th colspan="3" class="cmid">Resnet</th>
+    <th colspan="3" class="cmid">Mobilenet</th>
+    <th colspan="3" class="cmid">EfficientNet</th>
+  </tr>
+  <tr>
+    <th>Dataset</th>
+    <th>F1 Score</th>
+    <th>Time</th>
+    <th>Epoch</th>
+    <th>F1 Score</th>
+    <th>Time</th>
+    <th>Epoch</th>
+    <th>F1 Score</th>
+    <th>Time</th>
+    <th>Epoch</th>
+  </tr>
+  <tr>
+    <th>Pneumonia</th>
+    <td style="text-align: center;">0.784</td>
+    <td style="text-align: center;">82</td>
+    <td style="text-align: center;"><b>22</b></td>
+    <td style="text-align: center;"><b>0.804</b></td>
+    <td style="text-align: center;"><b>75</b></td>
+    <td style="text-align: center;">42</td>
+    <td style="text-align: center;">0.768</td>
+    <td style="text-align: center;">110</td>
+    <td style="text-align: center;">44</td>
+  </tr>
+  <tr>
+    <th>COVID</th>
+    <td style="text-align: center;">0.959</td>
+    <td style="text-align: center;">50</td>
+    <td style="text-align: center;"><b>21</b></td>
+    <td style="text-align: center;"><b>0.967</b></td>
+    <td style="text-align: center;"><b>37</b></td>
+    <td style="text-align: center;">44</td>
+    <td style="text-align: center;"><b>0.979</b></td>
+    <td style="text-align: center;">56</td>
+    <td style="text-align: center;">46</td>
+  </tr>
+  <tr>
+    <th>X-Ray 8</th>
+    <td style="text-align: center;">0.411</td>
+    <td style="text-align: center;">11,502</td>
+    <td style="text-align: center;"><b>19</b></td>
+    <td style="text-align: center;"><b>0.406</b></td>
+    <td style="text-align: center;"><b>7,275</b></td>
+    <td style="text-align: center;">42</td>
+    <td style="text-align: center;"><b>0.445</b></td>
+    <td style="text-align: center;">13,820</td>
+    <td style="text-align: center;">31</td>
+  </tr>
+</table>
+
 
 ### Result Analysis
 
@@ -168,38 +185,38 @@ As **EfficientNet** gave the best for COVID and chest X-ray 8 dataset, it was ch
 
 The figure below represents `Train & Val, F1 & Loss plots for the 3 transfer learning models`. It can be seen that the transfer learning model had a much better start than the randomly initialized model. It also converged much quicker than the model trained from scratch. For the Pneumonia dataset, the model trained from scratch was highly unstable at the start and could not catch up to the transfer learning model even after 100 epochs in terms of the F1 score.
 
-<div class="table-wrapper">
-    <table>
-            <tr>
-                <th>Model</th>
-                <th colspan="3">EfficientNet-Transfer Learning</th>
-            </tr>
-            <tr>
-                <th>Dataset</th>
-                <th>F1 Score</th>
-                <th>Time</th>
-                <th>Epoch</th>
-            </tr>
-            <tr>
-                <th> Pneumonia </th>
-                <td> 0.782 </td>
-                <td> 114 </td>
-                <td> 70 </td>
-            </tr>
-            <tr>
-                <th> COVID </th>
-                <td> 0.978 </td>
-                <td> 56 </td>
-                <td> 43 </td>
-            </tr>
-            <tr>
-                <th> X-Ray 8 </th>
-                <td> <b> 0.457 </b> </td>
-                <td> 13,813 </td>
-                <td> 29 </td>
-            </tr>
-    </table>
-</div>
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th colspan="3">EfficientNet-Transfer Learning</th>
+  </tr>
+  <tr>
+    <th>Dataset</th>
+    <th>F1 Score</th>
+    <th>Time</th>
+    <th>Epoch</th>
+  </tr>
+  <tr>
+    <th>Pneumonia</th>
+    <td style="text-align: center;">0.782</td>
+    <td style="text-align: center;">114</td>
+    <td style="text-align: center;">70</td>
+  </tr>
+  <tr>
+    <th>COVID</th>
+    <td style="text-align: center;">0.978</td>
+    <td style="text-align: center;">56</td>
+    <td style="text-align: center;">43</td>
+  </tr>
+  <tr>
+    <th>X-Ray 8</th>
+    <td style="text-align: center;"><b>0.457</b></td>
+    <td style="text-align: center;">13,813</td>
+    <td style="text-align: center;">29</td>
+  </tr>
+</table>
+
 
 ### Transfer Learning Analysis
 
@@ -216,7 +233,7 @@ The figures below represent `T-SNE and Confusion matrices for the test set of th
 
 ![t-sne-all-pneumonia](/assets/img/chest-x-ray/t-sne-all-pneumonia.png)
 
-These t-SNE plots and confusion matrices show that the models are able to differentiate well between the normal and pneumonia classes but struggle with the viral pneumonia vs bacterial pneumonia classification. MobileNet performs better but the EfficientNet transfer learning model creates better separation of classes. 
+These t-SNE plots and confusion matrices show that the models are able to differentiate well between the normal and pneumonia classes but struggle with the viral pneumonia vs bacterial pneumonia classification. MobileNet performs better but the EfficientNet transfer learning model creates better separation of classes.
 
 Thus, even though MobileNet performs better in this case, the EfficientNet transfer learning model would generalize well on new unseen data. This is correlated in the confusion matrix where the transfer learning and MobileNet models perform the best.
 
@@ -240,7 +257,7 @@ In case of bacterial pneumonia, the network identifies affected area on the righ
 
 ![grad-cam-pneumonia](/assets/img/chest-x-ray/grad-cam-pneumonia.png)
 
-Now, comparing it to the gradCAM visulization of the COVID dataset. The figure below shows shows that MobileNet activates the entire image incase of COVID, this could be the reason for its low performance. 
+Now, comparing it to the gradCAM visulization of the COVID dataset. The figure below shows shows that MobileNet activates the entire image incase of COVID, this could be the reason for its low performance.
 
 In case of pneumonia, the Efficient- Net models identifies affected areas on the bottom of the lungs. On the other hand, in case of COVID, the models look at a bigger region of the lungs.
 
@@ -254,7 +271,7 @@ For the ablative study, the COVID dataset was chosen along with the EfficientNet
 
 ![ablation-study](/assets/img/chest-x-ray/ablation-study.png)
 
-&#8226; From the training and validation F1 score and loss plots given in the figure above. it is seen that a very high learning rate of 0.1 is highly unstable and prevents the model from reaching close to global minima. Similarly, learning rate of 0.05 also prevented the model from converging on the validation set even after 100 epochs. 
+&#8226; From the training and validation F1 score and loss plots given in the figure above. it is seen that a very high learning rate of 0.1 is highly unstable and prevents the model from reaching close to global minima. Similarly, learning rate of 0.05 also prevented the model from converging on the validation set even after 100 epochs.
 
 &#8226; The other three learning rates all converged on the validation set but, the learning rate of 0.001 was the most stable and reached the highest F1 score earliest. On the other hand, learning rate of 0.01 performed marginally better on the loss plot.
 
@@ -267,14 +284,13 @@ It was observed that MobileNet takes the least amount of time to train while Res
 
 ## Feedback
 
-`I am grateful to have worked alongside` [Rohan Chopra](https://github.com/rohanchopra) `who has helped me understand the essence of data pipeline generation, segregating tasks into workable components and to transform just jupyter notebooks into workable projects.` 
+`I am grateful to have worked alongside` [Rohan Chopra](https://github.com/rohanchopra) `who has helped me understand the essence of data pipeline generation, segregating tasks into workable components and to transform just jupyter notebooks into workable projects.`
 
 `His profound understanding of machine learning concepts, algorithms, and techniques have greatly enhanced my interpretations and ability to tackle complex problems. He has consistently provided insightful feedback, constructive criticism, and practical suggestions, which have significantly improved the quality of our work together.`
 
-``I would also love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey. I hope you find it useful and easy to understand.``
+`I would also love to receive suggestions or any feedback for this writing. It has been written as per my understanding and the learnings I kindled during my journey. I hope you find it useful and easy to understand.`
 
 <!-- <br/>
 
 #### Other Team Members
 [Rohan Chopra](https://github.com/rohanchopra), [Abhishek Handa](https://github.com/abhishekhandacse) and [Harmanpreet Kaur](https://github.com/harman8) -->
-

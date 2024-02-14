@@ -90,20 +90,35 @@ Different backbone architectures were chosen to ensure that different types of C
 accuracy on the ImageNet 1K benchmark dataset.
 
 <table>
-        <tr>
-            <th> Architecture </th> <th> Params (Mil.)</th> <th> Layers </th> <th> GFLOPS </th> <th> Imagenet Acc. </th>
-        </tr>
-        <tr>
-            <th> MobileNet V3 Large </th> <td class="r"> 5.5 </td> <td> 18  </td> <td> 8.7 </td> <td class="r"> 92.57 </td>
-        </tr>
-        <tr>
-            <th> EfficientNet B3 </th> <td> 12.2 </td> <td> 29  </td> <td> 1.83 </td> <td> 96.05 </td>
-        </tr>
-        <tr>
-            <th> Resnet-50 </th> <td> 25.6 </td> <td> 50  </td> <td> 4.09 </td> <td> 95.43 </td>
-        </tr>
+  <tr>
+    <th>Architecture</th>
+    <th>Params (Mil.)</th>
+    <th>Layers</th>
+    <th>GFLOPS</th>
+    <th>Imagenet Acc.</th>
+  </tr>
+  <tr>
+    <th>MobileNet V3 Large</th>
+    <td style="text-align: center;">5.5</td>
+    <td style="text-align: center;">18</td>
+    <td style="text-align: center;">8.7</td>
+    <td style="text-align: center;">92.57</td>
+  </tr>
+  <tr>
+    <th>EfficientNet B3</th>
+    <td style="text-align: center;">12.2</td>
+    <td style="text-align: center;">29</td>
+    <td style="text-align: center;">1.83</td>
+    <td style="text-align: center;">96.05</td>
+  </tr>
+  <tr>
+    <th>Resnet-50</th>
+    <td style="text-align: center;">25.6</td>
+    <td style="text-align: center;">50</td>
+    <td style="text-align: center;">4.09</td>
+    <td style="text-align: center;">95.43</td>
+  </tr>
 </table>
-
 
 <hr class="slender">
 
@@ -126,19 +141,36 @@ The pre-trained weights were chosen to be the IMAGENET1K V2 weights and only the
 <!-- The batch size was fixed to 32 for all the models. While training, the best model by validation loss was saved to prevent the usage of overfit models for the test set analysis. The actual and predicted results from each epoch was also stored to calculate the F1 scores at each step of training. While calculating the F1 score, macro averaging was used to get an average score across classes. Initial training runs of the multilabel data produced a zero F1 score due to its highly imbalanced nature. To mitigate this, class wise weights were calculated and used with the loss function. This improved the F1 score quite considerably. -->
 
 <table>
-        <tr>
-            <th> Model </th> <th> F1 Score </th> <th> Time </th> <th> F1 epochs </th> <th> Loss Epochs </th>
-        </tr>
-        <tr>
-            <th> MobileNet V3 Large </th> <td class="r"> 0.168 </td> <td> 80s  </td> <td> 50 </td> <td class="r"> 98 </td>
-        </tr>
-        <tr>
-            <th> EfficientNet B3 </th> <td> 0.189 </td> <td> 153s  </td> <td> 5 </td> <td> 90 </td>
-        </tr>
-        <tr>
-            <th> Resnet-50 </th> <td> 0.179 </td> <td> 50s  </td> <td> 10 </td> <td> 0 </td>
-        </tr>
+  <tr>
+    <th>Model</th>
+    <th>F1 Score</th>
+    <th>Time</th>
+    <th>F1 epochs</th>
+    <th>Loss Epochs</th>
+  </tr>
+  <tr>
+    <th>MobileNet V3 Large</th>
+    <td style="text-align: center;">0.168</td>
+    <td style="text-align: center;">80s</td>
+    <td style="text-align: center;">50</td>
+    <td style="text-align: center;">98</td>
+  </tr>
+  <tr>
+    <th>EfficientNet B3</th>
+    <td style="text-align: center;">0.189</td>
+    <td style="text-align: center;">153s</td>
+    <td style="text-align: center;">5</td>
+    <td style="text-align: center;">90</td>
+  </tr>
+  <tr>
+    <th>Resnet-50</th>
+    <td style="text-align: center;">0.179</td>
+    <td style="text-align: center;">50s</td>
+    <td style="text-align: center;">10</td>
+    <td style="text-align: center;">0</td>
+  </tr>
 </table>
+
 
 It is clear that going from a smaller architecture to a bigger architecture, makes the model start to overfit earlier. The MobileNet model took the most number of epochs to reach the minima. The EfficientNet model performs the best for our dataset. 
 
