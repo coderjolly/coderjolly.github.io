@@ -30,12 +30,7 @@ This writing is a comprehensive analysis of my learnings and the collaborative e
 EEG signals can be used to detect the mental state of a person which can have applications in machine learning. So, to introduce ourselves to EEG, this writing provides a short introduction to EEG Signal Analysis using MNE library and describes the setup, the data preprocessing, data visualization and segmentation into epochs. 
 
 
-<p style="text-align:left;">
-    <a href="articles/23/find-help" style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500; text-decoration: nonw; border-bottom:2px solid black">Sneak peak into Software Project Management</a>
-    <!-- <span style="float:right; font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
-        1st April 2023
-    </span> -->
-</p>
+[``Sneak peak into Software Project Management``](articles/23/find-help){:target="_blank"}<br/>
 This writing is an end-to-end visual of my journey in Software Project Managment course that shows how Software Project Managment is continous process done by Project Managers, how deliverables are measured in terms of story points, how the time estimation for tasks is done and how to manage a team with diverse skill sets.
 
 

@@ -282,7 +282,7 @@ For the ablative study, the COVID dataset was chosen along with the EfficientNet
 <!-- ## Conclusion
 It was observed that MobileNet takes the least amount of time to train while ResNet converges the fastest. Also, EfficientNet performs the best most of the times on Chest X-ray scans. An F1 score of 0.8 for the pneumonia dataset was obtained, 0.98 for the COVID-19 dataset and 0.46 for the multilabel chest X-ray 8 dataset. -->
 
-## Feedback
+## Acknowledgments & Feedback
 
 `I am grateful to have worked alongside` [Rohan Chopra](https://github.com/rohanchopra) `who has helped me understand the essence of data pipeline generation, segregating tasks into workable components and to transform just jupyter notebooks into workable projects.`
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Processing Image Advertisements for Contextual Analysis"
+title:  "Processing Image Advertisements </br> for Contextual Analysis"
 date:   2023-04-10
 title_include: true
 categories: writing
