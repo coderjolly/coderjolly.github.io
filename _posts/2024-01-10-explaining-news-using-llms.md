@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Explaining News Articles using LLMS"
-date:   2024-01-22
+date:   2024-01-29
 title_include: true
 categories: writing
 image_url: ""
@@ -78,15 +78,33 @@ celery -A celery_.app worker -Q run_pipe_queue -n pipe_task_worker@%h --loglevel
 
 This will essentially triggers `pipe.py` which handles the complete pipeline under `pipe()` function which is interleaved with `utils.py` utility or helper functions for the process of summarization and keyword clustering. 
 
-The API endpoint of `http://127.0.0.1/pipe` is exposed which can be hit using a `POST` request on Postman to mimick it's actual usage in order to receive the outputs under `ideas.json` in the `files` directory. The output for any news transcript/article would be as follows in the below screenshot, where:
+### Postman Usage
+
+In order to mimick an actual API hit for this pipeline, an example or dummy text will be taken under `Body > raw` and selecting JSON while the API endpoint will be hit using Postman to receive a response. The request body is as follows:
+```json
+{
+    "text": "A company unveiled this Thursday......."
+}
+```
+
+The API endpoint of `http://127.0.0.1:3000/pipe` is exposed which can be hit using a `POST` request on Postman to receive the outputs. The response for any news transcript/article would be something like the below screenshot:
+
+![postman-hit-result](/assets/img/llms/postman-hit-result.png)
+
+The response will be in the form of a JSON file which will be saved under the `files` directory as `ideas.json`. The output for any news transcript/article would be as follows in the below screenshot, where:
 ```
 - raw - Represents the orginal news article or text that needs to summarised.
 - summary - As the name suggests is the summary of the raw text.
 - keywords - Various keywords selected from the raw text.
 - images - Images for the selective keywords from the raw text.
-- timestamp - Timestamp for the API completion hit
+- timestamp - Timestamp for the API completion hit.
 ```
-
 ![ideas-json](/assets/img/llms/ideas-json.png)
 
-<!-- ### Postman Usage -->
+This `ideas.json` can further be ingested periodically to a database or a data lake for further analysis and insights. 
+
+## Acknowledgements & Feedback
+
+`I am deeply grateful to `[Karanjot Vilkhu](https://www.linkedin.com/in/karanjotsv)` for his invaluable assistance in navigating the complexities of risk analysis in the context of this project. His unwavering support and encouragement have propelled me to surpass my limitations, fostering a culture of perpetual growth and development.`
+
+`Furthermore, I welcome any suggestions or feedback on this piece, which reflects my personal insights and knowledge gained throughout my journey. I sincerely hope that it proves beneficial and accessible to all who engage with it.`
