@@ -18,9 +18,15 @@ Natural Language Processing is the backbone of Language Models. They are used in
 ## Architecture
 The system uses a Flask backend which has been deployed as a backend service interacting with ``Celery`` workers and ``Redis`` for data caching. The architecture of the project is shown in the figure below which is a representation of the data pipeline and how different tasks like summarization, keyword generation can be handled by this pipeline.
 
+The pipeline leverages OpenAI’s GPT3.5 turbo at various steps and in custom in-context learning settings. We employ OpenAI's GPT3.5 to condense the provided text, leveraging its refined training model that incorporates human feedback. 
+
+Summarization not only reduces length but also enhances semantic nuances often overlooked in lengthier texts. Next, we utilize OpenAI's GPT3.5 once more for keyword extraction, employing a tailored in-context prompt based on semantic representations obtained through the text-embedding-3 model. 
+
 ![architecture](/assets/img/llms/pipeline-architecture.png)
 
-The pipeline leverages OpenAI’s GPT3.5 turbo at various steps and in custom in-context learning settings. We employ OpenAI's GPT3.5 to condense the provided text, leveraging its refined training model that incorporates human feedback. Summarization not only reduces length but also enhances semantic nuances often overlooked in lengthier texts. Next, we utilize OpenAI's GPT3.5 once more for keyword extraction, employing a tailored in-context prompt based on semantic representations obtained through the text-embedding-3 model. Rather than employing basic document grouping, we opt for topic modeling using the K-means algorithm to identify embeddings, facilitating clustering with descriptive labels for each cluster. This approach aids in thematic assignment to clusters, with findings suggesting that OpenAI's extracted themes better capture the essence of keyword clusters. Lastly, to enhance comprehension, images corresponding to each keyword/keyphrase are retrieved using Google Image Search.
+Rather than employing basic document grouping, we opt for topic modeling using the K-means algorithm to identify embeddings, facilitating clustering with descriptive labels for each cluster. This approach aids in thematic assignment to clusters, with findings suggesting that OpenAI's extracted themes better capture the essence of keyword clusters. 
+
+Lastly, to enhance comprehension, images corresponding to each keyword/keyphrase are retrieved using Google Image Search.
 
 ## Directory Structure
 <br/>
