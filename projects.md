@@ -27,7 +27,7 @@ weight: 2
         Gaming industry is one of the most prominent industries in the market. To determine the popularity of a game, reviews are of paramount importance. This project aims to analyse Steam reviews dataset using a Distributed System Design which is a Flask asynchronous backend which incorporates an Elasticsearch engine deployed in a Docker-Kubernetes environment where data ingestion queues are handled by RabbitMQ, processes are handled by Celery & data is cached in Redis.</p>
     </div>
     <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-        <img src="/assets/img/steamgestion/architecture.png" alt="Image" style="width: 100%; max-width: 450px; height: 375``px;">
+        <img src="/assets/img/steamgestion/architecture.png" alt="Image" style="width: 100%; max-width: 435px; height: 350px;">
     </div>
 </div>
 
@@ -93,22 +93,36 @@ weight: 2
         Nowadays, online news is accessible to millions with news articles from multiple sources. In order to help users find the right and relevant content, news recommender systems suggest articles that might be of interest for the news readers. So, using beautiful-soup to scrap news articles, their categories and descriptions a textual corpus is created. It then uses word embedding techniques such tf-idf, word2vec for content based news recommender models and LightRF, LightFM to explore collaborative filtering based recommender models.</p>
         </div>
         <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-            <img src="/assets/img/news-recommender/web-scrapping.png" alt="Image" style="width: 100%; max-width: 450px; height: 230px;">
+            <img src="/assets/img/news-recommender/web-scrapping.png" alt="Image" style="width: 100%; max-width: 475px; height: 230px;">
         </div>
 </div>
 
 
 **Football Player Market Value Prediction** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/football-player-prediction){:target="_blank"}
 <br/>
-
-``You must have seen "Moneyball", where Peter Brand explains Billy Beane that "Its about getting things down to one number using stats the way we read them (players), we find value in player nobody else can see." So, to predict this Market Price of players, data from a csv is ingested and then applied to machine learning algorithms.``
-<!-- for comparing their R^2 values and an EDA is performed to understand the data in negotiating players for transfers -->
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+        You must have seen "Moneyball", where Peter Brand explains Billy Beane that "Its about getting things down to one number using stats the way we read them (players), we find value in player nobody else can see." So, to predict this Market Price of players, data from a csv is ingested and then applied to machine learning algorithms.</p>
+        <!-- for comparing their R^2 values and an EDA is performed to understand the data in negotiating players for transfers -->
+        </div>
+        <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+            <img src="assets/img/projects-page/correlation-matrix.png" alt="Image" style="width: 100%; max-width: 525px; height: 230px;">
+        </div>
+</div>
 
 
 **Bird Call Audio Classification** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/bird-call){:target="_blank"}
 <br/>
-
-``With proper sound detection and classification, researchers can understand what birdcall signal the birds use, in order to communicate with each other or to warn others about the impending dangers in the vicinity. So, understanding the bird species via sound can able to detect theses dangers early. Mel Spectrograms of these bird audios are used as features to feed them to a CNN model in order to classify bird species.``
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+        With proper sound detection and classification, researchers can understand what birdcall signal the birds use, in order to communicate with each other or to warn others about the impending dangers in the vicinity. So, understanding the bird species via sound can able to detect theses dangers early. Mel Spectrograms of these bird audios are used as features to feed them to a CNN model in order to classify bird species.</p>
+        </div>
+        <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+            <img src="assets/img/projects-page/directory-struct.png" alt="Image" style="width: 100%; max-width: 535px; height: 230px;">
+        </div>
+</div>
 
 **DonorFu** [**[<font color='blue'>Devpost</font>]**](https://devpost.com/software/donorfu){:target="_blank"}
 <br/>
