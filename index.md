@@ -16,7 +16,7 @@ I am post-graduate student at **Concordia University, Montréal** pursuing **Mas
 
 <!-- ranging from my classmates to upper-management in order to push my boundaries.  -->
 
-I have had the privilege of contributing as a **Data Scientist 1** at [Intact Financial Corporation](https://intactlab.ca/), Canada's leading home and business insurance company. During my tenure, I played a pivotal role in the development of `CallQualitySearch`—evaluating the quality of calls. My responsibilities included assessing precision and recall values for rule triggers, where I skillfully visualized these metrics to enhance performance insights. I also proficiently utilized `SQL to extract complex data`, enabling a comprehensive understanding of the `relation between the ROC model for inbound and outbound calls.` 
+I have had the oppotunity to contribute as a **Data Scientist 1** at [Intact Financial Corporation](https://intactlab.ca/), Canada's leading insurance company. During my tenure, I played a pivotal role in the development of `CallQualitySearch`—evaluating the quality of calls. My responsibilities included assessing precision and recall values for rule triggers, where I skillfully visualized these metrics to enhance performance insights. I also proficiently utilized `SQL to extract complex data`, enabling a comprehensive understanding of the `relation between the ROC model for inbound and outbound calls.` 
 
 <!-- This experience not only honed my data science skills but also showcased my ability to derive meaningful conclusions from complex datasets. I am eager to apply my knowledge to solve real-world problems and to make machines predict the future by connecting the dots from the past. -->
 
