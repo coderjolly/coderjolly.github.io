@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Explaining News Articles using LLMS"
+title:  "Explaining Articles using LLMs"
 date:   2024-01-29
 title_include: true
 categories: writing
