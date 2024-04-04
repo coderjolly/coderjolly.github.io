@@ -12,7 +12,7 @@ nav_exclude: true
 
 <!-- SUMMARY --> 
 
-I am post-graduate student at **Concordia University, Montréal** pursuing **Master's in Applied Computer Science.** Throughout my career, I have obtained over 3 years of experience in designing machine learning and data science solutions and have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels.
+I am **master's student with a degree in Applied Computer Science from Concordia University, Montréal**. Throughout my career, I have obtained over 2.5 years of experience in designing machine learning and data science solutions and have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels.
 
 <!-- ranging from my classmates to upper-management in order to push my boundaries.  -->
 
