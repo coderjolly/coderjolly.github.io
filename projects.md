@@ -71,16 +71,17 @@ weight: 2
         </div>
 </div>
 
-**Depression Data Collection Portal** [**[<font color='blue'>Writing</font>]**](articles/23/find-help){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/find-help){:target="_blank"}
+
+**Spotify Data Engineering and Analysis** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/spotify-api-data-analysis){:target="_blank"}
 <br/>
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1; margin-right: 10px;">
         <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
-        A backend application based on Java Spring Boot that caters to the need of collecting data for patients with depression. Patients are able to register themselves, perform self assessment in order to get help from a counsellor or doctor. This self-assessment data will be communicated to a counsellor or doctor and then appropriate action will be taken accordingly.
+        Pioneering companies like Facebook, Netflix, and Airbnb pioneered "data engineering" to manage vast real-time data, crafting custom solutions. This project showcases leveraging Apache Airflow for an ETL pipeline from Spotify API, focusing on user activity analysis. Data extraction via Spotipy API, storage in SQL Server Management Studio using Snowflake Schema, and visualization via PowerBI are highlighted. Apache Airflow enables a comprehensive on-premise solution, marking a shift in data management paradigms.
         </p>
-        </div>
+    </div>
         <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-            <img src="/assets/img/find-help/home-page.png" alt="Image" style="width: 100%; max-width: 475px; height: 275px;">
+            <img src="/assets/img/spotify-analysis/architecture.png" alt="Image" style="width: 100%; max-width: 475px; height: 230px;">
         </div>
 </div>
 
@@ -94,6 +95,20 @@ weight: 2
         </div>
         <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
             <img src="/assets/img/news-recommender/web-scrapping.png" alt="Image" style="width: 100%; max-width: 475px; height: 230px;">
+        </div>
+</div>
+
+
+**Depression Data Collection Portal** [**[<font color='blue'>Writing</font>]**](articles/23/find-help){:target="_blank"} [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/find-help){:target="_blank"}
+<br/>
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+        A backend application based on Java Spring Boot that caters to the need of collecting data for patients with depression. Patients are able to register themselves, perform self assessment in order to get help from a counsellor or doctor. This self-assessment data will be communicated to a counsellor or doctor and then appropriate action will be taken accordingly.
+        </p>
+        </div>
+        <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+            <img src="/assets/img/find-help/home-page.png" alt="Image" style="width: 100%; max-width: 475px; height: 275px;">
         </div>
 </div>
 
