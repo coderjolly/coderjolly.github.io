@@ -22,7 +22,7 @@ I have had the oppotunity to contribute as a **Data Scientist 1** at [Intact Fin
 
 Before moving to the realm of data science, I have contributed in backend development and have had the opportunity to participate in `Google Summer of Code (GSOC)` as a mentor in organizations like `PublicLab and DIAL.` My premiere association with [Sabudh Foundation](https://sabudh.org/){:target="_blank"} as a **Data Science Intern** initiated my journey in data science. Following that, I have worked with the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/){:target="_blank"} as a **Jr. Data Engineer** and  [Tatras Data](https://tatrasdata.com/){:target="_blank"} as **Jr. Data Scientist.** 
 
-Currently, I am seeking **full-time opportunities** or **opportunities for Summer-2024** in field of data science and machine learning.
+Currently, I am seeking **full-time opportunities** in field of data science and machine learning.
 
 <!-- ----------------EXPERIENCE----------------------  -->
 
