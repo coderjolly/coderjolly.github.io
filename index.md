@@ -12,17 +12,17 @@ nav_exclude: true
 
 <!-- SUMMARY --> 
 
-I am **master's student with a degree in Applied Computer Science from Concordia University, Montréal**. Throughout my career, I have obtained over 2.5 years of experience in designing machine learning and data science solutions and have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels.
+I am **master's student with a degree in Applied Computer Science from Concordia University, Montréal**. Throughout my career, I have obtained more than 2 years of experience in designing machine learning & data science solutions and have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels.
 
 <!-- ranging from my classmates to upper-management in order to push my boundaries.  -->
 
-I have had the oppotunity to contribute as a **Data Scientist 1** at [Intact Financial Corporation](https://intactlab.ca/), Canada's leading insurance company. During my tenure, I played a pivotal role in the development of `CallQualitySearch`—evaluating the quality of calls. My responsibilities included assessing precision and recall values for rule triggers, where I skillfully visualized these metrics to enhance performance insights. I also proficiently utilized `SQL to extract complex data`, enabling a comprehensive understanding of the `relation between the ROC model for inbound and outbound calls.` 
+I have had the oppotunity to work as a **Data Scientist 1** at [Intact Financial Corporation](https://intactlab.ca/), Canada's leading insurance company. During my tenure, I played a pivotal role in the development of `CallQualitySearch`—evaluating the quality of calls. My responsibilities included assessing precision and recall values for rule triggers, where I skillfully visualized these metrics to enhance performance insights. I also proficiently utilized `SQL to extract complex data`, enabling a comprehensive understanding of the `relation between the ROC model for inbound and outbound calls.` 
 
 <!-- This experience not only honed my data science skills but also showcased my ability to derive meaningful conclusions from complex datasets. I am eager to apply my knowledge to solve real-world problems and to make machines predict the future by connecting the dots from the past. -->
 
-Before moving to the realm of data science, I have contributed in backend development and have had the opportunity to participate in `Google Summer of Code (GSOC)` as a mentor in organizations like `PublicLab and DIAL.` My premiere association with [Sabudh Foundation](https://sabudh.org/){:target="_blank"} as a **Data Science Intern** initiated my journey in data science. Following that, I have worked with the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/){:target="_blank"} as a **Jr. Data Engineer** and  [Tatras Data](https://tatrasdata.com/){:target="_blank"} as **Jr. Data Scientist.** 
+Before my master's, I was working as a **Jr. Data Scientist** for [Tatras Data](https://tatrasdata.com/){:target="_blank"}, as a **Jr. Data Engineer** at the [Indian Institute of Science](https://www.serc.iisc.ac.in/supercomputer/for-traditional-hpc-simulations-param-pravega/){:target="_blank"} and lastly, as a **Data Science Intern** with [Sabudh Foundation](https://sabudh.org/){:target="_blank"} which initiated my journey in data science. Before moving to the realm of data science, I have also contributed in backend development and have participated in `Google Summer of Code (GSOC)` as a mentor for organizations like `PublicLab and DIAL` as well.
 
-Currently, I am seeking **full-time opportunities** in field of data science and machine learning.
+Currently, I am seeking **full-time opportunities** in field of data analysis/engineering/science and machine learning.
 
 <!-- ----------------EXPERIENCE----------------------  -->
 
