@@ -12,11 +12,11 @@ nav_exclude: true
 
 <!-- SUMMARY --> 
 
-I am **master's student with a degree in Applied Computer Science from Concordia University, Montréal**. Throughout my career, I have obtained a thorough experience in designing machine learning & data science solutions and have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels.
+I am **master's graduate in Applied Computer Science from Concordia University, Montréal**. Throughout my career, I have obtained a thorough experience in designing machine learning & data science solutions and have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels.
 
 <!-- ranging from my classmates to upper-management in order to push my boundaries.  -->
 
-I have worked as a **Data Scientist 1** at [Intact Financial Corporation](https://intactlab.ca/), Canada's leading insurance company. During my tenure, I communicated insights to identify customer segments using NER with higher risk profiles, significantly `boosted cross-selling and upselling efforts.` My work involved applying `Random Forests and other machine learning algorithms` to analyze historical claims data for forecasting potential claim scenarios and conducting fraud analysis. I also utilized transcript & claims data using NLP to `target solutions for risky claims and behaviors to increase in customer retention.`
+Previously, I have worked as a **Data Scientist** at [Intact Financial Corporation](https://intactlab.ca/), Canada's leading insurance company. During my tenure, I communicated insights to identify customer segments using NER with higher risk profiles, significantly `boosting marketting, cross-selling and upselling efforts.` My work involved applying `Random Forests and other machine learning algorithms` to analyze historical claims data for forecasting potential claim scenarios, conducting fraud analysis and churn analysis. I also utilized  `NLP for transcript & claims data ` target solutions for `risky claims and behaviors` to increase in customer retention.
 
 <!-- I played a pivotal role in the development of `CallQualitySearch`—evaluating the quality of calls. My responsibilities included assessing precision and recall values for rule triggers, where I skillfully visualized these metrics to enhance performance insights. I also proficiently utilized `SQL to extract complex data`, enabling a comprehensive understanding of the `relation between the ROC model for inbound and outbound calls.`
 This experience not only honed my data science skills but also showcased my ability to derive meaningful conclusions from complex datasets. I am eager to apply my knowledge to solve real-world problems and to make machines predict the future by connecting the dots from the past. -->
@@ -30,7 +30,7 @@ Currently, I am seeking **full-time opportunities** in field of data analysis/en
 <h3 style="text-align: left;">Experience</h3>
 
 &#8226; [**Intact Financial Corporation (Montreal)**](https://intactlab.ca/){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Sept 2023 - Dec 2023**<br/>
-&nbsp;&nbsp; `Data Scientist 1` 
+&nbsp;&nbsp; `Data Scientist` 
 
 &#8226; [**Tatras Data Services**](https://tatrasdata.com/){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Dec 2021 - Aug 2022**<br/>
 &nbsp;&nbsp; `Junior Data Scientist` 
@@ -65,12 +65,15 @@ Currently, I am seeking **full-time opportunities** in field of data analysis/en
 
 <h3 style="text-align: left;">Awards & Achievements</h3>
 
-&nbsp;&nbsp;1. **Google Summer of Code:** `Mentor for DIAL Organization (2020)` <br/>
-&nbsp;&nbsp;2. **Google Summer of Code:** `Mentor for PublicLab Organization (2019)` <br/>
+&nbsp;&nbsp;1. **Facebook Developer Community Challenge:** [`$17,500 Global & Regional Round Winner (2018)`](https://devpost.com/software/donorfu){:target="_blank"} <br/>
+&nbsp;&nbsp;2. **Facebook Developer Conference:** `Scholarship for F8 Conference (2019)` <br/>
 &nbsp;&nbsp;3. **Fossasia Open Tech Nights:** `Sponsored trip to Singapore, Fossasia (2019)` <br/>
-&nbsp;&nbsp;4. **Facebook Developer Conference:** `Scholarship for F8 Conference (2019)` <br/>
-&nbsp;&nbsp;5. **Facebook Developer Community Challenge:** [`Global Round Winner (2018)`](https://devpost.com/software/donorfu){:target="_blank"} <br/>
-&nbsp;&nbsp;6. **Facebook Developer Community Challenge:** [`Regional Round Winner (2018)`](https://devpost.com/software/donorfu){:target="_blank"} <br/>
+&nbsp;&nbsp;4. **Google Summer of Code:** `Mentor for PublicLab Organization (2019)` <br/>
+&nbsp;&nbsp;5. **Google Summer of Code:** `Mentor for DIAL Organization (2020)` <br/>
+
+
+
+
 
 <!-- EXTRA-CURRICULARS -->
 
