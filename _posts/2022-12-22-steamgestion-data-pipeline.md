@@ -27,6 +27,8 @@ with an interconnection with ``Celery`` workers capable of horizontal pod scalin
 
 ![architecture](/assets/img/steamgestion/architecture.png)
 
+## Directory Structure
+
 The directory structure of the project is also shown in the figure below which is the exact version as seen on Github repository [here](https://github.com/coderjolly/data-ingestion-pipeline){:target="_blank"}.
 
 ![directory-structure](/assets/img/steamgestion/directory-structure.jpg)
@@ -112,7 +114,7 @@ We will use a set of commands to deploy and serve the `backend`, `elasticsearch`
 - kcdev apply -f redis/redis_service.yaml
 ```
 
-## Kubernetes Pods
+## Working 
 Using Kubernetes, we have setup 6 microservice pods which can be seen in the firgure below. These microservices run in an even driven architecture which are given persistent volumes for claiming the resources. In Kubernetes, a HorizontalPodAutoscaler automatically updates a workload resource (such as a Deployment), with the aim of automatically scaling the workload to match demand. Horizontal scaling means that, the response to increased load is to deploy more pods. If the load decreases, and the number of Pods is above the configured minimum, the HorizontalPodAutoscaler instructs the workload resource to scale back down.
 
 ![hpa](/assets/img/steamgestion/hpa.png)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Processing Image Advertisements for Contextual Analysis"
+title:  "Processing Image Advertisements </br> for Contextual Analysis"
 date:   2023-04-10
 title_include: true
 categories: writing
@@ -33,7 +33,9 @@ A publicly available dataset developed by the combined efforts of Hussain et al.
 
 Before training, the images were analysed to come up with a pre-processing pipeline to denoise the images and improve their quality as most of the images were highly compressed.
 
-<b>A. Bilateral Filter</b> - For improving the quality of the images, a smoothing filter for images had to be employed. So, a bilateral filter was used to reduce noise while preserving edges in a non-linear manner. It is quintessential to know that all other filters smudge the edges, while Bilateral Filtering retains them.
+<b>A. Bilateral Filter</b>
+
+For improving the quality of the images, a smoothing filter for images had to be employed. So, a bilateral filter was used to reduce noise while preserving edges in a non-linear manner. It is quintessential to know that all other filters smudge the edges, while Bilateral Filtering retains them.
 
 <figure>
 <img src="/assets/img/image-advertisements/ads-bilateral.png" width=1050 style="display: block; margin: 0 auto">
@@ -49,7 +51,9 @@ As shown in the figure above, after applying different values of d, sigma(s) and
 - The original image had color banding or posterization, an ugly artifact that can be seen in digital images around objects. This has been notably reduced and the final image is better than previous one. 
 - Another remarkable change that was witnessed was the compression artifacts, a distortion of media in images which is caused by lossy compression of media w
 
-<b>B. Pre-processing Techniques</b> - Pytorch provides various functional transformations that can be applied using the torchvision.transform module. As these transformations require a parameter such as a factor by which an image can be transformed, therefore they cannot be applied to all images owing to the fact that all images are different. For example. For example, a Hue transform accepts an image along with a parameter, hue factor that ranges from [-0.5 to 0.5]. The extremes, 0.5 and -0.5 give complete reversal of the hue channel in HSV space in positive and negative direction respectively whereas 0 means
+<b>B. Pre-processing Techniques</b>
+
+Pytorch provides various functional transformations that can be applied using the torchvision.transform module. As these transformations require a parameter such as a factor by which an image can be transformed, therefore they cannot be applied to all images owing to the fact that all images are different. For example. For example, a Hue transform accepts an image along with a parameter, hue factor that ranges from [-0.5 to 0.5]. The extremes, 0.5 and -0.5 give complete reversal of the hue channel in HSV space in positive and negative direction respectively whereas 0 means
 no shift. The same level of factor cannot be expected from other techniques such as sharpness or contrast etc. Hence, this parameter cannot be kept constant for all images as it will have a variable effect or appeal on different images.
 
 Five random images have been selected and functional image processing techniques like hue transforms, gamma transforms, solarize transformations, sharpness, etc have been applied to reach a conclusion that all images bearing uniqueness in their characteristics respond differently to functional transformations applied.
@@ -86,20 +90,35 @@ Different backbone architectures were chosen to ensure that different types of C
 accuracy on the ImageNet 1K benchmark dataset.
 
 <table>
-        <tr>
-            <th> Architecture </th> <th> Params (Mil.)</th> <th> Layers </th> <th> GFLOPS </th> <th> Imagenet Acc. </th>
-        </tr>
-        <tr>
-            <th> MobileNet V3 Large </th> <td class="r"> 5.5 </td> <td> 18  </td> <td> 8.7 </td> <td class="r"> 92.57 </td>
-        </tr>
-        <tr>
-            <th> EfficientNet B3 </th> <td> 12.2 </td> <td> 29  </td> <td> 1.83 </td> <td> 96.05 </td>
-        </tr>
-        <tr>
-            <th> Resnet-50 </th> <td> 25.6 </td> <td> 50  </td> <td> 4.09 </td> <td> 95.43 </td>
-        </tr>
+  <tr>
+    <th>Architecture</th>
+    <th>Params (Mil.)</th>
+    <th>Layers</th>
+    <th>GFLOPS</th>
+    <th>Imagenet Acc.</th>
+  </tr>
+  <tr>
+    <th>MobileNet V3 Large</th>
+    <td style="text-align: center;">5.5</td>
+    <td style="text-align: center;">18</td>
+    <td style="text-align: center;">8.7</td>
+    <td style="text-align: center;">92.57</td>
+  </tr>
+  <tr>
+    <th>EfficientNet B3</th>
+    <td style="text-align: center;">12.2</td>
+    <td style="text-align: center;">29</td>
+    <td style="text-align: center;">1.83</td>
+    <td style="text-align: center;">96.05</td>
+  </tr>
+  <tr>
+    <th>Resnet-50</th>
+    <td style="text-align: center;">25.6</td>
+    <td style="text-align: center;">50</td>
+    <td style="text-align: center;">4.09</td>
+    <td style="text-align: center;">95.43</td>
+  </tr>
 </table>
-
 
 <hr class="slender">
 
@@ -122,19 +141,36 @@ The pre-trained weights were chosen to be the IMAGENET1K V2 weights and only the
 <!-- The batch size was fixed to 32 for all the models. While training, the best model by validation loss was saved to prevent the usage of overfit models for the test set analysis. The actual and predicted results from each epoch was also stored to calculate the F1 scores at each step of training. While calculating the F1 score, macro averaging was used to get an average score across classes. Initial training runs of the multilabel data produced a zero F1 score due to its highly imbalanced nature. To mitigate this, class wise weights were calculated and used with the loss function. This improved the F1 score quite considerably. -->
 
 <table>
-        <tr>
-            <th> Model </th> <th> F1 Score </th> <th> Time </th> <th> F1 epochs </th> <th> Loss Epochs </th>
-        </tr>
-        <tr>
-            <th> MobileNet V3 Large </th> <td class="r"> 0.168 </td> <td> 80s  </td> <td> 50 </td> <td class="r"> 98 </td>
-        </tr>
-        <tr>
-            <th> EfficientNet B3 </th> <td> 0.189 </td> <td> 153s  </td> <td> 5 </td> <td> 90 </td>
-        </tr>
-        <tr>
-            <th> Resnet-50 </th> <td> 0.179 </td> <td> 50s  </td> <td> 10 </td> <td> 0 </td>
-        </tr>
+  <tr>
+    <th>Model</th>
+    <th>F1 Score</th>
+    <th>Time</th>
+    <th>F1 epochs</th>
+    <th>Loss Epochs</th>
+  </tr>
+  <tr>
+    <th>MobileNet V3 Large</th>
+    <td style="text-align: center;">0.168</td>
+    <td style="text-align: center;">80s</td>
+    <td style="text-align: center;">50</td>
+    <td style="text-align: center;">98</td>
+  </tr>
+  <tr>
+    <th>EfficientNet B3</th>
+    <td style="text-align: center;">0.189</td>
+    <td style="text-align: center;">153s</td>
+    <td style="text-align: center;">5</td>
+    <td style="text-align: center;">90</td>
+  </tr>
+  <tr>
+    <th>Resnet-50</th>
+    <td style="text-align: center;">0.179</td>
+    <td style="text-align: center;">50s</td>
+    <td style="text-align: center;">10</td>
+    <td style="text-align: center;">0</td>
+  </tr>
 </table>
+
 
 It is clear that going from a smaller architecture to a bigger architecture, makes the model start to overfit earlier. The MobileNet model took the most number of epochs to reach the minima. The EfficientNet model performs the best for our dataset. 
 

@@ -22,6 +22,7 @@ editor: vim
 plugins:
     - jekyll-seo-tag
     - jekyll-youtube
+    - jekyll-sitemap
 
 scholar:
   style: modern-language-association
@@ -34,4 +35,4 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-google_analytics: 
+google_analytics:
