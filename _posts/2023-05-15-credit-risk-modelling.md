@@ -9,6 +9,8 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
+The code for this writing is enclosed in a private Github repo to avoid plagiarism [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/credit-risk-modelling).
+
 Financial institutions use credit risk analysis models to determine the probability of default of a potential credit borrower. If the lender fails to detect the credit risk in advance, it exposes them to the risk of default and loss of funds. Therefore, companies use models that provide information in respect to the riskiness or the level of a borrower’s credit risk at any particular time. Lenders rely on the validation provided by credit risk analysis models to make key lending decisions on whether or not to extend credit to the borrower and the credit to be charged.
 
 Even though the results of these models are binary, that whether a person is risky or not ``but the outcomes are actually probabilistic values.`` These values determine the probability of a person being risky or not. The threshold value is set by the financial institution and the model is trained to ``predict the probability of a person being is a spectrum of being risky that is low to high.``
