@@ -6,7 +6,7 @@ exclude_title: true
 nav_exclude: true
 ---
 
-<!-- <img class="headshot" src="assets/img/headshot-v2.png"> -->
+<img class="headshot" src="assets/img/headshot-v2.png">
 
 <style>body {text-align: justify}</style>
 
@@ -20,7 +20,7 @@ Additionally, I have designed large-scale data ingestion & transformation `ETL p
 
 Before my masters, I have worked as a **Data Scientist Engineer** for [Tatras Data](https://tatrasdata.com/){:target="_blank"} where I was exposed to the world of large-scale `High Performance Computing (HPC) data to construct ETL pipelines for demand sensing utilization` using `PySpark, Python, SQL, Databricks` and supervised learning techniques.
 
-Prior to this, my contribution as a **Jr. Data Scientist** at the [Sabudh Foundation](https://www.linkedin.com/company/sabudh-foundation/posts/){:target="_blank"} was to `analyse textual transcripts using NLP on EHR/EMR data and vision based techniques using SHAP`. Furthermore, I have used these deductions for `claims analysis to improve fraud detection for deployment on cloud services.`  
+Prior to this, my contribution as a **Jr. Data Scientist** at the [Sabudh Foundation](https://www.linkedin.com/company/sabudh-foundation/posts/){:target="_blank"} was to `analyse High Performance Computing (HPC) using clustering for user based profile and analyse the risk severity of a driver using positional data`.
 
 Currently, I am seeking **full-time opportunities** in field of data analysis/engineering/science and machine learning.
 
