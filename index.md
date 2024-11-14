@@ -15,12 +15,7 @@ nav_exclude: true
 Masters graduate in **Applied Computer Science from Concordia University, Montréal**. Throughout my career, I have obtained a thorough experience in designing machine learning & data science solutions and have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels. Previously, I have worked as a **Data Scientist** at [Intact Financial Corporation](https://intactlab.ca/), Canada's leading insurance company.
 <!-- ranging from my classmates to upper-management in order to push my boundaries.  -->
 
-During my tenure, I have performed business studies communicating insights using `SQL to identify trends using KPIs and improved query performances` as well. I have also contributed to actuary/insurance division on `ML models with risk analysis using claims, premmiums, loyalty programs for upselling/cross-selling offers for boosting marketting` using `supervised learning techniques & natural language processing (NLP).` 
-Additionally, I have designed large-scale data ingestion & transformation `ETL pipelines/ML pipelines using Databricks & PySpark` for automated CI/CD deployment using cloud services like `Azure, AWS, GCP`.
-
-Before my masters, I have worked as a **Data Scientist Engineer** for [Tatras Data](https://tatrasdata.com/){:target="_blank"} where I was exposed to the world of large-scale `High Performance Computing (HPC) data to construct ETL pipelines for demand sensing utilization` using `PySpark, Python, SQL, Databricks` and supervised learning techniques.
-
-Prior to this, my contribution as a **Jr. Data Scientist** at the [Sabudh Foundation](https://www.linkedin.com/company/sabudh-foundation/posts/){:target="_blank"} was to `analyse High Performance Computing (HPC) using clustering for user based profile and analyse the risk severity of a driver using positional data`.
+During my tenure, I have also contributed to actuary/insurance division on `ML models with risk analysis using claims, premmiums, loyalty programs for upselling/cross-selling offers for boosting marketting` using `supervised learning techniques & natural language processing (NLP)`. Additionally, I have designed large-scale data ingestion & transformation `ETL pipelines/ML pipelines using Databricks & PySpark` for automated CI/CD deployment on cloud services. 
 
 Currently, I am seeking **full-time opportunities** in field of data analysis/engineering/science and machine learning.
 
