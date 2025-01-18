@@ -35,4 +35,5 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
+  desrtination: ~/harmanjolly.com/
 google_analytics:
