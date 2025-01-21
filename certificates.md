@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: Certificates
+# title: Certificates
 title_include: true
 categories: certificates
 weight: 1
