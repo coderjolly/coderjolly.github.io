@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: Wall of Fame
+title: Certificates
 title_include: true
 categories: certificates
 weight: 1
@@ -35,25 +35,19 @@ weight: 1
 
 <div style="width: 30%; text-align: center;">
     <a href="">
-        <img src="/assets/img/certificates/sup-learning.png" style="width: 100%; border-radius: 8px;">
+        <img src="/assets/img/certificates/ml-sup-learning.png" style="width: 100%; border-radius: 8px;">
     </a>
 </div>
 
 <div style="width: 30%; text-align: center;">
     <a href="">
-        <img src="/assets/img/certificates/unsup-learning.png" style="width: 100%; border-radius: 8px;">
+        <img src="/assets/img/certificates/ml-unsup-learning.png" style="width: 100%; border-radius: 8px;">
     </a>
 </div>
 
 <div style="width: 30%; text-align: center;">
     <a href="">
-        <img src="/assets/img/certificates/adv-learn-algo.png" style="width: 100%; border-radius: 8px;">
-    </a>
-</div>
-
-<div style="width: 30%; text-align: center;">
-    <a href="">
-        <img src="/assets/img/certificates/ds-skills.png" style="width: 100%; border-radius: 8px;">
+        <img src="/assets/img/certificates/ml-adv-learn-algo.png" style="width: 100%; border-radius: 8px;">
     </a>
 </div>
 
@@ -62,6 +56,36 @@ weight: 1
         <img src="/assets/img/certificates/ds-skills.png" style="width: 100%; border-radius: 8px;">
     </a>
 </div>
+
+<div style="width: 30%; text-align: center;">
+    <a href="">
+        <img src="/assets/img/certificates/gsoc-20.png" style="width: 100%; border-radius: 8px;">
+    </a>
+</div>
+
+<div style="width: 30%; text-align: center;">
+    <a href="">
+        <img src="/assets/img/certificates/gsoc-19.png" style="width: 100%; border-radius: 8px;">
+    </a>
+</div>
+
+<div style="width: 30%; text-align: center;">
+    <a href="">
+        <img src="/assets/img/certificates/gci.png" style="width: 100%; border-radius: 8px;">
+    </a>
+</div>
+
+<div style="width: 30%; text-align: center;">
+    <a href="">
+        <img src="/assets/img/certificates/fossasia-hackathon.png" style="width: 100%; border-radius: 8px;">
+    </a>
+</div>
+
+<!-- <div style="width: 30%; text-align: center;">
+    <a href="">
+        <img src="/assets/img/certificates/fossasia-summer-intern.png" style="width: 100%; border-radius: 8px;">
+    </a>
+</div> -->
 
 
 </div>
