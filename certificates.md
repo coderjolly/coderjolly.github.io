@@ -22,8 +22,8 @@ weight: 1
 </div>
 
 <div style="width: 30%; text-align: center;">
-    <a href="https://learn.microsoft.com/en-us/users/harmansinghjolly-0964/credentials/cb1a0bd6836131cf">
-        <img src="/assets/img/certificates/ms-dsa.png" style="width: 100%; border-radius: 8px;">
+    <a href="https://learn.microsoft.com/en-us/users/harmansinghjolly-0964/credentials/98520be0dab3625d">
+        <img src="/assets/img/certificates/ms-dea.png" style="width: 100%; border-radius: 8px;">
     </a>
 </div>
 
