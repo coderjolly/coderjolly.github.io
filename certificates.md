@@ -1,6 +1,6 @@
 ---
 layout: full-width
-# title: Certificates
+title: Certificates
 title_include: true
 categories: certificates
 weight: 1
@@ -40,7 +40,7 @@ weight: 1
 </div>
 
 <div style="width: 30%; text-align: center;">
-    <a href="">
+    <a href="https://www.coursera.org/account/accomplishments/verify/S5CAU9BPJKAM">
         <img src="/assets/img/certificates/ml-unsup-learning.png" style="width: 100%; border-radius: 8px;">
     </a>
 </div>
