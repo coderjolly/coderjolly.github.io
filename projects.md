@@ -54,7 +54,7 @@ weight: 2
         Credit risk is the risk of loss that may occur from the failure of any party to abide by the terms and conditions of any financial contract, principally, the failure to make required payments on loans. This project aims to predict the credit risk of a customer. The data is cleaned, preprocessed, visualised and then used to various machine learning algorithms by oversampling and undersampling the dataset.</p>
         </div>
         <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-            <img src="/assets/img/credit-card-risk-modelling/imbalanced-scenario.png" alt="Image" style="width: 100%; max-width: 475px; height: 250px;">
+            <img src="/assets/img/credit-risk-modelling/imbalanced-scenario.png" alt="Image" style="width: 100%; max-width: 475px; height: 250px;">
         </div>
 </div>
 
