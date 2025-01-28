@@ -23,14 +23,40 @@ Currently, I am seeking **full-time opportunities** in field of data analysis/en
 
 <h3 style="text-align: left;">Experience</h3>
 
-&#8226; [**Intact Financial Corporation**](https://intactlab.ca/){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Sept 2023 - Dec 2023**<br/>
-&nbsp;&nbsp; `Data Scientist` 
+<ul style="padding: 0; margin: 0; list-style-position: outside; width: 100%; position: relative;">
+  <li style="list-style-type: disc; margin-left: 1em; position: relative; padding-right: 120px;">
+    <div>
+      <a href="https://intactlab.ca/" target="_blank" style="font-weight: bold; text-decoration: underline; color: black;">
+        Intact Financial Corporation
+      </a>
+      <br />
+      <span style="font-family: 'Cascadia', serif; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">Data Scientist</span>
+    </div>
+    <span style="font-weight: bold; white-space: nowrap; position: absolute; right: 140px; top: 0;">Sept 2023 – Dec 2023</span>
+  </li>
 
-&#8226; [**Tatras Data Services**](https://tatrasdata.com/){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Aug 2022 - Aug 2022**<br/>
-&nbsp;&nbsp; `Data Scientist Engineer` 
+  <li style="list-style-type: disc; margin-left: 1em; position: relative; margin-top: 0.5em; padding-right: 120px;">
+    <div>
+      <a href="https://tatrasdata.com/" target="_blank" style="font-weight: bold; text-decoration: underline; color: black;">
+        Tatras Data Services
+      </a>
+      <br />
+      <span style="font-family: 'Cascadia', serif; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">Data Scientist Engineer</span>
+    </div>
+    <span style="font-weight: bold; white-space: nowrap; position: absolute; right: 140px; top: 0;">Aug 2022 – Aug 2022</span>
+  </li>
 
-&#8226; [**Sabudh Foundation**](https://www.linkedin.com/company/sabudh-foundation/posts/){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Jan 2021 - July 2022**<br/>
-&nbsp;&nbsp; `Data Scientist Engineer` 
+  <li style="list-style-type: disc; margin-left: 1em; position: relative; margin-top: 0.5em; padding-right: 120px;">
+    <div>
+      <a href="https://www.linkedin.com/company/sabudh-foundation/posts/" target="_blank" style="font-weight: bold; text-decoration: underline; color: black;">
+        Sabudh Foundation
+      </a>
+      <br />
+      <span style="font-family: 'Cascadia', serif; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">Data Scientist Engineer</span>
+    </div>
+    <span style="font-weight: bold; white-space: nowrap; position: absolute; right: 140px; top: 0;">Jan 2021 – July 2022</span>
+  </li>
+</ul>
 
 <!-- ------------- PROJECTS ------------------ -->
 
@@ -62,20 +88,33 @@ Currently, I am seeking **full-time opportunities** in field of data analysis/en
 &nbsp;&nbsp;5. **Google Summer of Code:** `Mentor for DIAL Organization (2020)` <br/>
 
 
-
-
-
 <!-- EXTRA-CURRICULARS -->
 
 <h3 style="text-align: left;">Extra-Curriculars & Volunteer Participations</h3>
 
-**Art of Living Foundation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jan 2018 - April 2018** <br/> 
-&#8226; Involved with ``“The Vyakti Vikas Kendra”, a division for "People's Development"`` by means of education, cleanliness drives and focusing to improve communication, and increase self-awareness.<br/>
-&#8226; The program is based on the ancient Indian science of yoga and meditation, that is integrated with modern psychological techniques and practical wisdom for daily life.
+<ul style="padding: 0; margin: 0; list-style-position: outside; width: 100%; position: relative;">
+  <li style="margin-left: 0.5em; position: relative; padding-right: 120px;">
+    <div style="margin-left: -0.5em;">
+      <span style="font-weight: bold; color: black;">Art of Living Foundation</span>
+      <br/>
+        &#8226; Involved with <span style="font-family: 'Cascadia', serif; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">"The Vyakti Vikas Kendra”, a division for "People's Development"</span> by means of education, cleanliness drives, and focusing to improve communication, and increase self-awareness. <br/>
+        &#8226; The program is based on the ancient Indian science of yoga and meditation, that is integrated with modern psychological techniques and practical wisdom for daily life.
+    </div>
+    <span style="font-weight: bold; white-space: nowrap; position: absolute; right: 140px; top: 0;">Jan 2018 – April 2018</span>
+  </li>
 
-**Mozilla Campus Clubs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; August 2018 - July 2019** <br/>
-&#8226; Helped in conceptualizing the idea for ``EventInsta, the centralized event notification system`` for my college campus which was further developed by the members as a college product that allowed the users to get notifications about the college based events and announcements. <br/>
-&#8226; Organized several meetups for ``the Outreachy program`` to initiate the participation at open-source events along with an interactive session with the co-founders of one of the biggest open-source organization, **Fossasia.**
+   <li style="margin-left: 0.5em; position: relative; padding-right: 120px;">
+    <div style="margin-left: -0.5em;">
+      <span style="font-weight: bold; color: black;">Mozilla Campus Clubs</span>
+      <br/>
+        &#8226; Helped in conceptualizing the idea for <span style="font-family: 'Cascadia', serif; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">EventInsta, the centralized event notification system</span> for my college campus which was further developed by the members as a college product that allowed the users to get notifications about the college based events and announcements. <br/>
+        &#8226; Organized several meetups for <span style="font-family: 'Cascadia', serif; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">the Outreachy program</span> to initiate the participation at open-source events along with an interactive session with the co-founders of one of the biggest open-source organization, Fossasia.
+    </div>
+    <span style="font-weight: bold; white-space: nowrap; position: absolute; right: 140px; top: 0;">Jan 2018 – April 2018</span>
+  </li>
+
+</ul>
+
 
 <!-- My recent [research]({{site.baseurl}}/research.html) is primarily in soil carbon, water quality, and childhood lead poisoning. My methodological interests include Bayesian multilevel and spatiotemporal modeling, causal inference, targeted interventions, and experimental design.
 I was previously at the University of Chicago's [Harris School of Public Policy](http://harris.uchicago.edu) and [Center for Data Science and Public Policy](http://dsapp.uchicago.edu). Before that, I studied mathematics at Northwestern where my [dissertation]({{site.baseurl}}/assets/pdf/dissertation.pdf) was in the field of geometric analysis. -->
