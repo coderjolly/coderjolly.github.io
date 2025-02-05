@@ -113,7 +113,7 @@ weight: 2
 </div>
 
 
-**Football Player Market Value Prediction** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/football-player-prediction){:target="_blank"}
+**Football Player Market Value Prediction** [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/player-market-value-prediction){:target="_blank"}
 <br/>
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1; margin-right: 10px;">
