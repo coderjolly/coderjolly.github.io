@@ -15,7 +15,7 @@ nav_exclude: true
 Masters graduate in **Applied Computer Science from Concordia University, Montréal**. Throughout my career, I have obtained a thorough experience in designing machine learning & data science solutions and have demonstrated an ability to collaborate and contribute with colleagues of different seniority levels. Previously, I have worked as a **Data Scientist** at [Intact Financial Corporation](https://intactlab.ca/), Canada's leading insurance company.
 <!-- ranging from my classmates to upper-management in order to push my boundaries.  -->
 
-During my tenure, I have contributed to several divisions of machine learning `in analysing using claims, fraud analysis, financial crime and loyalty programs for upselling/cross-selling offers for boosting marketting` using `machine learning techniques & natural language processing (NLP)`. Additionally, I have designed large-scale data ingestion & transformation `ETL pipelines/ML pipelines using Databricks & PySpark` for automated CI/CD deployment on cloud services. 
+During my tenure, I have contributed to several divisions of machine learning in `analysing using claims, fraud analysis, financial crime and loyalty programs for upselling/cross-selling offers for boosting marketting` using `machine learning techniques & natural language processing (NLP)`. Additionally, I have designed large-scale data ingestion & transformation `ETL pipelines/ML pipelines using Databricks & PySpark` for automated CI/CD deployment on cloud services. 
 
 Currently, I am seeking **full-time opportunities** in field of data analysis/engineering/science and machine learning.
 
