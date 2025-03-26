@@ -9,14 +9,16 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
-For all codes related to this project, please visit the following git repository :
+<figure>
+<img src="/assets/img/NHL/NHLgame.png" width=700 style="display: block; margin: 0 auto">
+</figure>
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [1. Data Acquisition and Visualisation](#1-data-acquisition-and-visualisation)
   - [1.1 Data Acquisition](#11-data-acquisition)
   - [1.2 Simple Visualizations](#12-simple-visualizations)
-    - [Shot types](#shot-types)
+  - [Shot types](#shot-types)
     - [Goal rate vs distance](#goal-rate-vs-distance)
     - [Shot vs distance and shot-type](#shot-vs-distance-and-shot-type)
   - [1.3 Advanced Visualisations](#13-advanced-visualisations)
@@ -27,7 +29,7 @@ For all codes related to this project, please visit the following git repository
 - [3 Application Demo using live NHL game](#3-application-demo-using-live-nhl-game)
 
 ## 1. Data Acquisition and Visualisation
-**NOTE** : A more detailed version of this section is documented in the this [link]({{ site.url }}{{ site.baseurl }}/2024/09/17/milestone-1).
+**NOTE** : A more detailed version of this section is documented in the this [link]({{ site.url }}/articles/24/NHL-milestone1).
 
 ### 1.1 Data Acquisition
 In this section, we first download the play-by-play events for each game using the publicly available NHL API:
@@ -54,15 +56,15 @@ In brief, suppose we take GAME_ID ``` 2019020901 ``` and GAME_ID ``` 2021030217 
 - '03' for the playoff season.
 - '0217' -> For playoff games, the 2nd digit of the specific number gives the round of the playoffs, the 3rd digit specifies the matchup, and the 4th digit specifies the game (out of 7). (In this example: 7th game of match #1 in playoff round 2.)
 
-In our project, we ping each game and cache the play-by-play events for ALL NHL games from seasons 2016-2017 to 2023-2024 (including regular and playoffs games!). For more explanations, we have a [detailed webpage](NHL-milestone1){:target="_blank"} dedicated to this section.
+In our project, we ping each game and cache the play-by-play events for ALL NHL games from seasons 2016-2017 to 2023-2024 (including regular and playoffs games!). For more explanations, we have a [detailed webpage]({{ site.url }}/articles/24/NHL-milestone1){:target="_blank"} dedicated to this section.
 
 ### 1.2 Simple Visualizations
 
 All the following plots were obtained using the cumulative play-by-play data from all seasons and games mentioned in the previous section.
 
-#### Shot types
+### Shot types
 
-**NOTE** for detailed explanations for this section follow this [link](NHL-milestone1)
+**NOTE** for detailed explanations for this section follow this [link]({{ site.url }}/articles/24/NHL-milestone1).
 
 Important note: for this analysis, we have decided to drop shot types that have been used less than 0.1%, because they don't represent meaningful information, especially when compared to other shot types.
 The shot types dropped were "between-legs" and "cradle", with 0.06% and 0.005% usage, respectively.
