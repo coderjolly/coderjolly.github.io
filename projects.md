@@ -6,7 +6,7 @@ weight: 2
 <style>body {text-align: justify}</style>
 
 
-**Explaining Articles using LLMs** [**[<font color='blue'>Writing</font>]**](articles/24/explaining-news-using-llms){:target="_blank"}{:target="_blank"}
+**Explaining Articles using LLMs** [**[<font color='blue'>Writing</font>]**](articles/24/explaining-news-using-llms){:target="_blank"}
 <br/>
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1; margin-right: 10px;">
@@ -28,6 +28,18 @@ weight: 2
     </div>
     <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
         <img src="/assets/img/steamgestion/architecture.png" alt="Image" style="width: 100%; max-width: 435px; height: 350px;">
+    </div>
+</div>
+
+**Powerplay Predictor - NHL Analysis** [**[<font color='blue'>Writing</font>]**](articles/25/NHL-highlights){:target="_blank"}
+<br/>
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p style="font-family: 'cascadia'; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">
+        Ice hockey analytics has seen a surge in interest with the growing availability of granular play-by-play data. This project analyzes NHL game data from 2016 to 2024 to model goal-scoring behavior. It leverages a containerized Flask application served via Docker, where real-time game predictions are generated using pre-trained models. Data is acquired from the NHL API, processed into engineered features like shot distance and angle, and visualized through both static and interactive dashboards. The system showcases a full-stack deployment of statistical modeling integrated into a live demo interface for tracking ongoing NHL games.</p>
+    </div>
+    <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
+        <img src="/assets/img/NHL/Feature1_Game1play.png" alt="Image" style="width: 100%; max-width: 435px; height: 350px;">
     </div>
 </div>
 
