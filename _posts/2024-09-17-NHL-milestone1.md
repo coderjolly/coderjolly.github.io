@@ -184,7 +184,7 @@ The events also contain a field called "eventOwnerTeamId", so we can know which 
 
 #### NHL Coordinate system
 The following image indicates the dimensions of an official NHL ice rink:
-<img src="/assets/img/NHL/ice_hockey_layout.svg" alt="NHL ice rink layout">
+<img src="/assets/img/NHL/ice_hockey_layout.png" alt="NHL ice rink layout">
 
 We were able to deduce the following information:
 - The origin (0,0) is located at the center of the ice
