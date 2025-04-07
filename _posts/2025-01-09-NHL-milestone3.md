@@ -17,7 +17,6 @@ The Flask server is responsible for receiving the game ID, retrieving the game d
 
 ### Milestone 3 Video
 The video starts by starting both containers with the `docker-compose up` command.  
-Then, the client app is demonstrated into the browser. The user can select a model and the game ID. The game ID selected was actually live during the recording of the video ([January 13th, 2025, Calgary Flames vs. Chicago Blackhawks](https://www.nhl.com/gamecenter/cgy-vs-chi/2025/01/13/2024020690/boxscore)).  
-We can see that the first select model predicts "0.4" goals for the Flames, and "0.6" goals for the Blackhawks, while the score was 1-1 when recording the video (there was 13 minutes left in the first period).  
+Then, the client app is demonstrated into the browser. The user can select a model and the game ID. The game ID selected was actually live during the recording of the video ([April 5th, 2025, Montreal Canadian vs. Philadephia Flyers](https://www.nhl.com/gamecenter/mtl-vs-phi/2025/04/05/2024021217)).  
+We can see that the first select model predicts "2.7" goals for the Flyers, and "3.1" goals for the Canadians, while the score was 2-3 when recording the video (there were 10 minutes left in the last period).  
 
-<iframe width="620" height="315" src="https://youtube.com/embed/GKGzfGlOhJI" frameborder="0" allowfullscreen></iframe>

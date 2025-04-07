@@ -46,7 +46,7 @@ To obtain all the gameIds for each season, our NHLDataProvider class uses the fo
    - ``` __find_game_ids_of_season(self, season)```
       - This method takes the season as input (ex: season=2018 for 2018-2019) and contains if-else blocks to compute all GameIDs (regular & play-offs) for each season and returns a complete list when called. This is to accommodate for changes in total number of regular games in some seasons, as shown in the figure below.
 
-      <img src="/assets/img/NHL/DataAcq_find_game_ids.png" alt="find_game_ids">
+      <img src="/assets/img/NHL/milestone1/DataAcq_find_game_ids.png" alt="find_game_ids">
 
 
    - ``` __game_id_gen_helper(self, start_game_id, end_game_id, season, gameids)```

@@ -9,11 +9,25 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
-<figure>
+<!-- <figure>
 <img src="/assets/img/NHL/NHLgame.png" width=700 style="display: block; margin: 0 auto">
-</figure>
+</figure> -->
+
+
+## 🎥 Demo Video: NHL Prediction App
+The video starts by starting both containers with the `docker-compose up` command.  
+Then, the client app is demonstrated into the browser. The user can select a model and the game ID. The game ID selected was actually live during the recording of the video ([April 5th, 2025, Montreal Canadiens vs. Philadephia Flyers](https://www.nhl.com/gamecenter/mtl-vs-phi/2025/04/05/2024021217)).  
+We can see that the first select model predicts "2.7" goals for the Flyers, and "3.1" goals for the Canadians, while the score was 2-3 when recording the video (there were 10 minutes left in the last period).  
+
+<iframe src="https://drive.google.com/file/d/11Z9Dw3AwkNmQ5LknK-qlmpshpDs4FS_k/preview" 
+        width="700" height="394" 
+        allow="autoplay" 
+        style="display: block; margin: 20px auto;">
+</iframe>
+
 
 ## Table of Contents
+- [🎥 Demo Video: NHL Prediction App](#-demo-video-nhl-prediction-app)
 - [Table of Contents](#table-of-contents)
 - [1. Data Acquisition and Visualisation](#1-data-acquisition-and-visualisation)
   - [1.1 Data Acquisition](#11-data-acquisition)
@@ -26,7 +40,6 @@ image_url: ""
   - [2.1 Histogram of shot counts binned by shot distance and shot angle](#21-histogram-of-shot-counts-binned-by-shot-distance-and-shot-angle)
   - [2.2 Plotting Goal Rate (Goal/(No Goals + Goals)) binned by distance and shot angle](#22-plotting-goal-rate-goalno-goals--goals-binned-by-distance-and-shot-angle)
   - [2.3 Plotting Histograms of empty and non-empty goals](#23-plotting-histograms-of-empty-and-non-empty-goals)
-- [3 Application Demo using live NHL game](#3-application-demo-using-live-nhl-game)
 
 ## 1. Data Acquisition and Visualisation
 **NOTE** : A more detailed version of this section is documented in the this [link]({{ site.url }}/articles/24/NHL-milestone1).
@@ -168,9 +181,7 @@ Goal rate by shot angle:
 
 <img src="/assets/img/NHL/Feature1_nonempty_distance.png" alt="Non Empty goals by distance">
 
-## 3 Application Demo using live NHL game
-The video starts by starting both containers with the `docker-compose up` command.  
-Then, the client app is demonstrated into the browser. The user can select a model and the game ID. The game ID selected was actually live during the recording of the video ([January 13th, 2025, Calgary Flames vs. Chicago Blackhawks](https://www.nhl.com/gamecenter/cgy-vs-chi/2025/01/13/2024020690/boxscore)).  
-We can see that the first select model predicts "0.4" goals for the Flames, and "0.6" goals for the Blackhawks, while the score was 1-1 when recording the video (there was 13 minutes left in the first period).  
 
-<iframe width="620" height="315" src="https://youtube.com/embed/GKGzfGlOhJI" frameborder="0" allowfullscreen></iframe>
+
+
+
