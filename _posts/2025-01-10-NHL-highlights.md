@@ -9,9 +9,9 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
-<!-- <figure>
-<img src="/assets/img/NHL/NHLgame.png" width=700 style="display: block; margin: 0 auto">
-</figure> -->
+[[``MileStone1``]({{ site.url }}/articles/24/NHL-milestone1){:target="_blank"},
+[``MileStone2``]({{ site.url }}/articles/24/NHL-milestone2){:target="_blank"},
+[``MileStone3``]({{ site.url }}/articles/25/NHL-milestone3){:target="_blank"}]
 
 
 ## 🎥 Demo Video
