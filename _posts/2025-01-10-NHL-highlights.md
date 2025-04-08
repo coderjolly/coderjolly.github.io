@@ -14,7 +14,7 @@ image_url: ""
 </figure> -->
 
 
-## 🎥 Demo Video: NHL Prediction App
+## 🎥 Demo Video
 
 The client app is demonstrated into the browser. The user adds a game ID. The game ID selected was actually live during the recording of the video ([April 5th, 2025, Montreal Canadiens vs. Philadephia Flyers](https://www.nhl.com/gamecenter/mtl-vs-phi/2025/04/05/2024021217)).  
 We can see that the first select model predicts "2.7" goals for the Flyers, and "3.1" goals for the Canadians, while the score was 2-3 when recording the video (there were 10 minutes left in the last period).  
@@ -25,8 +25,8 @@ We can see that the first select model predicts "2.7" goals for the Flyers, and 
 </iframe>
 
 
-## Table of Contents
-- [🎥 Demo Video: NHL Prediction App](#-demo-video-nhl-prediction-app)
+<!-- ## Table of Contents
+- [🎥 Demo Video](#-demo-video)
 - [Table of Contents](#table-of-contents)
 - [1. Data Acquisition and Visualisation](#1-data-acquisition-and-visualisation)
   - [1.1 Data Acquisition](#11-data-acquisition)
@@ -38,12 +38,13 @@ We can see that the first select model predicts "2.7" goals for the Flyers, and 
 - [2. Feature Engineering and Model Training](#2-feature-engineering-and-model-training)
   - [2.1 Histogram of shot counts binned by shot distance and shot angle](#21-histogram-of-shot-counts-binned-by-shot-distance-and-shot-angle)
   - [2.2 Plotting Goal Rate (Goal/(No Goals + Goals)) binned by distance and shot angle](#22-plotting-goal-rate-goalno-goals--goals-binned-by-distance-and-shot-angle)
-  - [2.3 Plotting Histograms of empty and non-empty goals](#23-plotting-histograms-of-empty-and-non-empty-goals)
+  - [2.3 Plotting Histograms of empty and non-empty goals](#23-plotting-histograms-of-empty-and-non-empty-goals) -->
 
 ## 1. Data Acquisition and Visualisation
 **NOTE** : A more detailed version of this section is documented in the this [link]({{ site.url }}/articles/24/NHL-milestone1).
 
 ### 1.1 Data Acquisition
+
 In this section, we first download the play-by-play events for each game using the publicly available NHL API:
 
 [https://api-web.nhle.com/v1/gamecenter/{GAME_ID}/play-by-play](https://api-web.nhle.com/v1/gamecenter/{GAME_ID}/play-by-play)
@@ -93,7 +94,6 @@ The shot types dropped were "between-legs" and "cradle", with 0.06% and 0.005% u
 <img src="/assets/img/NHL/simple_viz_goal_conversion_vs_dist2.png" alt="Goal Conversion Rate for Season 2023, per shot type">
 
 ### 1.3 Advanced Visualisations
-
 
 For the advanced visualisations, we have decided to include missed shots in our calculations to get a more complete picture of offensive performance.
 
@@ -181,6 +181,26 @@ Goal rate by shot angle:
 <img src="/assets/img/NHL/Feature1_nonempty_distance.png" alt="Non Empty goals by distance">
 
 
+## 3. Deployment and Dependeancy Management
 
+<img src="/assets/img/NHL/soft-eng-meme.png" width=450 style="display: block; margin: 0 auto">
 
+To operationalize the expected goals (xG) models for NHL game predictions, we designed a lightweight, modular deployment pipeline using Flask, Docker, and Docker Compose.
+
+🔌 Flask API for Model Serving
+I built a RESTful Flask application that exposes endpoints to:
+
+- /predict: Score new shot events and return xG predictions.
+- /logs: View runtime activity.
+- /download_registry_model: Swap models live from the Weights & Biases model registry without restarting the app.
+
+📦 Containerized Deployment with Docker
+
+<img src="/assets/img/NHL/docker-meme.png" width=450 style="display: block; margin: 0 auto">
+
+Managing Python dependencies, version mismatches, and environment drift is a common challenge in ML projects. To solve this, I containerized the entire application using Docker, ensuring:
+
+- Reproducibility across systems and collaborators.
+- Seamless version control of dependencies via requirements.txt.
+- Lightweight builds without bundling model weights inside the container (thanks to dynamic hot-swapping).
 

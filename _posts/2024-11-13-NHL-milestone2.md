@@ -160,9 +160,9 @@ The potential issue is that the performance metric does not provide a valid eval
 </table>
 
 Links:
-- [Experiment 0_Logistic Regression (distance)](https://wandb.ai/IFT6758-2024-B04/ms2-q3-lr-baseline/runs/h64fbcx1)
-- [Experiment 1_Logistic Regression (shotAngle)](https://wandb.ai/IFT6758-2024-B04/ms2-q3-lr-baseline/runs/f9ur94he)
-- [Experiment 2_Logistic Regression (distance, shotAngle)](https://wandb.ai/IFT6758-2024-B04/ms2-q3-lr-baseline/runs/zu9q9jom)
+- [Experiment 0_Logistic Regression (distance)]()
+- [Experiment 1_Logistic Regression (shotAngle)]()
+- [Experiment 2_Logistic Regression (distance, shotAngle)]()
 
 From these 4 plots, we can see
 - The ROC AUC curve
@@ -189,7 +189,7 @@ The rise in goal rate at low percentiles for the distance-only model indicates p
 Basically, we created the features suggested in sections 4.1, 4.2 and 4.3 of the assignment.
 
 ### Dataset logging into W&B
-[Team B4 Dataset experiment in W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q4-dataset-V0/artifacts/dataset/wpg_v_wsh_2017021065/v1/files/wpg_v_wsh_2017021065.table.json)
+[Team B4 Dataset experiment in W&B]()
 
 <table>
   <thead>
@@ -383,7 +383,7 @@ The tidy dataset contains 10 input features (See section 4.5). We wanted to comp
 Note: For the categorical features ("shot type" and "last Event Type"), we have "one-hot-encoded" them before the training.
 
 The different experiments were tracked in W&B, runs x to here:
-[Neural Network Feature Selection experiment in W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q6-best-shot-fs?nw=nwusersergemalo)
+[Neural Network Feature Selection experiment in W&B]()
 
 
 <table>
@@ -414,7 +414,7 @@ In the previous section, we were training our neural network on all the data set
 
 We experimented with mini-batches sizes of 0 (no mini-batch), 32, 64, 128, 256.
 
-[Neural Network Mini-batch size experiment in W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q6-best-shot-BatchSize?nw=nwusersergemalo)
+[Neural Network Mini-batch size experiment in W&B]()
 
 From those results, we discovered that using a mini-batch size of 32 data points seems optimal.
 
@@ -482,7 +482,7 @@ We tested the following architectures:
   </tbody>
 </table>
 
-[Neural Network Architecture experiment in W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q6-best-shot-arch?nw=nwusersergemalo)
+[Neural Network Architecture experiment in W&B]()
 
 
 <table>
@@ -507,7 +507,7 @@ Learning rate can have a major impact on the performance of the model. When it i
 We tested the following training rates, which are "around" our default value.
 0.01, 0.005, 0.002, **0.001**, 0.0008, 0.0005, 0.0001
 
-[Neural Network Learning rate experiment in W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q6-best-shot-lr2?nw=nwusersergemalo)
+[Neural Network Learning rate experiment in W&B]()
 
 <table>
   <thead>
@@ -531,7 +531,7 @@ We can see in the graphs above that learning rates that are too high are clearly
 ### 6.5. Number of epochs
 Finally, we just wanted to "push" our previous selections with a training over much more epochs. Instead of using 10 epochs, we trained our model with 100 epochs, and verified the evolution of the results (Loss, ROC AUC) during the training.
 
-[Here's the comparison in W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q6-best-shot-epochs/runs/we5ru1re?nw=nwusersergemalo)
+[Here's the comparison in W&B]()
 
 As we can see in the results, the loss and the ROC AUC have reached a limit after **40 epochs**. We will use this value for section 7.
 
@@ -545,7 +545,7 @@ As we can see in the results, the loss and the ROC AUC have reached a limit afte
 - Adam optimizer with a learning rate of 0.0005
 - Perform training with 100 epochs
 
-[Here's the run result in W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q6-best-shot-epochs/runs/gzvusrjr?nw=nwusersergemalo)
+[Here's the run result in W&B]()
 <table>
   <thead>
   </thead>
@@ -570,7 +570,7 @@ As we can see in the results, the loss and the ROC AUC have reached a limit afte
 ### 7.1 - Compare models with Test set Regular Season 2020-2021
 
 #### Result for models of section 3
-[Logistic Regression test results on W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q7-model3-Regular2020)
+[Logistic Regression test results on W&B]()
 <table>
   <thead>
   </thead>
@@ -604,7 +604,7 @@ Best XGB model on regular games
 </table>
 
 #### Result for model of section 6
-[Neural Network test results on W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q7-model6-test-Regular2020-V4?nw=nwusersergemalo)
+[Neural Network test results on W&B]()
 <table>
   <thead>
   </thead>
@@ -631,7 +631,7 @@ The NN model has a similar performance as in the validation set, with a slight u
 ### 7.2 - Compare models with Test set Playoff Season 2020-2021
 
 #### Result for models of section 3
-[Logistic Regression test results on W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q7-model3-Playoff2020)
+[Logistic Regression test results on W&B]()
 <table>
   <thead>
   </thead>
@@ -666,7 +666,7 @@ Best XGB model on playoffs
 
 
 #### Result for model of section 6
-[Neural Network test results on W&B](https://wandb.ai/IFT6758-2024-B04/ms2-q7-model6-test-Playoffs2020-V4?nw=nwusersergemalo)
+[Neural Network test results on W&B]()
 <table>
   <thead>
   </thead>
@@ -682,7 +682,7 @@ Best XGB model on playoffs
   </tbody>
 </table>
 
-Observations:
+## Observations:
 
 The 3 models of logistic regression perform similarly as in the regular season test set, while they have a higher variance in goal rate percentiles, suggesting a under-performance in the generalization on playoffs.
 
