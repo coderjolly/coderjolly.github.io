@@ -7,8 +7,16 @@ weight: 1
 
 ## Writings
 
+[``Powerplay Predictor - NHL Analysis Project``](articles/25/NHL-highlights){:target="_blank"} 
+[[``MileStone1``](articles/24/NHL-milestone1){:target="_blank"},
+[``MileStone2``](articles/24/NHL-milestone2){:target="_blank"},
+[``MileStone3``](articles/25/NHL-milestone3){:target="_blank"}]<br/>
+Ice hockey analytics has seen a surge in interest with the growing availability of granular play-by-play data. This project analyzes NHL game data from 2016 to 2024 to model goal-scoring behavior. The project is divided into three milestones: data acquisition and visualization, feature engineering and model training, and application demo using live NHL game. This writing is a comprehensive analysis of the project, the data acquisition, visualization, feature engineering, model training, and the application demo.
+
+
 [``Explaining Articles using LLMs``](articles/24/explaining-news-using-llms){:target="_blank"}<br/>
 Natural Language Processing is the backbone of Language Models. They are used in a variety of tasks such as Machine Translation, Text Summarization, Question Answering, etc. This writing tries to understand how LLMs can be used to explain news articles by using the pre-trained LLMs exposed on APIs such as OpenAI and GPT3.5 and how they can used for the task of article summarization, keyword generation, etc.
+
 
 [``Credit Risk Modelling``](articles/23/credit-risk-modelling){:target="_blank"}<br/>
 With the increasing volume and complexity of fraudulent activities, traditional rule-based systems have proven to be inadequate in effectively detecting and preventing credit card fraud. However, machine learning algorithms offer a promising solution. This writing will delve into the data pre-prcessing techniques, some machine learning approaches that can be employed in credit risk modelling for risk classifications.
@@ -16,12 +24,6 @@ With the increasing volume and complexity of fraudulent activities, traditional 
 
 [``Steamgestion - A Data Ingestion Pipeline``](articles/22/steamgestion-data-pipeline){:target="_blank"}<br/>
 Steamgestion is a data ingestion pipeline which replicates how large scale data values are ingested. This writing is a curation of my learnings and efforts throughout my Distributed System Design course where Steamgestion was delivered as a final project. It is a walkthrough of the project, the architecture, the environment setups, technologies used, and finally the results obtained in the project.
-
-[``Powerplay Predictor - NHL Analysis Project``](articles/25/NHL-highlights){:target="_blank"} 
-[[``MileStone1``](articles/24/NHL-milestone1){:target="_blank"},
-[``MileStone2``](articles/24/NHL-milestone2){:target="_blank"},
-[``MileStone3``](articles/25/NHL-milestone3){:target="_blank"}]<br/>
-Ice hockey analytics has seen a surge in interest with the growing availability of granular play-by-play data. This project analyzes NHL game data from 2016 to 2024 to model goal-scoring behavior. The project is divided into three milestones: data acquisition and visualization, feature engineering and model training, and application demo using live NHL game. This writing is a comprehensive analysis of the project, the data acquisition, visualization, feature engineering, model training, and the application demo.
 
 
 [``Processing Image Advertisements for Contextual Analysis``](articles/23/processing-ads){:target="_blank"}<br/>
