@@ -188,11 +188,12 @@ Goal rate by shot angle:
 To operationalize the expected goals (xG) models for NHL game predictions, we designed a lightweight, modular deployment pipeline using Flask, Docker, and Docker Compose.
 
 🔌 Flask API for Model Serving
-I built a RESTful Flask application that exposes endpoints to:
+We have built a RESTful Flask application that exposes endpoints to:
 
-- /predict: Score new shot events and return xG predictions.
 - /logs: View runtime activity.
 - /download_registry_model: Swap models live from the Weights & Biases model registry without restarting the app.
+- /predict: Score new shot events and return xG predictions.
+- /fetch_game_data: Fetch play-by-play data from the NHL API.
 
 📦 Containerized Deployment with Docker
 
