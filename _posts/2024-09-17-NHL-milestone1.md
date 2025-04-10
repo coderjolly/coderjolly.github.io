@@ -68,33 +68,32 @@ The initializer of the NHLDataProvider class sets up the cache location as shown
 <img src="/assets/img/NHL/DataAcq_Class_init.png" alt="Class Init">
 
 When the user needs the raw play-by-play data, the class provides two *public* methods as follows:
-   - ``` get_game_data(self, season, game_id=None) ``` :
-  This method allows the user to obtain raw play-by-play data in two ways:
-  **Pass only season**:
-         This option allows the user to obtain the raw data by passing only the 'season' parameter (example: 2016 for 2016-2017 season). The method also checks if all of the data has been cached already, or if only some games have been cached. If not cached, it will download un-cached data to the desired path (*Base_Path*\Seasons\2016 for 2016-2017 season for example), and then finally returns the aggregated raw data of all play-by-play events for the season. The snippet below shows the code implementation of this scenario:
 
-         <img src="/assets/img/NHL/DataAcq_get_season_data.png" alt="Get season data fn">
+- ``` get_game_data(self, season, game_id=None) ```: This method allows the user to obtain raw play-by-play data in two ways:
 
-         Execution in the notebook cell:
-         <img src="/assets/img/NHL/DataAcq_2017_season_data.png" alt="Get 2017 data">
+  **Pass only season**: This option allows the user to obtain the raw data by passing only the 'season' parameter (example: 2016 for 2016-2017 season). The method also checks if all of the data has been cached already, or if only some games have been cached. If not cached, it will download un-cached data to the desired path (*Base_Path*\Seasons\2016 for 2016-2017 season for example), and then finally returns the aggregated raw data of all play-by-play events for the season. The snippet below shows the code implementation of this scenario:
 
-  **Pass season along with game_id**:
-         This option allows the user to obtain the play-by-play raw data of a specific game, and it also checks if the game_id provided is a valid one. Just like the previous scenario, cached data is returned, else the data is downloaded and then returned.
+  <img src="/assets/img/NHL/DataAcq_get_season_data.png" alt="Get season data fn">
 
-         <img src="/assets/img/NHL/DataAcq_get_game_data.png" alt="Get game data fn">
+  Execution in the notebook cell:
+         
+  <img src="/assets/img/NHL/DataAcq_2017_season_data.png" alt="Get 2017 data">
 
-         Execution in the notebook cell:
+  **Pass season along with game_id**: This option allows the user to obtain the play-by-play raw data of a specific game, and it also checks if the game_id provided is a valid one. Just like the previous scenario, cached data is returned, else the data is downloaded and then returned.
 
-         <img src="/assets/img/NHL/DataAcq_get_raw_game.png" alt="Get raw game data">
+  <img src="/assets/img/NHL/DataAcq_get_game_data.png" alt="Get game data fn">
 
-   - ``` save_all_seasons_json(self) ``` :
-      - This method allows the user to download all the play-by-play data from seasons 2016-2017 to 2023-2024 into appropriate cache paths, while ensuring cached data is not downloaded again. This does not return any data.
+  Execution in the notebook cell:
 
-      <img src="/assets/img/NHL/DataAcq_all_data_fn.png" alt="Get all data fn">
+  <img src="/assets/img/NHL/DataAcq_get_raw_game.png" alt="Get raw game data">
 
-      Execution in the notebook cell:
+- ``` save_all_seasons_json(self) ``` : This method allows the user to download all the play-by-play data from seasons 2016-2017 to 2023-2024 into appropriate cache paths, while ensuring cached data is not downloaded again. This does not return any data.
 
-      <img src="/assets/img/NHL/DataAcq_save_all_data.png" alt="Get all data snippet">
+  <img src="/assets/img/NHL/DataAcq_all_data_fn.png" alt="Get all data fn">
+
+  Execution in the notebook cell:
+
+  <img src="/assets/img/NHL/DataAcq_save_all_data.png" alt="Get all data snippet">
 
 Furthermore, when a game is not cached in memory, the data to be retrieved using the API is called as shown in the following snippet:
 
