@@ -82,16 +82,16 @@ All the following plots were obtained using the cumulative play-by-play data fro
 Important note: for this analysis, we have decided to drop shot types that have been used less than 0.1%, because they don't represent meaningful information, especially when compared to other shot types.
 The shot types dropped were "between-legs" and "cradle", with 0.06% and 0.005% usage, respectively.
 
-<img src="/assets/img/NHL/simple_viz_shot_types.png" alt="2023-2044 Season Shot Types Bar plot">
+<img src="/assets/img/NHL/milestone1/simple_viz_shot_types.png" alt="2023-2044 Season Shot Types Bar plot">
 
 #### Goal rate vs distance 
 
-<img src="/assets/img/NHL/simple_viz_goal_conversion.png" alt="Goal Conversion Rate for Seasons 2018, 2019 and 2020">
+<img src="/assets/img/NHL/milestone1/simple_viz_goal_conversion.png" alt="Goal Conversion Rate for Seasons 2018, 2019 and 2020">
 
 #### Shot vs distance and shot-type
 
-<img src="/assets/img/NHL/simple_viz_goal_conversion_vs_dist1.png" alt="Goal Conversion Rate for Season 2023, per shot type">
-<img src="/assets/img/NHL/simple_viz_goal_conversion_vs_dist2.png" alt="Goal Conversion Rate for Season 2023, per shot type">
+<img src="/assets/img/NHL/milestone1/simple_viz_goal_conversion_vs_dist1.png" alt="Goal Conversion Rate for Season 2023, per shot type">
+<img src="/assets/img/NHL/milestone1/simple_viz_goal_conversion_vs_dist2.png" alt="Goal Conversion Rate for Season 2023, per shot type">
 
 ### 1.3 Advanced Visualisations
 
@@ -154,36 +154,36 @@ For the advanced visualisations, we have decided to include missed shots in our 
 
 Plotting histogram of shot counts binned by shot distance:
 
-<img src="/assets/img/NHL/Feature1_binshots_dist.png" alt="Goals by distance">
-<img src="/assets/img/NHL/Feature1_binshotNg_distance.png" alt="Non-goals by distance">
+<img src="/assets/img/NHL/milestone2/Feature1_binshots_dist.png" alt="Goals by distance">
+<img src="/assets/img/NHL/milestone2/Feature1_binshotNg_distance.png" alt="Non-goals by distance">
 
 A more detailed version of this section is documented in the this [link]({{ site.url }}{{ site.baseurl }}/2024/11/13/milestone-2)
 
 Plotting histogram of shot counts binned by shot angle:
 
-<img src="/assets/img/NHL/Feature1_binshotG_angle.png" alt="Goals by angle">
-<img src="/assets/img/NHL/Feature1_binshotsNg_angle.png" alt="Non-goals by angle">
+<img src="/assets/img/NHL/milestone2/Feature1_binshotG_angle.png" alt="Goals by angle">
+<img src="/assets/img/NHL/milestone2/Feature1_binshotsNg_angle.png" alt="Non-goals by angle">
 
 ### 2.2 Plotting Goal Rate (Goal/(No Goals + Goals)) binned by distance and shot angle
 
 Goal rate by shot distance:
 
-<img src="/assets/img/NHL/Feature1_bingoals_distance.png" alt="Goal rate by distance">
+<img src="/assets/img/NHL/milestone2/Feature1_bingoals_distance.png" alt="Goal rate by distance">
 
 Goal rate by shot angle:
 
-<img src="/assets/img/NHL/Feature1_bingoals_angle.png" alt="Goal rate by angle">
+<img src="/assets/img/NHL/milestone2/Feature1_bingoals_angle.png" alt="Goal rate by angle">
 
 ### 2.3 Plotting Histograms of empty and non-empty goals
 
-<img src="/assets/img/NHL/Feature1_emptygoals_dist.png" alt="Empty goals by distance">
+<img src="/assets/img/NHL/milestone2/Feature1_emptygoals_dist.png" alt="Empty goals by distance">
 
-<img src="/assets/img/NHL/Feature1_nonempty_distance.png" alt="Non Empty goals by distance">
+<img src="/assets/img/NHL/milestone2/Feature1_nonempty_distance.png" alt="Non Empty goals by distance">
 
 
 ## 3. Deployment and Dependeancy Management
 
-<img src="/assets/img/NHL/soft-eng-meme.png" width=450 style="display: block; margin: 0 auto">
+<img src="/assets/img/NHL/highlights/soft-eng-meme.png" width=450 style="display: block; margin: 0 auto">
 
 To operationalize the expected goals (xG) models for NHL game predictions, we designed a lightweight, modular deployment pipeline using Flask, Docker, and Docker Compose.
 
@@ -197,7 +197,7 @@ We have built a RESTful Flask application that exposes endpoints to:
 
 📦 Containerized Deployment with Docker
 
-<img src="/assets/img/NHL/docker-meme.png" width=450 style="display: block; margin: 0 auto">
+<img src="/assets/img/NHL/highlights/docker-meme.png" width=450 style="display: block; margin: 0 auto">
 
 Managing Python dependencies, version mismatches, and environment drift is a common challenge in ML projects. To solve this, I containerized the entire application using Docker, ensuring:
 

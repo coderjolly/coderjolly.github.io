@@ -20,3 +20,8 @@ The Flask server is responsible for receiving the game ID, retrieving the game d
 Then, the client app is demonstrated into the browser. The user can select a model and the game ID.  -->
 The user can select a model and the game ID. The game ID selected was actually live during the recording of the video ([April 5th, 2025, Montreal Canadian vs. Philadephia Flyers](https://www.nhl.com/gamecenter/mtl-vs-phi/2025/04/05/2024021217)).  
 We can see that the first select model predicts "2.7" goals for the Flyers, and "3.1" goals for the Canadians, while the score was 2-3 when recording the video (there were 10 minutes left in the last period).
+
+<iframe src="https://drive.google.com/file/d/11Z9Dw3AwkNmQ5LknK-qlmpshpDs4FS_k/preview" 
+        width="700" height="394" 
+        allow="autoplay">
+</iframe>
