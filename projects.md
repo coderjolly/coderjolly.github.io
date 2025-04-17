@@ -14,7 +14,7 @@ weight: 2
         Ice hockey analytics has seen a surge in interest with the growing availability of granular play-by-play data. This project analyzes NHL game data from 2016 to 2024 to model goal-scoring behavior. It leverages a containerized Flask application served via Docker, where real-time game predictions are generated using pre-trained models. Data is acquired from the NHL API, processed into engineered features like shot distance and angle, and visualized through both static and interactive dashboards. The system showcases a full-stack deployment of statistical modeling integrated into a live demo interface for tracking ongoing NHL games.</p>
     </div>
     <div style="flex: 1; margin-left: -10px; margin-top: 10px;">
-        <img src="/assets/img/NHL/Feature1_Game1play.png" alt="Image" style="width: 100%; max-width: 435px; height: 350px;">
+        <img src="/assets/img/NHL/milestone2/Feature1_Game1play.png" alt="Image" style="width: 100%; max-width: 435px; height: 350px;">
     </div>
 </div>
 
