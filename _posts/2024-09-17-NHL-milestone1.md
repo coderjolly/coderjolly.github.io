@@ -65,7 +65,7 @@ The NHLDataProvider class provides public methods to be accessed by the user to 
 
 The initializer of the NHLDataProvider class sets up the cache location as shown in the snippet below:
 
-<img src="/assets/img/NHL/mileston1/DataAcq_Class_init.png" alt="Class Init">
+<img src="/assets/img/NHL/milestone1/DataAcq_Class_init.png" alt="Class Init">
 
 When the user needs the raw play-by-play data, the class provides two *public* methods as follows:
 

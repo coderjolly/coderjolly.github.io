@@ -27,10 +27,10 @@ Currently, I am seeking **full-time opportunities** in field of data analysis/en
   <li style="list-style-type: disc; margin-left: 1em; position: relative; padding-right: 120px;">
     <div>
       <a href="https://ceoitbox.com/" target="_blank" style="font-weight: bold; text-decoration: underline; color: black;">
-        CEOITBOX
+        TNS Networking Inc
       </a>
       <br />
-      <span style="font-family: 'Cascadia', serif; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">Data Developer</span>
+      <span style="font-family: 'Cascadia', serif; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">Consultant - Data & ML</span>
     </div>
     <span style="font-weight: bold; white-space: nowrap; position: absolute; right: 140px; top: 0;">Jan 2024 – Present</span>
   </li>
