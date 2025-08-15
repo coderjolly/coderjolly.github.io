@@ -26,8 +26,8 @@ Currently, I am seeking **full-time opportunities** in field of data analysis/en
 <ul style="padding: 0; margin: 0; list-style-position: outside; width: 100%; position: relative;">
   <li style="list-style-type: disc; margin-left: 1em; position: relative; padding-right: 120px;">
     <div>
-      <a href="https://ceoitbox.com/" target="_blank" style="font-weight: bold; text-decoration: underline; color: black;">
-        TNS Networking Inc
+      <a href="https://www.wellsfargo.com/" target="_blank" style="font-weight: bold; text-decoration: underline; color: black;">
+        Wells Fargo
       </a>
       <br />
       <span style="font-family: 'Cascadia', serif; font-size: 1.02rem; border-radius: 3px; color: #a00000; font-weight: 500;">Consultant - Data & ML</span>
