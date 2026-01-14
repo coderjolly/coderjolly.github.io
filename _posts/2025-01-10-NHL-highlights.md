@@ -9,10 +9,9 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
-[[``MileStone1``]({{ site.url }}/articles/24/NHL-milestone1){:target="_blank"},
-[``MileStone2``]({{ site.url }}/articles/24/NHL-milestone2){:target="_blank"},
-[``MileStone3``]({{ site.url }}/articles/25/NHL-milestone3){:target="_blank"}]
+``This case-study has been bifurcated into three milestones, which can be accessed using the following links:`` [[``MileStone1``]({{ site.url }}/articles/24/NHL-milestone1){:target="_blank"}, [[``MileStone2``]({{ site.url }}/articles/24/NHL-milestone2){:target="_blank"}, [``MileStone3``]({{ site.url }}/articles/25/NHL-milestone3){:target="_blank"}]`` or by going through with the writing below.``
 
+``Each milestone contains detailed explanations, snippets and visualizations relevant to that stage of the project.``
 
 ## 🎥 Demo Video
 
@@ -39,6 +38,9 @@ We can see that the first select model predicts "2.7" goals for the Flyers, and 
   - [2.1 Histogram of shot counts binned by shot distance and shot angle](#21-histogram-of-shot-counts-binned-by-shot-distance-and-shot-angle)
   - [2.2 Plotting Goal Rate (Goal/(No Goals + Goals)) binned by distance and shot angle](#22-plotting-goal-rate-goalno-goals--goals-binned-by-distance-and-shot-angle)
   - [2.3 Plotting Histograms of empty and non-empty goals](#23-plotting-histograms-of-empty-and-non-empty-goals) -->
+
+
+## [``MileStone1``]({{ site.url }}/articles/24/NHL-milestone1){:target="_blank"}
 
 ## 1. Data Acquisition and Visualisation
 **NOTE** : A more detailed version of this section is documented in the this [link]({{ site.url }}/articles/24/NHL-milestone1).
@@ -146,6 +148,8 @@ For the advanced visualisations, we have decided to include missed shots in our 
   document.getElementById('plotly_2016').style.display = 'block';
 </script>
 
+## [``MileStone2``]({{ site.url }}/articles/24/NHL-milestone2){:target="_blank"}
+
 ## 2. Feature Engineering and Model Training
 
 ### 2.1 Histogram of shot counts binned by shot distance and shot angle
@@ -180,6 +184,7 @@ Goal rate by shot angle:
 
 <img src="/assets/img/NHL/milestone2/Feature1_nonempty_distance.png" alt="Non Empty goals by distance">
 
+## [``MileStone3``]({{ site.url }}/articles/25/NHL-milestone3){:target="_blank"}
 
 ## 3. Deployment and Dependeancy Management
 
