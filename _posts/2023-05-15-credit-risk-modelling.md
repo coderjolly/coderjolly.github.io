@@ -9,12 +9,14 @@ image_url: ""
 
 <style>body {text-align: justify}</style>
 
+The code for this writing is enclosed in a private Github repo to avoid plagiarism [**[<font color='blue'>Github</font>]**](https://github.com/coderjolly/credit-risk-modelling).
+
 Financial institutions use credit risk analysis models to determine the probability of default of a potential credit borrower. If the lender fails to detect the credit risk in advance, it exposes them to the risk of default and loss of funds. Therefore, companies use models that provide information in respect to the riskiness or the level of a borrower’s credit risk at any particular time. Lenders rely on the validation provided by credit risk analysis models to make key lending decisions on whether or not to extend credit to the borrower and the credit to be charged.
 
 Even though the results of these models are binary, that whether a person is risky or not ``but the outcomes are actually probabilistic values.`` These values determine the probability of a person being risky or not. The threshold value is set by the financial institution and the model is trained to ``predict the probability of a person being is a spectrum of being risky that is low to high.``
 
 <figure>
-<img src="/assets/img/credit-card-risk-modelling/risk-spectrum.png" width=450 style="display: block; margin: 0 auto">
+<img src="/assets/img/credit-risk-modelling/risk-spectrum.png" width=450 style="display: block; margin: 0 auto">
 </figure>
 
 ## Modelling Workflow
@@ -22,7 +24,7 @@ Even though the results of these models are binary, that whether a person is ris
 As the defaulters are a small percentage of the total population, the data becomes is highly imbalanced in these situations. This writing investigates the use of data under-sampling and oversampling techniques for resolving this class imbalance, the development of different classification machine learning models, and methodologies for comparing and evaluating these models. The code for this flow can be seen in the Github [`repo`](https://github.com/coderjolly/credit-risk-modelling){:target="_blank"}. The repository is kept private because of plagiarism reasons.
 
 <figure>
-<img src="/assets/img/credit-card-risk-modelling/ML-workflow.png" width=700 style="display: block; margin: 0 auto">
+<img src="/assets/img/credit-risk-modelling/ML-workflow.png" width=700 style="display: block; margin: 0 auto">
 </figure>
 
 ### Data Preprocessing
@@ -59,7 +61,7 @@ One must perform EDA to analyse the patterns present in the data which will make
 
 
 <figure>
-<img src="/assets/img/credit-card-risk-modelling/EDA.jpg" width=700 style="display: block; margin: 0 auto">
+<img src="/assets/img/credit-risk-modelling/EDA.jpg" width=700 style="display: block; margin: 0 auto">
 </figure>
 
 ### Data Balancing
@@ -76,13 +78,13 @@ The data is highly imbalanced as the defaulters are a small percentage of the to
 
 
 <figure>
-<img src="/assets/img/credit-card-risk-modelling/imbalanced-scenario.png" width=700 style="display: block; margin: 0 auto">
+<img src="/assets/img/credit-risk-modelling/imbalanced-scenario.png" width=700 style="display: block; margin: 0 auto">
 </figure>
 
 Perhaps, changing the performance metric can also help in understanding the data. The performance metric can be changed from ``accuracy`` leading to ``accuracy paradox`` where the accuracy measures tell the story that you have excellent accuracy (such as 90%), but the accuracy is only reflecting the underlying class distribution to ``F1-score or ROC-AUC curves/score.``
 
 <figure>
-<img src="/assets/img/credit-card-risk-modelling/ROC.jpg" width=700 style="display: block; margin: 0 auto">
+<img src="/assets/img/credit-risk-modelling/ROC.jpg" width=700 style="display: block; margin: 0 auto">
 </figure>
 
 And, lastly, the model can understand imbalanced dataset by cost-senstive learning. It is a machine learning paradigm for classification problems where the cost of misclassification is not the same for all the classes. The cost-sensitive learning can be implemented by using cost-sensitive learning algorithms such as:

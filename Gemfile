@@ -9,3 +9,6 @@ gem 'json', '=2.6.1'
 gem 'jgd'
 gem 'jekyll-youtube'
 gem 'jekyll-scholar', group: :jekyll_plugins
+gem "csv", "~> 3.3"
+gem "base64"
+gem "ostruct"
